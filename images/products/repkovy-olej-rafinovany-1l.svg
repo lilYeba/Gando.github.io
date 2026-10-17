@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-repkovy-olej-rafinovany-1l" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FEFCE8" />
+    </linearGradient>
+    <pattern id="pat-repkovy-olej-rafinovany-1l" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#CA8A04" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-repkovy-olej-rafinovany-1l)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-repkovy-olej-rafinovany-1l)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="80" height="26" rx="6" fill="#123524" />
+    <text x="40" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">FLIOL</text>
+
+    <rect x="90" y="0" width="70" height="26" rx="6" fill="#FEF08A" stroke="#CA8A04" stroke-width="1" />
+    <text x="125" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#713F12" text-anchor="middle">1 l</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(135, 60)">
+        <ellipse cx="65" cy="175" rx="45" ry="14" fill="#000" opacity="0.08"/>
+        <path d="M40,45 L90,45 L95,165 L35,165 Z" fill="#FEF08A" stroke="#CA8A04" stroke-width="2.5" opacity="0.9"/>
+        <path d="M52,20 L78,20 L78,45 L52,45 Z" fill="#CA8A04"/>
+        <rect x="56" y="10" width="18" height="12" rx="3" fill="#EAB308"/>
+        <rect x="42" y="80" width="46" height="48" fill="#15803D"/>
+        <text x="65" y="102" font-family="system-ui, sans-serif" font-weight="900" font-size="10" fill="#FFFFFF" text-anchor="middle">REPKY</text>
+        <text x="65" y="116" font-family="system-ui, sans-serif" font-weight="700" font-size="8" fill="#BBF7D0" text-anchor="middle">100% OLEJ</text>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Repkový olej rafinovaný</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#CA8A04" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

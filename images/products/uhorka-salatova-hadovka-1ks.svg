@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-uhorka-salatova-hadovka-1ks" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F0FDF4" />
+    </linearGradient>
+    <pattern id="pat-uhorka-salatova-hadovka-1ks" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#16A34A" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-uhorka-salatova-hadovka-1ks)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-uhorka-salatova-hadovka-1ks)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="83" height="26" rx="6" fill="#123524" />
+    <text x="41.5" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">ČERSTVÁ</text>
+
+    <rect x="93" y="0" width="70" height="26" rx="6" fill="#DCFCE7" stroke="#16A34A" stroke-width="1" />
+    <text x="128" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#14532D" text-anchor="middle">1 ks</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(90, 80)">
+        <ellipse cx="110" cy="135" rx="95" ry="15" fill="#000" opacity="0.08"/>
+        <!-- Curved cucumber in cellophane -->
+        <path d="M15,115 C30,70 180,65 205,105 C185,125 35,130 15,115 Z" fill="#15803D" stroke="#166534" stroke-width="3"/>
+        <path d="M35,95 Q110,80 185,100" stroke="#4ADE80" stroke-width="2" fill="none" opacity="0.6"/>
+        <circle cx="70" cy="98" r="1.5" fill="#BBF7D0"/>
+        <circle cx="120" cy="95" r="1.5" fill="#BBF7D0"/>
+        <circle cx="160" cy="102" r="1.5" fill="#BBF7D0"/>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Uhorka šalátová hadovka</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#16A34A" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

@@ -2,14 +2,13 @@ import React from 'react';
 import { getWeeklyOffers, getAllProducts } from '@/lib/db/repository';
 import { WeeklyOffersClient } from '@/components/offers/WeeklyOffersClient';
 
-export const dynamic = 'force-dynamic';
 
 export default async function WeeklyOffersPage({
   searchParams,
 }: {
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 }) {
-  const sp = await searchParams;
+  const sp: Record<string, string | string[] | undefined> = process.env.GITHUB_PAGES === 'true' ? {} : (await searchParams);
   const offersData = getWeeklyOffers();
   const allProducts = getAllProducts();
 

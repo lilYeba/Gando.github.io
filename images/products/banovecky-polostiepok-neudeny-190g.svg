@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-banovecky-polostiepok-neudeny-190g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FEFCE8" />
+    </linearGradient>
+    <pattern id="pat-banovecky-polostiepok-neudeny-190g" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#CA8A04" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-banovecky-polostiepok-neudeny-190g)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-banovecky-polostiepok-neudeny-190g)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="101" height="26" rx="6" fill="#123524" />
+    <text x="50.5" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">BÁNOVECKÝ</text>
+
+    <rect x="111" y="0" width="70" height="26" rx="6" fill="#FEF08A" stroke="#CA8A04" stroke-width="1" />
+    <text x="146" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#713F12" text-anchor="middle">190 g</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(125, 75)">
+        <ellipse cx="75" cy="140" rx="70" ry="16" fill="#000" opacity="0.08"/>
+        <path d="M20,95 C20,40 130,40 130,95 C130,135 20,135 20,95 Z" fill="#FEF08A" stroke="#EAB308" stroke-width="3"/>
+        <path d="M20,95 C45,115 105,115 130,95" fill="none" stroke="#CA8A04" stroke-width="2" stroke-dasharray="4 3"/>
+        <path d="M35,65 C60,45 90,45 115,65" fill="none" stroke="#CA8A04" stroke-width="2"/>
+        <path d="M35,80 C60,60 90,60 115,80" fill="none" stroke="#CA8A04" stroke-width="2"/>
+        <rect x="42" y="86" width="66" height="24" rx="4" fill="#A16207"/>
+        <text x="75" y="102" font-family="system-ui, sans-serif" font-weight="900" font-size="9" fill="#FFFBEB" text-anchor="middle">POLOŠTIEPOK</text>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Pološtiepok neúdený</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#CA8A04" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

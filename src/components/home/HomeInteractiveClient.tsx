@@ -110,7 +110,7 @@ export function HomeInteractiveClient({
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-7 space-y-5">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/15 text-xs font-medium text-[#A7F3D0]">
-              <img src="/images/brand/logo.png" alt="Price Checker Logo" className="h-5 w-5 rounded-md object-cover border border-white/20 shrink-0" />
+              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/brand/logo.png`} alt="Price Checker Logo" className="h-5 w-5 rounded-md object-cover border border-white/20 shrink-0" />
               <span>Price Checker • Overené cenové pozorovania Lidl, Tesco a BILLA</span>
             </div>
 

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-jar-sensitive-cistiaci-prostriedok-na-riad-900ml" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FDF2F8" />
+    </linearGradient>
+    <pattern id="pat-jar-sensitive-cistiaci-prostriedok-na-riad-900ml" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#DB2777" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-jar-sensitive-cistiaci-prostriedok-na-riad-900ml)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-jar-sensitive-cistiaci-prostriedok-na-riad-900ml)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="80" height="26" rx="6" fill="#123524" />
+    <text x="40" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">JAR</text>
+
+    <rect x="90" y="0" width="70" height="26" rx="6" fill="#FCE7F3" stroke="#DB2777" stroke-width="1" />
+    <text x="125" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#831843" text-anchor="middle">900 ml</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(130, 60)">
+        <ellipse cx="70" cy="180" rx="45" ry="14" fill="#000" opacity="0.08"/>
+        <!-- Dishwashing bottle -->
+        <path d="M45,55 C45,45 95,45 95,55 L102,170 C100,175 40,175 38,170 Z" fill="#FCE7F3" stroke="#DB2777" stroke-width="2.5"/>
+        <rect x="62" y="25" width="16" height="30" fill="#FFFFFF" stroke="#DB2777" stroke-width="1.5"/>
+        <!-- Push-pull red cap -->
+        <rect x="60" y="10" width="20" height="15" rx="3" fill="#E11D48"/>
+        <!-- Chamomile label -->
+        <rect x="46" y="85" width="48" height="50" rx="4" fill="#15803D"/>
+        <text x="70" y="108" font-family="system-ui, sans-serif" font-weight="900" font-size="16" fill="#FFFFFF" text-anchor="middle">Jar</text>
+        <text x="70" y="124" font-family="system-ui, sans-serif" font-weight="700" font-size="8" fill="#BBF7D0" text-anchor="middle">Sensitive</text>
+        <!-- Bubbles -->
+        <circle cx="85" cy="65" r="5" fill="#F472B6" opacity="0.5"/>
+        <circle cx="95" cy="55" r="3" fill="#F472B6" opacity="0.5"/>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Prostriedok na umývanie riadu Sensitive</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#DB2777" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

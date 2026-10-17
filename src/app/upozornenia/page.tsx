@@ -6,7 +6,6 @@ import {
 } from '@/lib/db/repository';
 import { PriceAlertsClient } from '@/components/alerts/PriceAlertsClient';
 
-export const dynamic = 'force-dynamic';
 
 export default async function PriceAlertsPage() {
   const alerts = getPriceAlerts();

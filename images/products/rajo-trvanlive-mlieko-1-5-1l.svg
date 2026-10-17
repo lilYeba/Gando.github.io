@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-rajo-trvanlive-mlieko-1-5-1l" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#EFF6FF" />
+    </linearGradient>
+    <pattern id="pat-rajo-trvanlive-mlieko-1-5-1l" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#2563EB" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-rajo-trvanlive-mlieko-1-5-1l)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-rajo-trvanlive-mlieko-1-5-1l)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="80" height="26" rx="6" fill="#123524" />
+    <text x="40" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">RAJO</text>
+
+    <rect x="90" y="0" width="70" height="26" rx="6" fill="#BFDBFE" stroke="#2563EB" stroke-width="1" />
+    <text x="125" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#1E3A8A" text-anchor="middle">1 l</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(135, 60)">
+        <ellipse cx="65" cy="175" rx="55" ry="14" fill="#000" opacity="0.08"/>
+        <path d="M25,45 L105,45 L115,165 L15,165 Z" fill="#FFFFFF" stroke="#3B82F6" stroke-width="2.5"/>
+        <path d="M25,45 L65,15 L105,45 Z" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2"/>
+        <rect x="52" y="5" width="26" height="15" rx="3" fill="#2563EB"/>
+        <rect x="18" y="75" width="94" height="48" fill="#3B82F6"/>
+        <text x="65" y="98" font-family="system-ui, sans-serif" font-weight="900" font-size="16" fill="#FFFFFF" text-anchor="middle">rajo</text>
+        <text x="65" y="114" font-family="system-ui, sans-serif" font-weight="700" font-size="11" fill="#EFF6FF" text-anchor="middle">MLIEKO 1,5%</text>
+        <circle cx="65" cy="142" r="12" fill="#E0F2FE"/>
+        <path d="M65,134 Q68,142 65,148 Q62,142 65,134 Z" fill="#0284C7"/>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Trvanlivé mlieko 1,5 %</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#2563EB" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

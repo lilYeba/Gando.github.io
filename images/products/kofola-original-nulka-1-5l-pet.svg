@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-kofola-original-nulka-1-5l-pet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFFBEB" />
+    </linearGradient>
+    <pattern id="pat-kofola-original-nulka-1-5l-pet" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#78350F" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-kofola-original-nulka-1-5l-pet)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-kofola-original-nulka-1-5l-pet)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="80" height="26" rx="6" fill="#123524" />
+    <text x="40" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">KOFOLA</text>
+
+    <rect x="90" y="0" width="70" height="26" rx="6" fill="#FDE68A" stroke="#78350F" stroke-width="1" />
+    <text x="125" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#78350F" text-anchor="middle">1,5 l</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(125, 60)">
+        <ellipse cx="75" cy="180" rx="45" ry="14" fill="#000" opacity="0.08"/>
+        <path d="M50,45 L100,45 L108,170 L42,170 Z" fill="#3B1D0E" stroke="#1C0D06" stroke-width="2.5"/>
+        <rect x="65" y="15" width="20" height="30" fill="#3B1D0E"/>
+        <rect x="67" y="5" width="16" height="12" rx="2" fill="#DC2626"/>
+        <rect x="50" y="105" width="50" height="42" fill="#FACC15"/>
+        <text x="75" y="125" font-family="system-ui, sans-serif" font-weight="900" font-size="12" fill="#451A03" text-anchor="middle">kofola</text>
+        <text x="75" y="137" font-family="system-ui, sans-serif" font-weight="800" font-size="7" fill="#991B1B" text-anchor="middle">ORIGINAL 1,5 l</text>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Kofola Originál</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#78350F" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

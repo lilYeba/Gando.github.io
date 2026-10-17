@@ -38,7 +38,7 @@ export function BrandLogo({
         className={`relative ${iconDimensions} rounded-xl overflow-hidden bg-[#0B0D10] border border-stone-800/80 shadow-xs shrink-0 flex items-center justify-center transition-transform duration-200 group-hover:scale-105`}
       >
         <img
-          src="/images/brand/logo.png"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/brand/logo.png`}
           alt="Price Checker Logo"
           className="w-full h-full object-cover object-center"
         />

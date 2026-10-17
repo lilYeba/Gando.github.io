@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-kornbageta-stredna-la-lorraine-115g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <pattern id="pat-kornbageta-stredna-la-lorraine-115g" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#B45309" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-kornbageta-stredna-la-lorraine-115g)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-kornbageta-stredna-la-lorraine-115g)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="119" height="26" rx="6" fill="#123524" />
+    <text x="59.5" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">LA LORRAINE</text>
+
+    <rect x="129" y="0" width="70" height="26" rx="6" fill="#FDE68A" stroke="#B45309" stroke-width="1" />
+    <text x="164" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#78350F" text-anchor="middle">115 g</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(100, 90)">
+        <ellipse cx="100" cy="130" rx="90" ry="14" fill="#000" opacity="0.08"/>
+        <path d="M15,90 C35,60 165,60 185,90 C165,115 35,115 15,90 Z" fill="#F59E0B" stroke="#B45309" stroke-width="2.5"/>
+        <path d="M50,75 L65,100" stroke="#78350F" stroke-width="2.5"/>
+        <path d="M85,73 L100,98" stroke="#78350F" stroke-width="2.5"/>
+        <path d="M120,73 L135,98" stroke="#78350F" stroke-width="2.5"/>
+        <path d="M155,75 L170,100" stroke="#78350F" stroke-width="2.5"/>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Kornbageta stredná</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#B45309" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

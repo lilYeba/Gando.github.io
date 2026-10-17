@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-jablka-gala-slovenske-1kg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FEF2F2" />
+    </linearGradient>
+    <pattern id="pat-jablka-gala-slovenske-1kg" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#DC2626" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-jablka-gala-slovenske-1kg)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-jablka-gala-slovenske-1kg)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="119" height="26" rx="6" fill="#123524" />
+    <text x="59.5" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">DOBRÝ JEŽKO</text>
+
+    <rect x="129" y="0" width="70" height="26" rx="6" fill="#FEE2E2" stroke="#DC2626" stroke-width="1" />
+    <text x="164" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#991B1B" text-anchor="middle">1 kg</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(100, 75)">
+        <ellipse cx="100" cy="145" rx="85" ry="16" fill="#000" opacity="0.08"/>
+        <!-- First Gala apple -->
+        <circle cx="65" cy="105" r="35" fill="#EF4444" stroke="#B91C1C" stroke-width="2"/>
+        <path d="M65,70 C60,55 70,50 68,45" stroke="#78350F" stroke-width="3" fill="none"/>
+        <path d="M68,55 Q80,48 85,55 Q75,65 68,55 Z" fill="#22C55E"/>
+        <!-- Second Gala apple (red-yellow stripe) -->
+        <circle cx="125" cy="110" r="32" fill="#FACC15" stroke="#EAB308" stroke-width="2"/>
+        <path d="M110,85 Q135,100 135,135 Q145,105 130,85 Z" fill="#EF4444" opacity="0.85"/>
+        <path d="M125,78 C120,65 130,60 128,55" stroke="#78350F" stroke-width="3" fill="none"/>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Jablká Gala slovenské voľné</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#DC2626" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

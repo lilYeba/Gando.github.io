@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-panzani-spagety-semolinove-500g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FEF2F2" />
+    </linearGradient>
+    <pattern id="pat-panzani-spagety-semolinove-500g" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#DC2626" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-panzani-spagety-semolinove-500g)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-panzani-spagety-semolinove-500g)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="83" height="26" rx="6" fill="#123524" />
+    <text x="41.5" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">PANZANI</text>
+
+    <rect x="93" y="0" width="70" height="26" rx="6" fill="#FECACA" stroke="#DC2626" stroke-width="1" />
+    <text x="128" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#7F1D1D" text-anchor="middle">500 g</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(110, 60)">
+        <ellipse cx="90" cy="175" rx="80" ry="14" fill="#000" opacity="0.08"/>
+        <!-- Long pasta box -->
+        <rect x="20" y="30" width="140" height="135" rx="8" fill="#DC2626" stroke="#991B1B" stroke-width="2.5"/>
+        <!-- Clear transparent window showing spaghetti strands -->
+        <rect x="35" y="65" width="110" height="55" rx="6" fill="#FEF08A" stroke="#EAB308" stroke-width="1.5"/>
+        <line x1="45" y1="65" x2="45" y2="120" stroke="#CA8A04" stroke-width="2"/>
+        <line x1="60" y1="65" x2="60" y2="120" stroke="#CA8A04" stroke-width="2"/>
+        <line x1="75" y1="65" x2="75" y2="120" stroke="#CA8A04" stroke-width="2"/>
+        <line x1="90" y1="65" x2="90" y2="120" stroke="#CA8A04" stroke-width="2"/>
+        <line x1="105" y1="65" x2="105" y2="120" stroke="#CA8A04" stroke-width="2"/>
+        <line x1="120" y1="65" x2="120" y2="120" stroke="#CA8A04" stroke-width="2"/>
+        <line x1="135" y1="65" x2="135" y2="120" stroke="#CA8A04" stroke-width="2"/>
+        <rect x="45" y="36" width="90" height="22" rx="4" fill="#FFFFFF"/>
+        <text x="90" y="51" font-family="system-ui, sans-serif" font-weight="900" font-size="11" fill="#15803D" text-anchor="middle">PANZANI</text>
+        <text x="90" y="142" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#FFFFFF" text-anchor="middle">SPAGHETTI N°5</text>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Špagety semolinové bezvaječné</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#DC2626" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

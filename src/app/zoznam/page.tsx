@@ -6,14 +6,13 @@ import {
 } from '@/lib/db/repository';
 import { ShoppingListClient } from '@/components/lists/ShoppingListClient';
 
-export const dynamic = 'force-dynamic';
 
 export default async function ShoppingListPage({
   searchParams,
 }: {
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 }) {
-  const sp = await searchParams;
+  const sp: Record<string, string | string[] | undefined> = process.env.GITHUB_PAGES === 'true' ? {} : (await searchParams);
   const listParam = (Array.isArray(sp.list) ? sp.list[0] : sp.list) ||
                     (Array.isArray(sp.zdielany) ? sp.zdielany[0] : sp.zdielany);
 

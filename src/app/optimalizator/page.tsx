@@ -5,14 +5,13 @@ import {
 } from '@/lib/db/repository';
 import { BasketOptimizerClient } from '@/components/optimizer/BasketOptimizerClient';
 
-export const dynamic = 'force-dynamic';
 
 export default async function OptimizerPage({
   searchParams,
 }: {
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 }) {
-  const sp = await searchParams;
+  const sp: Record<string, string | string[] | undefined> = process.env.GITHUB_PAGES === 'true' ? {} : (await searchParams);
   const listIdParam = Array.isArray(sp.listId) ? sp.listId[0] : sp.listId;
 
   const lists = getShoppingLists();

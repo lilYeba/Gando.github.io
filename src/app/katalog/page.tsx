@@ -2,14 +2,13 @@ import React from 'react';
 import { getAllProducts, queryProducts } from '@/lib/db/repository';
 import { CatalogClient } from '@/components/catalog/CatalogClient';
 
-export const dynamic = 'force-dynamic';
 
 export default async function CatalogPage({
   searchParams,
 }: {
   searchParams: Promise<Record<string, string | string[] | undefined>>;
 }) {
-  const sp = await searchParams;
+  const sp: Record<string, string | string[] | undefined> = process.env.GITHUB_PAGES === 'true' ? {} : (await searchParams);
   const allProducts = getAllProducts();
   const { facets } = queryProducts({});
 

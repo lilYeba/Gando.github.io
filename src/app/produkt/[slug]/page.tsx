@@ -1,13 +1,16 @@
 import React from 'react';
 import { notFound } from 'next/navigation';
 import {
+  getAllProducts,
   getProductBySlugOrId,
   getProductPriceHistory,
   getSimilarProducts,
 } from '@/lib/db/repository';
 import { ProductDetailClient } from '@/components/product/ProductDetailClient';
 
-export const dynamic = 'force-dynamic';
+export function generateStaticParams() {
+  return getAllProducts().map((p) => ({ slug: p.slug }));
+}
 
 export default async function ProductDetailPage({
   params,

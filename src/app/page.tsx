@@ -2,7 +2,6 @@ import React from 'react';
 import { getHomeDashboardData } from '@/lib/db/repository';
 import { HomeInteractiveClient } from '@/components/home/HomeInteractiveClient';
 
-export const dynamic = 'force-dynamic';
 
 export default function HomePage() {
   const dashboardData = getHomeDashboardData();

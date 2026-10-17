@@ -79,8 +79,14 @@ export function ProductImage({
 
   const CategoryIcon = getCategoryIcon();
 
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+  const resolvedImageUrl =
+    effectiveImageUrl && effectiveImageUrl.startsWith('/') && (!basePath || !effectiveImageUrl.startsWith(`${basePath}/`))
+      ? `${basePath}${effectiveImageUrl}`
+      : effectiveImageUrl;
+
   // If image URL is valid and hasn't errored out, render real photograph with skeleton
-  if (effectiveImageUrl && !hasError) {
+  if (resolvedImageUrl && !hasError) {
     return (
       <div
         className={`relative overflow-hidden rounded-xl border border-[var(--border-subtle)] select-none flex items-center justify-center bg-white p-2 group ${className}`}
@@ -94,7 +100,7 @@ export function ProductImage({
 
         {/* Real Product Photograph */}
         <img
-          src={effectiveImageUrl}
+          src={resolvedImageUrl}
           alt={alt || (brand ? `${brand} ${slug}` : slug)}
           className={`w-full h-full object-contain filter drop-shadow-sm transition-all duration-300 ease-out group-hover:scale-105 ${
             isLoading ? 'opacity-0' : 'opacity-100'
