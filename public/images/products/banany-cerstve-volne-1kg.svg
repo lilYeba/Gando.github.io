@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-banany-cerstve-volne-1kg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FEFCE8" />
+    </linearGradient>
+    <pattern id="pat-banany-cerstve-volne-1kg" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#EAB308" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-banany-cerstve-volne-1kg)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-banany-cerstve-volne-1kg)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="83" height="26" rx="6" fill="#123524" />
+    <text x="41.5" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">PREMIUM</text>
+
+    <rect x="93" y="0" width="70" height="26" rx="6" fill="#FEF08A" stroke="#EAB308" stroke-width="1" />
+    <text x="128" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#713F12" text-anchor="middle">1 kg</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(100, 75)">
+        <ellipse cx="100" cy="145" rx="85" ry="16" fill="#000" opacity="0.08"/>
+        <path d="M30,110 C50,145 130,145 165,70 C155,75 90,120 45,95 Z" fill="#FDE047" stroke="#CA8A04" stroke-width="2.5"/>
+        <path d="M20,95 C45,130 125,130 160,55 C150,60 85,105 35,80 Z" fill="#FACC15" stroke="#CA8A04" stroke-width="2.5"/>
+        <path d="M15,90 L25,100 L30,92 Z" fill="#713F12"/>
+        <circle cx="95" cy="100" r="10" fill="#15803D"/>
+        <text x="95" y="103" font-family="system-ui, sans-serif" font-weight="900" font-size="7" fill="#FFFFFF" text-anchor="middle">BIO</text>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Banány čerstvé voľné</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#EAB308" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

@@ -1,0 +1,7 @@
+retailer_slug,external_id,ean,title,brand,package_label,regular_price_eur,promo_price_eur,loyalty_price_eur,loyalty_program_name,valid_from,valid_to,source_url
+tesco,2002017142931,8595241507071,Giana guľatozrnná ryža 1 kg,Giana,1 kg,2.29,1.79,1.49,Clubcard,2026-10-14T06:00:00.000Z,2026-10-20T21:59:59.000Z,https://www.tesco.sk/akciove-ponuky/letaky-a-katalogy
+tesco,2002016566899,8585002500854,Rajo Mňam smotanový jogurt jahoda 145 g,Rajo,145 g,0.79,0.59,0.49,Clubcard,2026-10-14T06:00:00.000Z,2026-10-20T21:59:59.000Z,https://www.tesco.sk/akciove-ponuky/letaky-a-katalogy
+tesco,2005111270042,4750456004942,Balticovo Vajcia podstielkový chov M 10 ks,Balticovo,10 ks,2.89,2.39,2.09,Clubcard,2026-10-14T06:00:00.000Z,2026-10-20T21:59:59.000Z,https://www.tesco.sk/akciove-ponuky/letaky-a-katalogy
+tesco,2002006247982,8586009410092,Popradská káva Extra špeciál mletá 250 g,Popradská,250 g,4.49,3.49,2.99,Clubcard,2026-10-14T06:00:00.000Z,2026-10-20T21:59:59.000Z,https://www.tesco.sk/akciove-ponuky/letaky-a-katalogy
+tesco,2002120725141,5051007162296,Tesco múka hladká pšeničná 1 kg,Tesco,1 kg,0.89,0.69,0.59,Clubcard,2026-10-14T06:00:00.000Z,2026-10-20T21:59:59.000Z,https://www.tesco.sk/akciove-ponuky/letaky-a-katalogy
+tesco,2002020284040,8585000902797,Tami Tatranské maslo 82% 250 g,Tami,250 g,2.99,2.39,2.09,Clubcard,2026-10-14T06:00:00.000Z,2026-10-20T21:59:59.000Z,https://www.tesco.sk/akciove-ponuky/letaky-a-katalogy

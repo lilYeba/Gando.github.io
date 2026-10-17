@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-rajec-pramenita-voda-nesytena-1-5l" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F0F9FF" />
+    </linearGradient>
+    <pattern id="pat-rajec-pramenita-voda-nesytena-1-5l" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#0284C7" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-rajec-pramenita-voda-nesytena-1-5l)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-rajec-pramenita-voda-nesytena-1-5l)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="80" height="26" rx="6" fill="#123524" />
+    <text x="40" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">RAJEC</text>
+
+    <rect x="90" y="0" width="70" height="26" rx="6" fill="#E0F2FE" stroke="#0284C7" stroke-width="1" />
+    <text x="125" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#0369A1" text-anchor="middle">1,5 l</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(130, 60)">
+        <ellipse cx="70" cy="180" rx="45" ry="14" fill="#000" opacity="0.08"/>
+        <!-- Clear contoured water bottle -->
+        <path d="M50,45 L90,45 L95,85 Q80,95 95,110 L95,170 L45,170 L45,110 Q60,95 45,85 Z" fill="#BAE6FD" stroke="#0284C7" stroke-width="2.5" opacity="0.85"/>
+        <rect x="62" y="15" width="16" height="30" fill="#E0F2FE"/>
+        <rect x="60" y="5" width="20" height="12" rx="2" fill="#0284C7"/>
+        <!-- Mountain label -->
+        <rect x="47" y="100" width="46" height="42" fill="#0369A1"/>
+        <text x="70" y="120" font-family="system-ui, sans-serif" font-weight="900" font-size="12" fill="#FFFFFF" text-anchor="middle">RAJEC</text>
+        <text x="70" y="132" font-family="system-ui, sans-serif" font-weight="700" font-size="7" fill="#BAE6FD" text-anchor="middle">PRAMENITÁ 1,5l</text>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Pramenitá voda nesýtená</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#0284C7" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

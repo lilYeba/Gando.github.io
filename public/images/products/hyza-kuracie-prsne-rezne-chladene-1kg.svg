@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-hyza-kuracie-prsne-rezne-chladene-1kg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <pattern id="pat-hyza-kuracie-prsne-rezne-chladene-1kg" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#EA580C" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-hyza-kuracie-prsne-rezne-chladene-1kg)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-hyza-kuracie-prsne-rezne-chladene-1kg)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="80" height="26" rx="6" fill="#123524" />
+    <text x="40" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">HYZA</text>
+
+    <rect x="90" y="0" width="70" height="26" rx="6" fill="#FFEDD5" stroke="#EA580C" stroke-width="1" />
+    <text x="125" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#7C2D12" text-anchor="middle">1 kg</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(100, 80)">
+        <ellipse cx="100" cy="140" rx="90" ry="18" fill="#000" opacity="0.08"/>
+        <rect x="15" y="45" width="170" height="85" rx="14" fill="#FFFFFF" stroke="#EA580C" stroke-width="2.5"/>
+        <!-- 2 chicken fillets -->
+        <path d="M35,90 C45,65 85,65 105,85 C95,115 50,115 35,90 Z" fill="#FED7AA" stroke="#FB923C" stroke-width="2"/>
+        <path d="M85,90 C95,65 140,65 160,85 C150,115 105,115 85,90 Z" fill="#FDBA74" stroke="#FB923C" stroke-width="2"/>
+        <!-- Seal label -->
+        <rect x="110" y="52" width="60" height="30" rx="4" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.5"/>
+        <text x="140" y="66" font-family="system-ui, sans-serif" font-weight="900" font-size="9" fill="#991B1B" text-anchor="middle">HYZA SK</text>
+        <text x="140" y="76" font-family="system-ui, sans-serif" font-weight="700" font-size="7" fill="#166534" text-anchor="middle">REZNE 1kg</text>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Kuracie prsné rezne chladené</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#EA580C" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-popradska-kava-extra-special-mleta-250g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FAF5FF" />
+    </linearGradient>
+    <pattern id="pat-popradska-kava-extra-special-mleta-250g" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#581C87" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-popradska-kava-extra-special-mleta-250g)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-popradska-kava-extra-special-mleta-250g)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="101" height="26" rx="6" fill="#123524" />
+    <text x="50.5" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">POPRADSKÁ</text>
+
+    <rect x="111" y="0" width="70" height="26" rx="6" fill="#F3E8FF" stroke="#581C87" stroke-width="1" />
+    <text x="146" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#3B0764" text-anchor="middle">250 g</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(130, 65)">
+        <ellipse cx="70" cy="165" rx="55" ry="14" fill="#000" opacity="0.08"/>
+        <path d="M25,35 L115,35 L120,155 L20,155 Z" fill="#581C87" stroke="#3B0764" stroke-width="2.5"/>
+        <rect x="32" y="60" width="76" height="60" rx="4" fill="#CA8A04"/>
+        <text x="70" y="85" font-family="system-ui, sans-serif" font-weight="900" font-size="11" fill="#FFFFFF" text-anchor="middle">EXTRA</text>
+        <text x="70" y="99" font-family="system-ui, sans-serif" font-weight="900" font-size="9" fill="#FEF08A" text-anchor="middle">ŠPECIÁL</text>
+        <text x="70" y="112" font-family="system-ui, sans-serif" font-weight="700" font-size="8" fill="#FFFFFF" text-anchor="middle">100% ARABICA</text>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Káva Extra Špeciál mletá</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#581C87" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

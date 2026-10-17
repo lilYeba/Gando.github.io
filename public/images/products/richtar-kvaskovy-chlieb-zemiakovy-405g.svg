@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-richtar-kvaskovy-chlieb-zemiakovy-405g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFFBEB" />
+    </linearGradient>
+    <pattern id="pat-richtar-kvaskovy-chlieb-zemiakovy-405g" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#92400E" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-richtar-kvaskovy-chlieb-zemiakovy-405g)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-richtar-kvaskovy-chlieb-zemiakovy-405g)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="83" height="26" rx="6" fill="#123524" />
+    <text x="41.5" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">RICHTÁR</text>
+
+    <rect x="93" y="0" width="70" height="26" rx="6" fill="#FDE68A" stroke="#92400E" stroke-width="1" />
+    <text x="128" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#78350F" text-anchor="middle">405 g</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(110, 80)">
+        <ellipse cx="90" cy="140" rx="85" ry="16" fill="#000" opacity="0.08"/>
+        <path d="M20,105 C20,45 160,45 160,105 C160,135 20,135 20,105 Z" fill="#D97706" stroke="#78350F" stroke-width="2.5"/>
+        <path d="M45,75 Q65,65 85,75" stroke="#FFFBEB" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M95,75 Q115,65 135,75" stroke="#FFFBEB" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <rect x="55" y="100" width="70" height="20" rx="4" fill="#78350F"/>
+        <text x="90" y="114" font-family="system-ui, sans-serif" font-weight="900" font-size="8" fill="#FFFBEB" text-anchor="middle">KVÁSKOVÝ CHLIEB</text>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Kváskový chlieb zemiakový</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#92400E" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

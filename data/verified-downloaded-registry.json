@@ -1,0 +1,282 @@
+{
+  "prod-tami-maslo-250g": {
+    "localPath": "/images/products/prod-tami-maslo-250g.jpg",
+    "originalUrl": "https://images.openfoodfacts.org/images/products/858/500/090/2797/front_en.3.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 36434
+  },
+  "prod-balticovo-vajcia-m-10ks": {
+    "localPath": "/images/products/prod-balticovo-vajcia-m-10ks.png",
+    "originalUrl": "https://digitalcontent.api.tesco.com/v2/media/dotcom-hu/df634597-eb8e-47ca-b73b-da5fdde66f57/20261008092552651_balticovo-vajcia_2005111270042_1.png",
+    "source": "tesco.sk",
+    "attribution": "Tesco Stores SR",
+    "sizeBytes": 617744
+  },
+  "prod-rajo-mlieko-15-1l": {
+    "localPath": "/images/products/prod-rajo-mlieko-15-1l.jpg",
+    "originalUrl": "https://images.openfoodfacts.org/images/products/858/500/251/0037/front_en.3.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 25338
+  },
+  "prod-rajo-mnam-jogurt-145g": {
+    "localPath": "/images/products/prod-rajo-mnam-jogurt-145g.jpg",
+    "originalUrl": "https://images.openfoodfacts.org/images/products/858/500/250/0854/front_en.6.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 19924
+  },
+  "prod-zvolensky-cokolada-145g": {
+    "localPath": "/images/products/prod-zvolensky-cokolada-145g.jpg",
+    "originalUrl": "https://images.openfoodfacts.net/images/products/858/600/014/0431/front_sk.3.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 17620
+  },
+  "prod-banovecky-polostiepok-190g": {
+    "localPath": "/images/products/prod-banovecky-polostiepok-190g.jpg",
+    "originalUrl": "https://images.openfoodfacts.org/images/products/858/600/154/3866/front_en.4.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 22633
+  },
+  "prod-liptov-bryndza-110g": {
+    "localPath": "/images/products/prod-liptov-bryndza-110g.jpg",
+    "originalUrl": "https://images.openfoodfacts.net/images/products/858/800/000/3020/front_en.4.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 19398
+  },
+  "prod-tekovsky-syr-udeny-1kg": {
+    "localPath": "/images/products/prod-tekovsky-syr-udeny-1kg.jpg",
+    "originalUrl": "https://images.openfoodfacts.net/images/products/858/500/090/2568/front_en.3.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 17829
+  },
+  "prod-lunter-tofu-udene-180g": {
+    "localPath": "/images/products/prod-lunter-tofu-udene-180g.jpg",
+    "originalUrl": "https://images.openfoodfacts.org/images/products/858/800/296/4794/front_en.3.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 30758
+  },
+  "prod-lunter-tofu-natural-180g": {
+    "localPath": "/images/products/prod-lunter-tofu-natural-180g.jpg",
+    "originalUrl": "https://images.openfoodfacts.net/images/products/858/800/296/4794/front_en.3.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 30758
+  },
+  "prod-kofola-original-2l": {
+    "localPath": "/images/products/prod-kofola-original-2l.jpg",
+    "originalUrl": "https://images.openfoodfacts.net/images/products/858/601/983/0415/front_en.26.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 14976
+  },
+  "prod-kofola-bez-cukru-15l": {
+    "localPath": "/images/products/prod-kofola-bez-cukru-15l.jpg",
+    "originalUrl": "https://images.openfoodfacts.net/images/products/858/601/983/0415/front_en.26.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 14976
+  },
+  "prod-rajec-nesytena-1-5l": {
+    "localPath": "/images/products/prod-rajec-nesytena-1-5l.jpg",
+    "originalUrl": "https://images.openfoodfacts.net/images/products/858/601/133/0296/front_sk.7.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 12509
+  },
+  "prod-rajec-jemne-syt-15l": {
+    "localPath": "/images/products/prod-rajec-jemne-syt-15l.jpg",
+    "originalUrl": "https://images.openfoodfacts.net/images/products/858/601/133/0296/front_sk.7.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 12509
+  },
+  "prod-zlaty-bazant-12-500ml": {
+    "localPath": "/images/products/prod-zlaty-bazant-12-500ml.jpg",
+    "originalUrl": "https://images.openfoodfacts.net/images/products/858/600/098/7517/front_de.3.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 21947
+  },
+  "prod-popradska-extra-special-250g": {
+    "localPath": "/images/products/prod-popradska-extra-special-250g.jpg",
+    "originalUrl": "https://images.openfoodfacts.org/images/products/858/600/941/1853/front_sk.7.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 31037
+  },
+  "prod-popradska-standard-mleta-250g": {
+    "localPath": "/images/products/prod-popradska-standard-mleta-250g.png",
+    "originalUrl": "https://digitalcontent.api.tesco.com/v2/media/dotcom-hu/6b87459e-774b-410c-92fe-b8fa8f973b4e/20261008091632431_popradska-kava_2002006247982_1.png",
+    "source": "tesco.sk",
+    "attribution": "Tesco Stores SR",
+    "sizeBytes": 570922
+  },
+  "prod-mistral-lesne-plody-40g": {
+    "localPath": "/images/products/prod-mistral-lesne-plody-40g.jpg",
+    "originalUrl": "https://images.openfoodfacts.net/images/products/858/600/002/0061/front_sk.3.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 15394
+  },
+  "prod-panzani-spaghetti-500g": {
+    "localPath": "/images/products/prod-panzani-spaghetti-500g.jpg",
+    "originalUrl": "https://images.openfoodfacts.org/images/products/303/835/025/0803/front_fr.118.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 37019
+  },
+  "prod-panzani-penne-rigate-500g": {
+    "localPath": "/images/products/prod-panzani-penne-rigate-500g.jpg",
+    "originalUrl": "https://images.openfoodfacts.org/images/products/303/835/002/3605/front_fr.164.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 40192
+  },
+  "prod-giana-gulatozrnna-ryza-1kg": {
+    "localPath": "/images/products/prod-giana-gulatozrnna-ryza-1kg.png",
+    "originalUrl": "https://digitalcontent.api.tesco.com/v2/media/dotcom-hu/0eb5a83a-837c-486c-b2f6-a8caf003797b/20261008092547403_giana-ryza_2002017142931_1.png",
+    "source": "tesco.sk",
+    "attribution": "Tesco Stores SR",
+    "sizeBytes": 680254
+  },
+  "prod-babickina-volba-hladka-1kg": {
+    "localPath": "/images/products/prod-babickina-volba-hladka-1kg.png",
+    "originalUrl": "https://digitalcontent.api.tesco.com/v2/media/dotcom-hu/ff444a9b-6a3b-4823-a423-47072e5021e1/20261008092547405_tesco-muka_2002120725141_1.png",
+    "source": "tesco.sk",
+    "attribution": "Tesco Stores SR",
+    "sizeBytes": 755177
+  },
+  "prod-mutti-passata-700g": {
+    "localPath": "/images/products/prod-mutti-passata-700g.jpg",
+    "originalUrl": "https://images.openfoodfacts.net/images/products/800/511/017/0348/front_en.3.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 33531
+  },
+  "prod-mutti-polpa-400g": {
+    "localPath": "/images/products/prod-mutti-polpa-400g.jpg",
+    "originalUrl": "https://images.openfoodfacts.org/images/products/800/511/017/0348/front_en.3.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 33531
+  },
+  "prod-kuracie-stvrte-1kg": {
+    "localPath": "/images/products/prod-kuracie-stvrte-1kg.png",
+    "originalUrl": "https://www.lidl.sk/assets/gcp2649deaeceb140bfb687b020b40bf8ae.png",
+    "source": "lidl.sk",
+    "attribution": "Lidl Stiftung & Co. KG",
+    "sizeBytes": 191338
+  },
+  "prod-mlete-maso-mix-500g": {
+    "localPath": "/images/products/prod-mlete-maso-mix-500g.png",
+    "originalUrl": "https://www.lidl.sk/assets/gcpbb5457cfaade48a2b3226774667cfd99.png",
+    "source": "lidl.sk",
+    "attribution": "Lidl Stiftung & Co. KG",
+    "sizeBytes": 149901
+  },
+  "prod-treska-slovenska-140g": {
+    "localPath": "/images/products/prod-treska-slovenska-140g.jpg",
+    "originalUrl": "https://images.openfoodfacts.org/images/products/858/600/041/0114/front_en.3.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 25407
+  },
+  "prod-banany-1kg": {
+    "localPath": "/images/products/prod-banany-1kg.png",
+    "originalUrl": "https://www.lidl.sk/assets/gcp14706d1532a940b399f26810944403db.png",
+    "source": "lidl.sk",
+    "attribution": "Lidl Stiftung & Co. KG",
+    "sizeBytes": 133046
+  },
+  "prod-brokolica-500g": {
+    "localPath": "/images/products/prod-brokolica-500g.png",
+    "originalUrl": "https://www.lidl.sk/assets/gcpc7adf2db2674491490a56316a4bd8f6e.png",
+    "source": "lidl.sk",
+    "attribution": "Lidl Stiftung & Co. KG",
+    "sizeBytes": 109557
+  },
+  "prod-jablka-gala-1kg": {
+    "localPath": "/images/products/prod-jablka-gala-1kg.png",
+    "originalUrl": "https://www.lidl.com/assets/gcp4096668e169b469fba11362554a5d51a.png",
+    "source": "lidl.com",
+    "attribution": "Lidl Stiftung & Co. KG",
+    "sizeBytes": 106365
+  },
+  "prod-paradajky-strapcove-500g": {
+    "localPath": "/images/products/prod-paradajky-strapcove-500g.png",
+    "originalUrl": "https://www.lidl.com/assets/gcpb7e43c31936c4766b17fdd08d80b2922.png",
+    "source": "lidl.com",
+    "attribution": "Lidl Stiftung & Co. KG",
+    "sizeBytes": 94080
+  },
+  "prod-uhorka-hadovka-1ks": {
+    "localPath": "/images/products/prod-uhorka-hadovka-1ks.png",
+    "originalUrl": "https://www.lidl.com/assets/gcp99a466de9e1e4dcdbeeacdff6b323861.png",
+    "source": "lidl.com",
+    "attribution": "Lidl Stiftung & Co. KG",
+    "sizeBytes": 60664
+  },
+  "prod-zemiaky-neskore-2kg": {
+    "localPath": "/images/products/prod-zemiaky-neskore-2kg.png",
+    "originalUrl": "https://www.lidl.com/assets/gcpd10e2972e6974f37be7d3a702732bd5e.png",
+    "source": "lidl.com",
+    "attribution": "Lidl Stiftung & Co. KG",
+    "sizeBytes": 86841
+  },
+  "prod-kornbageta-la-lorraine-115g": {
+    "localPath": "/images/products/prod-kornbageta-la-lorraine-115g.png",
+    "originalUrl": "https://images.cdn.europe-west1.gcp.commercetools.com/bfd52ff5-9443-4b5e-85a4-cf3626446b7b/53-170829-0878247899-oK0WgzXk.png",
+    "source": "billa.sk",
+    "attribution": "BILLA s.r.o.",
+    "sizeBytes": 1444748
+  },
+  "prod-slovakia-chips-solene-100g": {
+    "localPath": "/images/products/prod-slovakia-chips-solene-100g.jpg",
+    "originalUrl": "https://images.openfoodfacts.org/images/products/859/406/091/0093/front_cs.9.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 21470
+  },
+  "prod-slovakia-chips-slaninove-100g": {
+    "localPath": "/images/products/prod-slovakia-chips-slaninove-100g.jpg",
+    "originalUrl": "https://images.openfoodfacts.org/images/products/859/406/091/0093/front_cs.9.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 21470
+  },
+  "prod-rajec-nesytena-voda-15l": {
+    "localPath": "/images/products/prod-rajec-nesytena-voda-15l.jpg",
+    "originalUrl": "https://images.openfoodfacts.net/images/products/858/601/133/0296/front_sk.7.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 12509
+  },
+  "prod-rajec-jemne-sytena-15l": {
+    "localPath": "/images/products/prod-rajec-jemne-sytena-15l.jpg",
+    "originalUrl": "https://images.openfoodfacts.net/images/products/858/601/133/0296/front_sk.7.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 12509
+  },
+  "prod-slovakia-chips-solene-130g": {
+    "localPath": "/images/products/prod-slovakia-chips-solene-130g.jpg",
+    "originalUrl": "https://images.openfoodfacts.org/images/products/859/406/091/0093/front_cs.9.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 21470
+  },
+  "prod-slovakia-chips-slanina-130g": {
+    "localPath": "/images/products/prod-slovakia-chips-slanina-130g.jpg",
+    "originalUrl": "https://images.openfoodfacts.org/images/products/859/406/091/0093/front_cs.9.400.jpg",
+    "source": "open_food_facts",
+    "attribution": "Open Food Facts (ODbL)",
+    "sizeBytes": 21470
+  }
+}

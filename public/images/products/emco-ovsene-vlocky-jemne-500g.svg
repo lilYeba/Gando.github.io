@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-emco-ovsene-vlocky-jemne-500g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFFBEB" />
+    </linearGradient>
+    <pattern id="pat-emco-ovsene-vlocky-jemne-500g" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#D97706" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-emco-ovsene-vlocky-jemne-500g)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-emco-ovsene-vlocky-jemne-500g)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="80" height="26" rx="6" fill="#123524" />
+    <text x="40" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">EMCO</text>
+
+    <rect x="90" y="0" width="70" height="26" rx="6" fill="#FEF3C7" stroke="#D97706" stroke-width="1" />
+    <text x="125" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#78350F" text-anchor="middle">500 g</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(125, 65)">
+        <ellipse cx="75" cy="165" rx="55" ry="14" fill="#000" opacity="0.08"/>
+        <path d="M25,35 L125,35 L120,155 L30,155 Z" fill="#FDE68A" stroke="#CA8A04" stroke-width="2.5"/>
+        <rect x="35" y="55" width="80" height="50" rx="4" fill="#DC2626"/>
+        <text x="75" y="76" font-family="system-ui, sans-serif" font-weight="900" font-size="14" fill="#FFFFFF" text-anchor="middle">Emco</text>
+        <text x="75" y="94" font-family="system-ui, sans-serif" font-weight="800" font-size="8" fill="#FEF08A" text-anchor="middle">OVSENÉ VLOČKY</text>
+        <!-- Bowl of oats -->
+        <ellipse cx="75" cy="132" rx="25" ry="10" fill="#FFFBEB" stroke="#B45309" stroke-width="1.5"/>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Ovsené vločky jemné</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#D97706" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-mecom-dusena-sunka-vyberova-100g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFF1F2" />
+    </linearGradient>
+    <pattern id="pat-mecom-dusena-sunka-vyberova-100g" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#BE123C" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-mecom-dusena-sunka-vyberova-100g)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-mecom-dusena-sunka-vyberova-100g)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="80" height="26" rx="6" fill="#123524" />
+    <text x="40" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">MECOM</text>
+
+    <rect x="90" y="0" width="70" height="26" rx="6" fill="#FFE4E6" stroke="#BE123C" stroke-width="1" />
+    <text x="125" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#881337" text-anchor="middle">100 g</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(110, 80)">
+        <ellipse cx="90" cy="140" rx="85" ry="16" fill="#000" opacity="0.08"/>
+        <!-- Deli sliced ham packaging -->
+        <rect x="20" y="40" width="140" height="95" rx="10" fill="#FFFFFF" stroke="#BE123C" stroke-width="2.5"/>
+        <!-- Slices fan -->
+        <path d="M35,95 Q85,75 135,95 Q135,115 35,115 Z" fill="#FDA4AF" stroke="#E11D48" stroke-width="1.5"/>
+        <path d="M35,80 Q85,60 135,80 Q135,100 35,100 Z" fill="#F43F5E" stroke="#BE123C" stroke-width="1.5"/>
+        <!-- Label banner -->
+        <rect x="30" y="45" width="120" height="25" rx="4" fill="#881337"/>
+        <text x="90" y="58" font-family="system-ui, sans-serif" font-weight="900" font-size="9" fill="#FFFFFF" text-anchor="middle">MECOM DUSENÁ ŠUNKA</text>
+        <text x="90" y="67" font-family="system-ui, sans-serif" font-weight="700" font-size="7" fill="#FECDD3" text-anchor="middle">92% OBSAH MÄSA</text>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Dusená šunka výberová krájaná</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#BE123C" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

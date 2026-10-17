@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-tauris-spisske-parky-80-200g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <pattern id="pat-tauris-spisske-parky-80-200g" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#C2410C" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-tauris-spisske-parky-80-200g)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-tauris-spisske-parky-80-200g)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="80" height="26" rx="6" fill="#123524" />
+    <text x="40" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">TAURIS</text>
+
+    <rect x="90" y="0" width="70" height="26" rx="6" fill="#FFEDD5" stroke="#C2410C" stroke-width="1" />
+    <text x="125" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#7C2D12" text-anchor="middle">200 g</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(110, 80)">
+        <ellipse cx="90" cy="140" rx="85" ry="16" fill="#000" opacity="0.08"/>
+        <rect x="25" y="40" width="130" height="95" rx="8" fill="#FFFFFF" stroke="#C2410C" stroke-width="2"/>
+        <!-- Pair of curved sausages -->
+        <path d="M45,60 C45,115 70,115 70,60" fill="none" stroke="#EA580C" stroke-width="14" stroke-linecap="round"/>
+        <path d="M85,60 C85,115 110,115 110,60" fill="none" stroke="#EA580C" stroke-width="14" stroke-linecap="round"/>
+        <rect x="40" y="105" width="100" height="24" rx="4" fill="#9A3412"/>
+        <text x="90" y="118" font-family="system-ui, sans-serif" font-weight="900" font-size="8" fill="#FFFFFF" text-anchor="middle">SPIŠSKÉ PÁRKY</text>
+        <text x="90" y="126" font-family="system-ui, sans-serif" font-weight="700" font-size="6" fill="#FFEDD5" text-anchor="middle">ZTS ŠPECIALITA 200g</text>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Spišské párky výberové</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#C2410C" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+dist/
+coverage/
+*.log
+.env
+.env.local
+.env.production.local
+data/*.sqlite
+data/*.sqlite-wal
+data/*.sqlite-shm
+playwright-report/
+test-results/

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-tento-ellegance-toaletny-papier-3vrstvovy-8ks" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FAF5FF" />
+    </linearGradient>
+    <pattern id="pat-tento-ellegance-toaletny-papier-3vrstvovy-8ks" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#9333EA" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-tento-ellegance-toaletny-papier-3vrstvovy-8ks)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-tento-ellegance-toaletny-papier-3vrstvovy-8ks)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="80" height="26" rx="6" fill="#123524" />
+    <text x="40" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">TENTO</text>
+
+    <rect x="90" y="0" width="70" height="26" rx="6" fill="#F3E8FF" stroke="#9333EA" stroke-width="1" />
+    <text x="125" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#581C87" text-anchor="middle">8 ks</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(110, 75)">
+        <ellipse cx="90" cy="145" rx="80" ry="16" fill="#000" opacity="0.08"/>
+        <!-- 8-pack toilet paper block packaging -->
+        <rect x="20" y="40" width="140" height="95" rx="12" fill="#FAF5FF" stroke="#A855F7" stroke-width="2.5"/>
+        <!-- Rolls embossing -->
+        <circle cx="55" cy="70" r="18" fill="#FFFFFF" stroke="#D8B4FE" stroke-width="2"/>
+        <circle cx="55" cy="70" r="6" fill="#D8B4FE"/>
+        <circle cx="105" cy="70" r="18" fill="#FFFFFF" stroke="#D8B4FE" stroke-width="2"/>
+        <circle cx="105" cy="70" r="6" fill="#D8B4FE"/>
+        <rect x="30" y="100" width="120" height="26" rx="4" fill="#7E22CE"/>
+        <text x="90" y="116" font-family="system-ui, sans-serif" font-weight="900" font-size="10" fill="#FFFFFF" text-anchor="middle">Tento Ellegance</text>
+        <text x="90" y="124" font-family="system-ui, sans-serif" font-weight="700" font-size="6" fill="#E9D5FF" text-anchor="middle">3-VRSTVOVÝ 8 KUSOV</text>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Toaletný papier 3-vrstvový biely</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#9333EA" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

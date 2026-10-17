@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-vajcia-podstielkovy-chov-m-10ks" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FAF5FF" />
+    </linearGradient>
+    <pattern id="pat-vajcia-podstielkovy-chov-m-10ks" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#9333EA" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-vajcia-podstielkovy-chov-m-10ks)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-vajcia-podstielkovy-chov-m-10ks)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="101" height="26" rx="6" fill="#123524" />
+    <text x="50.5" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">SLOVENSKÉ</text>
+
+    <rect x="111" y="0" width="70" height="26" rx="6" fill="#F3E8FF" stroke="#9333EA" stroke-width="1" />
+    <text x="146" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#581C87" text-anchor="middle">10 ks</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(100, 80)">
+        <ellipse cx="100" cy="140" rx="90" ry="18" fill="#000" opacity="0.08"/>
+        <path d="M15,90 L185,90 L175,135 L25,135 Z" fill="#D6D3D1" stroke="#78716C" stroke-width="2"/>
+        <path d="M10,90 L190,90 L170,55 L30,55 Z" fill="#E7E5E4" stroke="#78716C" stroke-width="2"/>
+        <ellipse cx="55" cy="85" rx="14" ry="18" fill="#FDBA74" stroke="#EA580C" stroke-width="1.5"/>
+        <ellipse cx="85" cy="85" rx="14" ry="18" fill="#FDBA74" stroke="#EA580C" stroke-width="1.5"/>
+        <ellipse cx="115" cy="85" rx="14" ry="18" fill="#FDBA74" stroke="#EA580C" stroke-width="1.5"/>
+        <ellipse cx="145" cy="85" rx="14" ry="18" fill="#FDBA74" stroke="#EA580C" stroke-width="1.5"/>
+        <rect x="65" y="60" width="70" height="24" rx="4" fill="#15803D"/>
+        <text x="100" y="76" font-family="system-ui, sans-serif" font-weight="900" font-size="9" fill="#FFFFFF" text-anchor="middle">10x M PODSTIELKA</text>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Vajcia podstielkový chov M</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#9333EA" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

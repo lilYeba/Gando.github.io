@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-mlete-maso-mix-bravcovo-hovadzie-500g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FEF2F2" />
+    </linearGradient>
+    <pattern id="pat-mlete-maso-mix-bravcovo-hovadzie-500g" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#DC2626" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-mlete-maso-mix-bravcovo-hovadzie-500g)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-mlete-maso-mix-bravcovo-hovadzie-500g)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="146" height="26" rx="6" fill="#123524" />
+    <text x="73" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">MÄSIAROV VÝBER</text>
+
+    <rect x="156" y="0" width="70" height="26" rx="6" fill="#FECACA" stroke="#DC2626" stroke-width="1" />
+    <text x="191" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#7F1D1D" text-anchor="middle">500 g</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(100, 80)">
+        <ellipse cx="100" cy="140" rx="95" ry="18" fill="#000" opacity="0.08"/>
+        <rect x="15" y="45" width="170" height="85" rx="14" fill="#FFFFFF" stroke="#EF4444" stroke-width="2.5"/>
+        <rect x="25" y="55" width="150" height="65" rx="8" fill="#F87171" opacity="0.85"/>
+        <path d="M35,68 Q60,78 85,68 T135,68 T165,68" stroke="#B91C1C" stroke-width="3" fill="none"/>
+        <path d="M35,85 Q60,95 85,85 T135,85 T165,85" stroke="#B91C1C" stroke-width="3" fill="none"/>
+        <path d="M35,102 Q60,112 85,102 T135,102 T165,102" stroke="#B91C1C" stroke-width="3" fill="none"/>
+        <rect x="110" y="50" width="55" height="35" rx="4" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.5"/>
+        <text x="137" y="65" font-family="system-ui, sans-serif" font-weight="900" font-size="8" fill="#991B1B" text-anchor="middle">MIX 500g</text>
+        <text x="137" y="76" font-family="system-ui, sans-serif" font-weight="700" font-size="7" fill="#15803D" text-anchor="middle">SK PÔVOD</text>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Mleté mäso bravčovo-hovädzie</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#DC2626" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

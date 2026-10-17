@@ -1,0 +1,737 @@
+{
+  "8718951001008": {
+    "productId": "prod-ajax-floral-fiesta-1l",
+    "barcode": "8718951001008",
+    "name": "Univerzálny čistič Ajax Floral Fiesta",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "8001090001029": {
+    "productId": "prod-ariel-allin1-pods-mountain-24ks",
+    "barcode": "8001090001029",
+    "name": "Pracie kapsuly Ariel Allin1 Pods",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "8001090001012": {
+    "productId": "prod-ariel-color-prasok-33kg",
+    "barcode": "8001090001012",
+    "name": "Prací prášok Ariel Color",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "8001090001005": {
+    "productId": "prod-ariel-gel-mountain-spring-17l",
+    "barcode": "8001090001005",
+    "name": "Prací gél Ariel Mountain Spring",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "8710449911012": {
+    "productId": "prod-aviko-krokety-zemiakove-600g",
+    "barcode": "8710449911012",
+    "name": "Zemiakové krokety",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "8710449911005": {
+    "productId": "prod-aviko-super-crunch-hranolky-750g",
+    "barcode": "8710449911005",
+    "name": "Hranolky Super Crunch",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "8588001120002": {
+    "productId": "prod-avokado-ready-to-eat-1ks",
+    "barcode": "8588001120002",
+    "name": "Avokádo Hass zrelé (Ready to eat) 1 ks",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "8594002680016": {
+    "productId": "prod-babickina-volba-hladka-1kg",
+    "barcode": "8594002680016",
+    "name": "Pšeničná múka hladká",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "8594002680023": {
+    "productId": "prod-babickina-volba-polohruba-1kg",
+    "barcode": "8594002680023",
+    "name": "Pšeničná múka polohrubá",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "8595009301478": {
+    "productId": "prod-babovka-mramorova-penam-400g",
+    "barcode": "8595009301478",
+    "name": "Bábovka mramorová",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "8588000000113": {
+    "productId": "prod-bageta-francuzska-stredna-120g",
+    "barcode": "8588000000113",
+    "name": "Bageta francúzska stredná",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "8586002170047": {
+    "productId": "prod-baldovska-perlive-15l",
+    "barcode": "8586002170047",
+    "name": "Minerálna voda Baldovská perlivá",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "4750456004942": {
+    "productId": "prod-balticovo-vajcia-m-10ks",
+    "barcode": "4750456004942",
+    "name": "Čerstvé vajcia z podstielkového chovu M 10 ks",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8588000000012": {
+    "productId": "prod-banany-1kg",
+    "barcode": "8588000000012",
+    "name": "Banány čerstvé voľné",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8586000891128": {
+    "productId": "prod-banovecky-polostiepok-190g",
+    "barcode": "8586000891128",
+    "name": "Bánovecký pološtiepok neúdený 190 g",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8076809513814": {
+    "productId": "prod-barilla-basilico-omacka-400g",
+    "barcode": "8076809513814",
+    "name": "Omáčka na cestoviny Basilico",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8076809513807": {
+    "productId": "prod-barilla-bolognese-omacka-400g",
+    "barcode": "8076809513807",
+    "name": "Omáčka na cestoviny Bolognese",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "8076809513760": {
+    "productId": "prod-barilla-farfalle-motyliky-500g",
+    "barcode": "8076809513760",
+    "name": "Farfalle n. 65 semolinové",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8076809513746": {
+    "productId": "prod-barilla-fusilli-98-500g",
+    "barcode": "8076809513746",
+    "name": "Fusilli n. 98 semolinové",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8076809513739": {
+    "productId": "prod-barilla-penne-rigate-73-500g",
+    "barcode": "8076809513739",
+    "name": "Penne Rigate n. 73 semolinové",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8076809513821": {
+    "productId": "prod-barilla-pesto-genovese-190g",
+    "barcode": "8076809513821",
+    "name": "Pesto alla Genovese",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8076809513753": {
+    "productId": "prod-barilla-spaghetti-no5-500g",
+    "barcode": "8076809513753",
+    "name": "Spaghetti n. 5 semolinové",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8593893701020": {
+    "productId": "prod-bebe-dobre-rano-med-oriesky-50g",
+    "barcode": "8593893701020",
+    "name": "BeBe Dobré ráno orieškové s medom",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8594001240013": {
+    "productId": "prod-bonavita-sojove-rezance-100g",
+    "barcode": "8594001240013",
+    "name": "Sójové rezance dehydrované",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "3083680005401": {
+    "productId": "prod-bonduelle-hrasok-jemny-400g",
+    "barcode": "3083680005401",
+    "name": "Hrášok jemný mladý",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "3083680085304": {
+    "productId": "prod-bonduelle-zlata-kukurica-340g",
+    "barcode": "3083680085304",
+    "name": "Zlatá kukurica vákuovaná",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8588004123014": {
+    "productId": "prod-bravcove-kare-1kg",
+    "barcode": "8588004123014",
+    "name": "Bravčové karé bez kosti chladené 1 kg",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "9000100001051": {
+    "productId": "prod-bref-brilliant-gel-arctic-3x42g",
+    "barcode": "9000100001051",
+    "name": "Bref Brilliant Gel Arctic Ocean",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "9000100001037": {
+    "productId": "prod-bref-power-aktiv-lemon-3x50g",
+    "barcode": "9000100001037",
+    "name": "Bref Power Aktiv Lemon WC blok",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8588001115556": {
+    "productId": "prod-brokolica-500g",
+    "barcode": "8588001115556",
+    "name": "Brokolica čerstvá balená 500 g",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8586002170030": {
+    "productId": "prod-budis-jemne-perlive-15l",
+    "barcode": "8586002170030",
+    "name": "Minerálna voda Budiš jemne perlivá",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8586002170023": {
+    "productId": "prod-budis-perlive-15l",
+    "barcode": "8586002170023",
+    "name": "Minerálna voda Budiš perlivá",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "5000158002005": {
+    "productId": "prod-calgon-3v1-gel-proti-vodnemu-kamenu-750ml",
+    "barcode": "5000158002005",
+    "name": "Gél proti vodnému kameňu Calgon 3v1",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "5449000001047": {
+    "productId": "prod-cappy-multivitamin-1l",
+    "barcode": "5449000001047",
+    "name": "Džús Cappy Multivitamín",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "7613035634598": {
+    "productId": "prod-caro-nestle-cerealny-napoj-200g",
+    "barcode": "7613035634598",
+    "name": "Kávovinový nápoj Caro Nestlé",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8711327324008": {
+    "productId": "prod-carte-dor-vanilka-1000ml",
+    "barcode": "8711327324008",
+    "name": "Zmrzlina Vanilka Bourbon",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8588001118889": {
+    "productId": "prod-cesnak-biely-3ks",
+    "barcode": "8588001118889",
+    "name": "Cesnak biely sušený 3 ks",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8586000820104": {
+    "productId": "prod-cessi-kolienka-bezvajecne-400g",
+    "barcode": "8586000820104",
+    "name": "Kolienka bezvaječné",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8586000820012": {
+    "productId": "prod-cessi-nitovky-polievkove-400g",
+    "barcode": "8586000820012",
+    "name": "Niťovky jemné polievkové",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8586000820128": {
+    "productId": "prod-cessi-siroke-rezance-400g",
+    "barcode": "8586000820128",
+    "name": "Široké rezance bezvaječné",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8586000820159": {
+    "productId": "prod-cessi-tarhona-bezvajecna-400g",
+    "barcode": "8586000820159",
+    "name": "Tarhoňa bezvaječná",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "8595009301157": {
+    "productId": "prod-chlieb-slnecnicovy-tmavy-500g",
+    "barcode": "8595009301157",
+    "name": "Chlieb slnečnicový tmavý",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8595009301454": {
+    "productId": "prod-chlieb-toustovy-penam-celozrnny-500g",
+    "barcode": "8595009301454",
+    "name": "Toastový chlieb celozrnný",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8595009301102": {
+    "productId": "prod-chlieb-zemiakovy-konzumny-500g",
+    "barcode": "8595009301102",
+    "name": "Chlieb zemiakový krájaný",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8588001114445": {
+    "productId": "prod-cibula-zlta-1kg",
+    "barcode": "8588001114445",
+    "name": "Cibuľa žltá neskorá 1 kg",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8712100002013": {
+    "productId": "prod-cif-brilliant-bath-750ml",
+    "barcode": "8712100002013",
+    "name": "Cif Brilliant Bath sprej na kúpeľňu",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8712100002020": {
+    "productId": "prod-cif-original-biely-krem-500ml",
+    "barcode": "8712100002020",
+    "name": "Cif Original biely čistiaci krém",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8588001116667": {
+    "productId": "prod-citrony-500g",
+    "barcode": "8588001116667",
+    "name": "Citróny čerstvé sieťka 500 g",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "9000100001044": {
+    "productId": "prod-clin-na-okna-citron-500ml",
+    "barcode": "9000100001044",
+    "name": "Clin čistič okien s rozprašovačom",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "5449000000996": {
+    "productId": "prod-coca-cola-original-175l",
+    "barcode": "5449000000996",
+    "name": "Coca-Cola Original Taste",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "5449000001009": {
+    "productId": "prod-coca-cola-zero-175l",
+    "barcode": "5449000001009",
+    "name": "Coca-Cola Zero Sugar",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8718951223325": {
+    "productId": "prod-colgate-total-clean-mint-75ml",
+    "barcode": "8718951223325",
+    "name": "Zubná pasta Colgate Total Clean Mint",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8588001120057": {
+    "productId": "prod-cuketa-zelena-1kg",
+    "barcode": "8588001120057",
+    "name": "Cuketa zelená čerstvá 1 kg",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "7612412423007": {
+    "productId": "prod-curaprox-cs5460-zubna-kefka-1ks",
+    "barcode": "7612412423007",
+    "name": "Zubná kefka Curaprox CS 5460 Ultra Soft",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8586000100022": {
+    "productId": "prod-detska-krupica-pohronsky-ruskov-500g",
+    "barcode": "8586000100022",
+    "name": "Detská krupica dehydrovaná",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "7613035634581": {
+    "productId": "prod-dolce-gusto-espresso-16ks",
+    "barcode": "7613035634581",
+    "name": "Nescafé Dolce Gusto Espresso kapsuly",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8712100002006": {
+    "productId": "prod-domestos-pine-fresh-750ml",
+    "barcode": "8712100002006",
+    "name": "Domestos 24H Pine Fresh WC gél",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "8588000000116": {
+    "productId": "prod-donut-s-cokoladovou-polevou-55g",
+    "barcode": "8588000000116",
+    "name": "Donut s čokoládovou polevou",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "5900259074036": {
+    "productId": "prod-doritos-sweet-chilli-100g",
+    "barcode": "5900259074036",
+    "name": "Tortilla chips Sweet Chilli",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8712100005007": {
+    "productId": "prod-dove-beauty-cream-bar-tuhe-mydlo-100g",
+    "barcode": "8712100005007",
+    "name": "Tuhé mydlo Dove Beauty Cream Bar",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8712100004000": {
+    "productId": "prod-dove-deeply-nourishing-gel-250ml",
+    "barcode": "8712100004000",
+    "name": "Sprchový gél Dove Deeply Nourishing",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "4001724819805": {
+    "productId": "prod-dr-oetker-pizza-ristorante-mozzarella-335g",
+    "barcode": "4001724819805",
+    "name": "Pizza Ristorante Mozzarella",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "4001724820009": {
+    "productId": "prod-dr-oetker-pizza-ristorante-prosciutto-330g",
+    "barcode": "4001724820009",
+    "name": "Pizza Ristorante Prosciutto",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "4001724819904": {
+    "productId": "prod-dr-oetker-pizza-ristorante-quattro-formaggi-340g",
+    "barcode": "4001724819904",
+    "name": "Pizza Ristorante Quattro Formaggi",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "4001724819706": {
+    "productId": "prod-dr-oetker-pizza-ristorante-salame-320g",
+    "barcode": "4001724819706",
+    "name": "Pizza Ristorante Salame",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8595070400182": {
+    "productId": "prod-dr-oetker-prasok-do-peciva-5ks",
+    "barcode": "8595070400182",
+    "name": "Kypriaci prášok do pečiva",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8595070400175": {
+    "productId": "prod-dr-oetker-vanilinovy-cukor-5ks",
+    "barcode": "8595070400175",
+    "name": "Vanilínový cukor multipack",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8595070400137": {
+    "productId": "prod-dr-oetker-zlaty-klas-40g",
+    "barcode": "8595070400137",
+    "name": "Zlatý klas krémový prášok",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8586003900018": {
+    "productId": "prod-drozhdie-fala-42g",
+    "barcode": "8586003900018",
+    "name": "Droždie Fala čerstvé",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8586000210035": {
+    "productId": "prod-dru-tycinky-rasca-90g",
+    "barcode": "8586000210035",
+    "name": "Tyčinky sypané rascou",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8586000210028": {
+    "productId": "prod-dru-tycinky-sezamove-90g",
+    "barcode": "8586000210028",
+    "name": "Tyčinky so sezamom",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8586000210011": {
+    "productId": "prod-dru-tycinky-slane-tradicne-90g",
+    "barcode": "8586000210011",
+    "name": "Slané tyčinky tradičné",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "3600521001005": {
+    "productId": "prod-elseve-total-repair-5-sampon-250ml",
+    "barcode": "3600521001005",
+    "name": "Šampón Elseve Total Repair 5",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8595202600173": {
+    "productId": "prod-emco-ovsene-vlocky-jemne-500g",
+    "barcode": "8595202600173",
+    "name": "Ovsené vločky jemné",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8586000620018": {
+    "productId": "prod-ensa-arasidy-solene-100g",
+    "barcode": "8586000620018",
+    "name": "Arašidy pražené solené",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8586000620049": {
+    "productId": "prod-ensa-kesu-prazene-solene-100g",
+    "barcode": "8586000620049",
+    "name": "Kešu orechy pražené solené",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8586000620032": {
+    "productId": "prod-ensa-mandle-prazene-solene-100g",
+    "barcode": "8586000620032",
+    "name": "Mandle pražené solené",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8586000620025": {
+    "productId": "prod-ensa-pistacie-solene-100g",
+    "barcode": "8586000620025",
+    "name": "Pistácie pražené solené",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8586000620063": {
+    "productId": "prod-ensa-tekvicove-semienka-100g",
+    "barcode": "8586000620063",
+    "name": "Tekvicové semienka lúpané",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8586000620056": {
+    "productId": "prod-ensa-vlasske-orechy-lupane-200g",
+    "barcode": "8586000620056",
+    "name": "Vlašské orechy lúpané",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "5449000001016": {
+    "productId": "prod-fanta-orange-15l",
+    "barcode": "5449000001016",
+    "name": "Fanta Orange pomaranč",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8586002170061": {
+    "productId": "prod-fatra-prirodna-zasadita-1l",
+    "barcode": "8586002170061",
+    "name": "Minerálna voda Fatra prírodná",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "7613035001000": {
+    "productId": "prod-felix-fantastic-kapsicky-4x85g",
+    "barcode": "7613035001000",
+    "name": "Kapsičky pre mačky Felix Fantastic",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8000500010013": {
+    "productId": "prod-ferrero-kinder-bueno-43g",
+    "barcode": "8000500010013",
+    "name": "Kinder Bueno mliečne",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8000500010020": {
+    "productId": "prod-ferrero-kinder-cokolada-100g",
+    "barcode": "8000500010020",
+    "name": "Kinder Chocolate 8 tyčiniek",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8000500179864": {
+    "productId": "prod-ferrero-nutella-350g",
+    "barcode": "8000500179864",
+    "name": "Lieskovooriešková nátierka Nutella",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8000500004036": {
+    "productId": "prod-ferrero-raffaello-150g",
+    "barcode": "8000500004036",
+    "name": "Raffaello kokosové pralinky",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8593893701006": {
+    "productId": "prod-fidorka-horka-orieskova-30g",
+    "barcode": "8593893701006",
+    "name": "Fidorka horká s orieškovou náplňou",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "5201314001014": {
+    "productId": "prod-fino-alobal-hlinikova-folia-20m",
+    "barcode": "5201314001014",
+    "name": "Alobal Fino hliníková fólia 20 m",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "5201314001045": {
+    "productId": "prod-fino-mikrotenove-sacky-desiatove-100ks",
+    "barcode": "5201314001045",
+    "name": "Mikroténové vrecká Fino na desiatu",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "5201314001021": {
+    "productId": "prod-fino-papier-na-pecenie-8m",
+    "barcode": "5201314001021",
+    "name": "Papier na pečenie Fino 8 m",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "5201314001038": {
+    "productId": "prod-fino-potravinova-folia-30m",
+    "barcode": "5201314001038",
+    "name": "Potravinová fólia Fino 30 m",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "5201314001007": {
+    "productId": "prod-fino-vrecia-na-odpad-30l-50ks",
+    "barcode": "5201314001007",
+    "name": "Vrecia na odpad Fino HD 30 l",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "4008366052026": {
+    "productId": "prod-frosta-rybie-prsty-filet-300g",
+    "barcode": "4008366052026",
+    "name": "Rybie prsty 100 % filet",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "5449000001054": {
+    "productId": "prod-fuzetea-cierny-caj-broskyna-15l",
+    "barcode": "5449000001054",
+    "name": "FuzeTea Čierny čaj s broskyňou",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "3600541001001": {
+    "productId": "prod-garnier-mineral-deodorant-sprej-150ml",
+    "barcode": "3600541001001",
+    "name": "Antiperspirant Garnier Mineral Action Control",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "8595149400017": {
+    "productId": "prod-giana-sardinky-olej-125g",
+    "barcode": "8595149400017",
+    "name": "Sardinky v rastlinnom oleji",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "7702018001004": {
+    "productId": "prod-gillette-mach3-nahradne-hlavice-4ks",
+    "barcode": "7702018001004",
+    "name": "Holiace hlavice Gillette Mach3",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "7702018001011": {
+    "productId": "prod-gillette-pena-na-holenie-sensitive-200ml",
+    "barcode": "7702018001011",
+    "name": "Pena na holenie Gillette Sensitive",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "3415581101007": {
+    "productId": "prod-haagen-dazs-salted-caramel-460ml",
+    "barcode": "3415581101007",
+    "name": "Zmrzlina Salted Caramel",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8594001314011": {
+    "productId": "prod-hamanek-kuracie-so-zeleninou-190g",
+    "barcode": "8594001314011",
+    "name": "Detský príkrm Hamánek Kuracie mäso so zeleninou",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8594001311003": {
+    "productId": "prod-hame-majka-pasteta-75g",
+    "barcode": "8594001311003",
+    "name": "Paštéta Májka zlaté dedičstvo",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8585002401014": {
+    "productId": "prod-hame-morca-della-400g",
+    "barcode": "8585002401014",
+    "name": "Morca-Della zmes na špagety",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  },
+  "8594001311010": {
+    "productId": "prod-hame-pali-pikantna-natierka-75g",
+    "barcode": "8594001311010",
+    "name": "Pali pikantná nátierka",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 404: Not Found"
+  },
+  "4001686301011": {
+    "productId": "prod-haribo-goldbaren-100g",
+    "barcode": "4001686301011",
+    "name": "Cukríky Haribo Goldbären",
+    "imageUrl": null,
+    "status": "ERROR: HTTP Error 429: Too Many Requests"
+  }
+}

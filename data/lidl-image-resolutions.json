@@ -1,0 +1,392 @@
+{
+  "lst-prod-balticovo-vajcia-m-10ks-lidl": {
+    "listingId": "lst-prod-balticovo-vajcia-m-10ks-lidl",
+    "productId": "prod-balticovo-vajcia-m-10ks",
+    "canonicalName": "Čerstvé vajcia z podstielkového chovu M",
+    "retailerTitle": "Čerstvé vajcia z podstielkového chovu M 10 ks",
+    "externalId": "11055110",
+    "resolvedImageUrl": "https://www.lidl.com/assets/gcp2d3e860286ce44689798dc72ab208fc6.png",
+    "source": "lidl.com",
+    "status": "MATCHED"
+  },
+  "lst-prod-banany-1kg-lidl": {
+    "listingId": "lst-prod-banany-1kg-lidl",
+    "productId": "prod-banany-1kg",
+    "canonicalName": "Banány čerstvé",
+    "retailerTitle": "Banány (cena za 1 kg)",
+    "externalId": "11150766",
+    "resolvedImageUrl": "https://www.lidl.sk/assets/gcp14706d1532a940b399f26810944403db.png",
+    "source": "lidl.sk",
+    "status": "MATCHED"
+  },
+  "lst-prod-banovecky-polostiepok-190g-lidl": {
+    "listingId": "lst-prod-banovecky-polostiepok-190g-lidl",
+    "productId": "prod-banovecky-polostiepok-190g",
+    "canonicalName": "Bánovecký pološtiepok neúdený",
+    "retailerTitle": "Pilos Slovenský oštiepok neúdený 190 g",
+    "externalId": "11265599",
+    "resolvedImageUrl": null,
+    "source": "none",
+    "status": "PLACEHOLDER"
+  },
+  "lst-prod-bravcove-kare-1kg-lidl": {
+    "listingId": "lst-prod-bravcove-kare-1kg-lidl",
+    "productId": "prod-bravcove-kare-1kg",
+    "canonicalName": "Bravčové karé bez kosti chladené",
+    "retailerTitle": "Mäsiarstvo Bravčové karé bez kosti 1 kg",
+    "externalId": "11055201",
+    "resolvedImageUrl": null,
+    "source": "none",
+    "status": "PLACEHOLDER"
+  },
+  "lst-prod-brokolica-500g-lidl": {
+    "listingId": "lst-prod-brokolica-500g-lidl",
+    "productId": "prod-brokolica-500g",
+    "canonicalName": "Brokolica čerstvá balená",
+    "retailerTitle": "Brokolica 500 g balenie",
+    "externalId": "11151157",
+    "resolvedImageUrl": "https://www.lidl.sk/assets/gcpc7adf2db2674491490a56316a4bd8f6e.png",
+    "source": "lidl.sk",
+    "status": "MATCHED"
+  },
+  "lst-prod-emco-vlocky-500g-lidl": {
+    "listingId": "lst-prod-emco-vlocky-500g-lidl",
+    "productId": "prod-emco-vlocky-500g",
+    "canonicalName": "Ovsené vločky jemné",
+    "retailerTitle": "Crownfield Ovsené vločky jemné 500 g",
+    "externalId": "11099995",
+    "resolvedImageUrl": "https://www.lidl.com/assets/gcp40819bb41c1042ef96a7d0d2d4fd99fe.png",
+    "source": "lidl.com",
+    "status": "MATCHED"
+  },
+  "lst-prod-giana-ryza-1kg-lidl": {
+    "listingId": "lst-prod-giana-ryza-1kg-lidl",
+    "productId": "prod-giana-ryza-1kg",
+    "canonicalName": "Guľatozrnná ryža lúpaná",
+    "retailerTitle": "Golden Sun Guľatozrnná ryža 1 kg",
+    "externalId": "11099120",
+    "resolvedImageUrl": "https://www.lidl.com/assets/gcp3431e1db7fd64578ad5124ef771dbd30.png",
+    "source": "lidl.com",
+    "status": "MATCHED"
+  },
+  "lst-prod-hladka-muka-1kg-lidl": {
+    "listingId": "lst-prod-hladka-muka-1kg-lidl",
+    "productId": "prod-hladka-muka-1kg",
+    "canonicalName": "Pšeničná múka hladká T 650",
+    "retailerTitle": "Belbake Pšeničná múka hladká T 650 1 kg",
+    "externalId": "11011205",
+    "resolvedImageUrl": "https://www.lidl.com/assets/gcp046f03633fd2434ca2f0f2bcd4dc5d86.png",
+    "source": "lidl.com",
+    "status": "MATCHED"
+  },
+  "lst-prod-hyza-kuracie-prsia-1kg-lidl": {
+    "listingId": "lst-prod-hyza-kuracie-prsia-1kg-lidl",
+    "productId": "prod-hyza-kuracie-prsia-1kg",
+    "canonicalName": "Kuracie prsné rezne chladené",
+    "retailerTitle": "Čerstvá porcia Kuracie prsné rezne XXL 1 kg",
+    "externalId": "11044910",
+    "resolvedImageUrl": "https://www.lidl.com/assets/gcp0da5ef0c89034c1b82d2738ce1dd58ea.png",
+    "source": "lidl.com",
+    "status": "MATCHED"
+  },
+  "lst-prod-jablka-gala-1kg-lidl": {
+    "listingId": "lst-prod-jablka-gala-1kg-lidl",
+    "productId": "prod-jablka-gala-1kg",
+    "canonicalName": "Jablká Gala slovenské voľné",
+    "retailerTitle": "Slovenské jablká Gala 1 kg voľné",
+    "externalId": "11096630",
+    "resolvedImageUrl": "https://www.lidl.com/assets/gcp4096668e169b469fba11362554a5d51a.png",
+    "source": "lidl.com",
+    "status": "MATCHED"
+  },
+  "lst-prod-jar-sensitive-900ml-lidl": {
+    "listingId": "lst-prod-jar-sensitive-900ml-lidl",
+    "productId": "prod-jar-sensitive-900ml",
+    "canonicalName": "Prostriedok na umývanie riadu Sensitive",
+    "retailerTitle": "W5 Prostriedok na riad Sensitive 1 l",
+    "externalId": "11099997",
+    "resolvedImageUrl": "https://www.lidl.com/assets/gcpf1f7776406674a238ffc98b8c749ca86.png",
+    "source": "lidl.com",
+    "status": "MATCHED"
+  },
+  "lst-prod-kofola-15l-lidl": {
+    "listingId": "lst-prod-kofola-15l-lidl",
+    "productId": "prod-kofola-15l",
+    "canonicalName": "Kofola Original / Bez cukru",
+    "retailerTitle": "Kofola Original 1,5 l",
+    "externalId": "11070150",
+    "resolvedImageUrl": "https://www.lidl.com/assets/gcpa252420a296f40079d463c0b2a567043.png",
+    "source": "lidl.com",
+    "status": "MATCHED"
+  },
+  "lst-prod-kornbageta-la-lorraine-115g-lidl": {
+    "listingId": "lst-prod-kornbageta-la-lorraine-115g-lidl",
+    "productId": "prod-kornbageta-la-lorraine-115g",
+    "canonicalName": "Kornbageta stredná cereálna",
+    "retailerTitle": "Cereálna bageta stredná 115 g",
+    "externalId": "11088115",
+    "resolvedImageUrl": "https://www.lidl.sk/assets/gcpd0c8b39cface4913a8863926252cb051.png",
+    "source": "lidl.sk",
+    "status": "MATCHED"
+  },
+  "lst-prod-korunny-cukor-1kg-lidl": {
+    "listingId": "lst-prod-korunny-cukor-1kg-lidl",
+    "productId": "prod-korunny-cukor-1kg",
+    "canonicalName": "Cukor krupica biely",
+    "retailerTitle": "Belbake Cukor biely krupica 1 kg",
+    "externalId": "11093310",
+    "resolvedImageUrl": "https://www.lidl.com/assets/gcpa8bc486b79d244b08b2d1919d2650766.png",
+    "source": "lidl.com",
+    "status": "MATCHED"
+  },
+  "lst-prod-kuracie-stvrte-1kg-lidl": {
+    "listingId": "lst-prod-kuracie-stvrte-1kg-lidl",
+    "productId": "prod-kuracie-stvrte-1kg",
+    "canonicalName": "Kuracie štvrte chladené",
+    "retailerTitle": "MÄSIAROVA ČERSTVÁ PORCIA Kuracie štvrte",
+    "externalId": "11944690",
+    "resolvedImageUrl": "https://www.lidl.sk/assets/gcp2649deaeceb140bfb687b020b40bf8ae.png",
+    "source": "lidl.sk",
+    "status": "MATCHED"
+  },
+  "lst-prod-kvaskovy-chlieb-405g-lidl": {
+    "listingId": "lst-prod-kvaskovy-chlieb-405g-lidl",
+    "productId": "prod-kvaskovy-chlieb-405g",
+    "canonicalName": "Kváskový chlieb zemiakový remeselný",
+    "retailerTitle": "Kváskový chlieb zemiakový z pece 405 g",
+    "externalId": "11088405",
+    "resolvedImageUrl": null,
+    "source": "none",
+    "status": "PLACEHOLDER"
+  },
+  "lst-prod-liptov-bryndza-110g-lidl": {
+    "listingId": "lst-prod-liptov-bryndza-110g-lidl",
+    "productId": "prod-liptov-bryndza-110g",
+    "canonicalName": "Bryndza plnotučná slovenská",
+    "retailerTitle": "Liptov Tradičná bryndza 110 g",
+    "externalId": "11099231",
+    "resolvedImageUrl": null,
+    "source": "none",
+    "status": "PLACEHOLDER"
+  },
+  "lst-prod-mecom-dusena-sunka-100g-lidl": {
+    "listingId": "lst-prod-mecom-dusena-sunka-100g-lidl",
+    "productId": "prod-mecom-dusena-sunka-100g",
+    "canonicalName": "Dusená šunka výberová krájaná",
+    "retailerTitle": "Pikok Dusená šunka výberová 100 g",
+    "externalId": "11066741",
+    "resolvedImageUrl": null,
+    "source": "none",
+    "status": "PLACEHOLDER"
+  },
+  "lst-prod-mlete-maso-mix-500g-lidl": {
+    "listingId": "lst-prod-mlete-maso-mix-500g-lidl",
+    "productId": "prod-mlete-maso-mix-500g",
+    "canonicalName": "Mleté mäso MIX bravčovo-hovädzie",
+    "retailerTitle": "Mleté mäso MIX 500 g balenie",
+    "externalId": "11141712",
+    "resolvedImageUrl": "https://www.lidl.sk/assets/gcpbb5457cfaade48a2b3226774667cfd99.png",
+    "source": "lidl.sk",
+    "status": "MATCHED"
+  },
+  "lst-prod-panzani-cestoviny-500g-lidl": {
+    "listingId": "lst-prod-panzani-cestoviny-500g-lidl",
+    "productId": "prod-panzani-cestoviny-500g",
+    "canonicalName": "Cestoviny Torti Tricolore vretená",
+    "retailerTitle": "Combino Fusilli Tricolore semolinové cestoviny 500 g",
+    "externalId": "11066500",
+    "resolvedImageUrl": "https://www.lidl.com/assets/gcp3ddfd4c69a1b489a9a2877c2abe55a16.png",
+    "source": "lidl.com",
+    "status": "MATCHED"
+  },
+  "lst-prod-panzani-spagety-500g-lidl": {
+    "listingId": "lst-prod-panzani-spagety-500g-lidl",
+    "productId": "prod-panzani-spagety-500g",
+    "canonicalName": "Špagety semolinové bezvaječné",
+    "retailerTitle": "Combino Špagety semolinové 500 g",
+    "externalId": "11094410",
+    "resolvedImageUrl": "https://www.lidl.com/assets/gcp81df4b36283544e8a63f9524abfd5e04.png",
+    "source": "lidl.com",
+    "status": "MATCHED"
+  },
+  "lst-prod-paradajky-strapcove-500g-lidl": {
+    "listingId": "lst-prod-paradajky-strapcove-500g-lidl",
+    "productId": "prod-paradajky-strapcove-500g",
+    "canonicalName": "Paradajky strapcové červené",
+    "retailerTitle": "Paradajky strapcové červené 500 g balenie",
+    "externalId": "11097740",
+    "resolvedImageUrl": "https://www.lidl.com/assets/gcpb7e43c31936c4766b17fdd08d80b2922.png",
+    "source": "lidl.com",
+    "status": "MATCHED"
+  },
+  "lst-prod-popradska-kava-extra-250g-lidl": {
+    "listingId": "lst-prod-popradska-kava-extra-250g-lidl",
+    "productId": "prod-popradska-kava-extra-250g",
+    "canonicalName": "Popradská káva Extra špeciál mletá",
+    "retailerTitle": "Popradská káva Extra špeciál 250 g",
+    "externalId": "11044312",
+    "resolvedImageUrl": null,
+    "source": "none",
+    "status": "PLACEHOLDER"
+  },
+  "lst-prod-rajec-nesytena-1-5l-lidl": {
+    "listingId": "lst-prod-rajec-nesytena-1-5l-lidl",
+    "productId": "prod-rajec-nesytena-1-5l",
+    "canonicalName": "Pramenitá voda nesýtená",
+    "retailerTitle": "Saguaro Pramenitá voda nesýtená 1,5 l",
+    "externalId": "11099910",
+    "resolvedImageUrl": null,
+    "source": "none",
+    "status": "PLACEHOLDER"
+  },
+  "lst-prod-rajo-eidam-platky-100g-lidl": {
+    "listingId": "lst-prod-rajo-eidam-platky-100g-lidl",
+    "productId": "prod-rajo-eidam-platky-100g",
+    "canonicalName": "Eidam plátky 45 % t. v s.",
+    "retailerTitle": "Pilos Eidam plátky 45 % 100 g",
+    "externalId": "11088420",
+    "resolvedImageUrl": "https://www.lidl.sk/assets/gcpe243930f41d3474f9a8a842a4c0e9583.png",
+    "source": "lidl.sk",
+    "status": "MATCHED"
+  },
+  "lst-prod-rajo-mlieko-15-1l-lidl": {
+    "listingId": "lst-prod-rajo-mlieko-15-1l-lidl",
+    "productId": "prod-rajo-mlieko-15-1l",
+    "canonicalName": "Trvanlivé mlieko polotučné 1,5 %",
+    "retailerTitle": "Pilos Trvanlivé mlieko 1,5 % 1 l",
+    "externalId": "11020301",
+    "resolvedImageUrl": "https://www.lidl.com/assets/gcpad2ac86a817f4c65a095ead01cf41d4d.png",
+    "source": "lidl.com",
+    "status": "MATCHED"
+  },
+  "lst-pending-mlieko-35-lidl": {
+    "listingId": "lst-pending-mlieko-35-lidl",
+    "productId": "prod-rajo-mlieko-15-1l",
+    "canonicalName": "Trvanlivé mlieko polotučné 1,5 %",
+    "retailerTitle": "Pilos Trvanlivé mlieko plnotučné 3,5 % 1 l",
+    "externalId": "11099112",
+    "resolvedImageUrl": null,
+    "source": "none",
+    "status": "PLACEHOLDER"
+  },
+  "lst-prod-rajo-mnam-jogurt-145g-lidl": {
+    "listingId": "lst-prod-rajo-mnam-jogurt-145g-lidl",
+    "productId": "prod-rajo-mnam-jogurt-145g",
+    "canonicalName": "Mňam Duo smotanový jogurt jahoda",
+    "retailerTitle": "Rajo Mňam Duo smotanový jogurt jahoda 145 g",
+    "externalId": "11077812",
+    "resolvedImageUrl": null,
+    "source": "none",
+    "status": "PLACEHOLDER"
+  },
+  "lst-prod-rajo-tvaroh-250g-lidl": {
+    "listingId": "lst-prod-rajo-tvaroh-250g-lidl",
+    "productId": "prod-rajo-tvaroh-250g",
+    "canonicalName": "Tradičný tvaroh jemný hrudkovitý",
+    "retailerTitle": "Pilos Tvaroh jemný hrudkovitý 250 g",
+    "externalId": "11088990",
+    "resolvedImageUrl": "https://www.lidl.com/assets/gcpc9eab63723094012b74b187757ce7cea.png",
+    "source": "lidl.com",
+    "status": "MATCHED"
+  },
+  "lst-prod-repkovy-olej-1l-lidl": {
+    "listingId": "lst-prod-repkovy-olej-1l-lidl",
+    "productId": "prod-repkovy-olej-1l",
+    "canonicalName": "Repkový olej jedlý rafinovaný",
+    "retailerTitle": "Vita D'or Repkový olej 1 l",
+    "externalId": "11033901",
+    "resolvedImageUrl": "https://www.lidl.com/assets/gcpa65864079d3041069e4812ff4a1bed32.png",
+    "source": "lidl.com",
+    "status": "MATCHED"
+  },
+  "lst-prod-rohlík-standard-50g-lidl": {
+    "listingId": "lst-prod-rohlík-standard-50g-lidl",
+    "productId": "prod-rohlík-standard-50g",
+    "canonicalName": "Rožok štandard biely",
+    "retailerTitle": "Pekáreň Rožok štandard 50 g",
+    "externalId": "11000050",
+    "resolvedImageUrl": null,
+    "source": "none",
+    "status": "PLACEHOLDER"
+  },
+  "lst-prod-tami-maslo-250g-lidl": {
+    "listingId": "lst-prod-tami-maslo-250g-lidl",
+    "productId": "prod-tami-maslo-250g",
+    "canonicalName": "Tatranské maslo 82 %",
+    "retailerTitle": "Pilos Tradičné maslo 82 % 250 g",
+    "externalId": "11084521",
+    "resolvedImageUrl": "https://www.lidl.com/assets/gcp220bf8322a2b410a881d4c3bdf310edc.png",
+    "source": "lidl.com",
+    "status": "MATCHED"
+  },
+  "lst-prod-tauris-spisske-parky-200g-lidl": {
+    "listingId": "lst-prod-tauris-spisske-parky-200g-lidl",
+    "productId": "prod-tauris-spisske-parky-200g",
+    "canonicalName": "Spišské párky chránené označenie",
+    "retailerTitle": "Pikok Spišské párky ZTŠ 200 g",
+    "externalId": "11077810",
+    "resolvedImageUrl": null,
+    "source": "none",
+    "status": "PLACEHOLDER"
+  },
+  "lst-prod-tento-ellegance-8ks-lidl": {
+    "listingId": "lst-prod-tento-ellegance-8ks-lidl",
+    "productId": "prod-tento-ellegance-8ks",
+    "canonicalName": "Toaletný papier 3-vrstvový biely",
+    "retailerTitle": "Floralys Toaletný papier 3-vrstvový 8 ks",
+    "externalId": "11099996",
+    "resolvedImageUrl": "https://www.lidl.com/assets/gcp78751596e8104f9da1bcbd60b09f54fe.png",
+    "source": "lidl.com",
+    "status": "MATCHED"
+  },
+  "lst-prod-uhorka-hadovka-1ks-lidl": {
+    "listingId": "lst-prod-uhorka-hadovka-1ks-lidl",
+    "productId": "prod-uhorka-hadovka-1ks",
+    "canonicalName": "Uhorka šalátová hadovka",
+    "retailerTitle": "Čerstvá uhorka šalátová 1 ks",
+    "externalId": "11098850",
+    "resolvedImageUrl": "https://www.lidl.com/assets/gcp99a466de9e1e4dcdbeeacdff6b323861.png",
+    "source": "lidl.com",
+    "status": "MATCHED"
+  },
+  "lst-prod-vinea-biela-1-5l-lidl": {
+    "listingId": "lst-prod-vinea-biela-1-5l-lidl",
+    "productId": "prod-vinea-biela-1-5l",
+    "canonicalName": "Hroznový sýtený nápoj biely",
+    "retailerTitle": "Vinea biela 1,5 l PET",
+    "externalId": "11099950",
+    "resolvedImageUrl": null,
+    "source": "none",
+    "status": "PLACEHOLDER"
+  },
+  "lst-prod-zemiaky-neskore-2kg-lidl": {
+    "listingId": "lst-prod-zemiaky-neskore-2kg-lidl",
+    "productId": "prod-zemiaky-neskore-2kg",
+    "canonicalName": "Zemiaky konzumné neskoré balené",
+    "retailerTitle": "Zemiaky konzumné neskoré prané 2 kg balenie",
+    "externalId": "11095520",
+    "resolvedImageUrl": "https://www.lidl.com/assets/gcpd10e2972e6974f37be7d3a702732bd5e.png",
+    "source": "lidl.com",
+    "status": "MATCHED"
+  },
+  "lst-prod-zlaty-bazant-12-500ml-lidl": {
+    "listingId": "lst-prod-zlaty-bazant-12-500ml-lidl",
+    "productId": "prod-zlaty-bazant-12-500ml",
+    "canonicalName": "Svetlý ležiak 12 % plechovka",
+    "retailerTitle": "Zlatý Bažant 12 % svetlý ležiak 0,5 l plech",
+    "externalId": "11099990",
+    "resolvedImageUrl": null,
+    "source": "none",
+    "status": "PLACEHOLDER"
+  },
+  "lst-prod-zvolensky-cokolada-145g-lidl": {
+    "listingId": "lst-prod-zvolensky-cokolada-145g-lidl",
+    "productId": "prod-zvolensky-cokolada-145g",
+    "canonicalName": "Smotanový jogurt čokoládový",
+    "retailerTitle": "Zvolenský Smotanový jogurt čokoládový 145 g",
+    "externalId": "11091210",
+    "resolvedImageUrl": null,
+    "source": "none",
+    "status": "PLACEHOLDER"
+  }
+}

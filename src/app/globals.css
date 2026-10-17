@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+:root {
+  --bg-canvas: #F7F5F0;
+  --bg-surface: #FFFFFF;
+  --bg-subtle: #EFECE4;
+  --bg-elevated: #FAF9F5;
+  --text-primary: #141815;
+  --text-secondary: #4A544E;
+  --text-muted: #768079;
+  --border-subtle: #E4E0D5;
+  --border-strong: #C9C3B4;
+  --brand-primary: #123524;
+  --brand-primary-hover: #1A4B33;
+  --brand-accent-soft: #E3EFE8;
+  --savings-emerald: #177245;
+  --savings-surface: #EAF6EF;
+  --promo-terracotta: #C84B31;
+  --promo-surface: #FDF0ED;
+  --loyalty-amber: #8F5B14;
+  --loyalty-surface: #FDF6E9;
+  --loyalty-border: #E8C98E;
+  --retailer-lidl: #1D4ED8;
+  --retailer-tesco: #0F4C81;
+  --retailer-billa: #B45309;
+}
+
+.dark {
+  --bg-canvas: #0E1310;
+  --bg-surface: #151C18;
+  --bg-subtle: #1D2621;
+  --bg-elevated: #212B25;
+  --text-primary: #F2F0EA;
+  --text-secondary: #B0B9B3;
+  --text-muted: #7D8781;
+  --border-subtle: #26312A;
+  --border-strong: #37463D;
+  --brand-primary: #276749;
+  --brand-primary-hover: #2F855A;
+  --brand-accent-soft: #182E23;
+  --savings-emerald: #38A169;
+  --savings-surface: #132A1F;
+  --promo-terracotta: #E06348;
+  --promo-surface: #2B1814;
+  --loyalty-amber: #D69E2E;
+  --loyalty-surface: #282011;
+  --loyalty-border: #5F471D;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+}
+
+.font-serif-editorial {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+.font-mono-tabular {
+  font-family: var(--font-mono), ui-monospace, SFMono-Regular, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom Editorial Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-subtle);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

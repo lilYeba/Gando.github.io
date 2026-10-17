@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-panzani-torti-tricolore-vretena-500g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FEF2F2" />
+    </linearGradient>
+    <pattern id="pat-panzani-torti-tricolore-vretena-500g" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#DC2626" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-panzani-torti-tricolore-vretena-500g)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-panzani-torti-tricolore-vretena-500g)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="83" height="26" rx="6" fill="#123524" />
+    <text x="41.5" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">PANZANI</text>
+
+    <rect x="93" y="0" width="70" height="26" rx="6" fill="#FECACA" stroke="#DC2626" stroke-width="1" />
+    <text x="128" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#7F1D1D" text-anchor="middle">500 g</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(130, 65)">
+        <ellipse cx="70" cy="165" rx="55" ry="14" fill="#000" opacity="0.08"/>
+        <path d="M25,35 L115,35 L118,155 L22,155 Z" fill="#DC2626" stroke="#991B1B" stroke-width="2.5"/>
+        <rect x="35" y="55" width="70" height="40" rx="4" fill="#FFFFFF"/>
+        <text x="70" y="78" font-family="system-ui, sans-serif" font-weight="900" font-size="12" fill="#15803D" text-anchor="middle">PANZANI</text>
+        <text x="70" y="90" font-family="system-ui, sans-serif" font-weight="700" font-size="7" fill="#DC2626" text-anchor="middle">TORTI TRICOLORE</text>
+        <circle cx="50" cy="125" r="10" fill="#FACC15"/>
+        <circle cx="70" cy="125" r="10" fill="#15803D"/>
+        <circle cx="90" cy="125" r="10" fill="#EF4444"/>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Panzani Torti Tricolore vretená</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#DC2626" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

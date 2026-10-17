@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-rajo-tradicny-tvaroh-jemny-hrudkovity-250g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#EFF6FF" />
+    </linearGradient>
+    <pattern id="pat-rajo-tradicny-tvaroh-jemny-hrudkovity-250g" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#2563EB" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-rajo-tradicny-tvaroh-jemny-hrudkovity-250g)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-rajo-tradicny-tvaroh-jemny-hrudkovity-250g)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="80" height="26" rx="6" fill="#123524" />
+    <text x="40" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">RAJO</text>
+
+    <rect x="90" y="0" width="70" height="26" rx="6" fill="#DBEAFE" stroke="#2563EB" stroke-width="1" />
+    <text x="125" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#1E40AF" text-anchor="middle">250 g</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(115, 80)">
+        <ellipse cx="85" cy="140" rx="80" ry="16" fill="#000" opacity="0.08"/>
+        <path d="M25,55 L145,55 L135,130 L35,130 Z" fill="#FFFFFF" stroke="#3B82F6" stroke-width="2.5"/>
+        <rect x="30" y="65" width="110" height="35" fill="#2563EB"/>
+        <text x="85" y="82" font-family="system-ui, sans-serif" font-weight="900" font-size="12" fill="#FFFFFF" text-anchor="middle">rajo TVAROH</text>
+        <text x="85" y="94" font-family="system-ui, sans-serif" font-weight="700" font-size="8" fill="#DBEAFE" text-anchor="middle">JEMNÝ HRUDKOVITÝ</text>
+        <!-- Curd curles/dots -->
+        <circle cx="65" cy="115" r="5" fill="#DBEAFE"/>
+        <circle cx="85" cy="118" r="6" fill="#E0F2FE"/>
+        <circle cx="105" cy="114" r="5" fill="#DBEAFE"/>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Tradičný tvaroh jemný hrudkovitý</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#2563EB" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

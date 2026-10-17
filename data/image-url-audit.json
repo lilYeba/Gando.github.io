@@ -1,0 +1,2146 @@
+{
+  "total": 311,
+  "with_url": 282,
+  "missing_url": 29,
+  "accessible": 12,
+  "broken": 270,
+  "duplicates": 0,
+  "details": [
+    {
+      "productId": "prod-ajax-floral-fiesta-1l",
+      "name": "Univerzálny čistič Ajax Floral Fiesta",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/895/100/1008/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-ariel-allin1-pods-mountain-24ks",
+      "name": "Pracie kapsuly Ariel Allin1 Pods",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/800/109/000/1029/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-ariel-color-prasok-33kg",
+      "name": "Prací prášok Ariel Color",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/800/109/000/1012/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-ariel-gel-mountain-spring-17l",
+      "name": "Prací gél Ariel Mountain Spring",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/800/109/000/1005/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-aviko-krokety-zemiakove-600g",
+      "name": "Zemiakové krokety",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/044/991/1012/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-aviko-super-crunch-hranolky-750g",
+      "name": "Hranolky Super Crunch",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/044/991/1005/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-avokado-ready-to-eat-1ks",
+      "name": "Avokádo Hass zrelé (Ready to eat) 1 ks",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-babickina-volba-hladka-1kg",
+      "name": "Pšeničná múka hladká",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/268/0016/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-babickina-volba-polohruba-1kg",
+      "name": "Pšeničná múka polohrubá",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/268/0023/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-babovka-mramorova-penam-400g",
+      "name": "Bábovka mramorová",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/500/930/1478/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-bageta-francuzska-stredna-120g",
+      "name": "Bageta francúzska stredná",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-baldovska-perlive-15l",
+      "name": "Minerálna voda Baldovská perlivá",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/217/0047/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-balticovo-vajcia-m-10ks",
+      "name": "Čerstvé vajcia z podstielkového chovu M 10 ks",
+      "status": "ACCESSIBLE",
+      "imageUrl": "https://digitalcontent.api.tesco.com/v2/media/dotcom-hu/df634597-eb8e-47ca-b73b-da5fdde66f57/20261008092552651_balticovo-vajcia_2005111270042_1.png"
+    },
+    {
+      "productId": "prod-banany-1kg",
+      "name": "Banány čerstvé voľné",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://www.lidl.sk/assets/gcp14706d1532a940b399f26810944403db.png",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)>"
+    },
+    {
+      "productId": "prod-banovecky-polostiepok-190g",
+      "name": "Bánovecký pološtiepok neúdený 190 g",
+      "status": "ACCESSIBLE",
+      "imageUrl": "https://images.openfoodfacts.org/images/products/858/600/154/3866/front_en.4.400.jpg"
+    },
+    {
+      "productId": "prod-barilla-basilico-omacka-400g",
+      "name": "Omáčka na cestoviny Basilico",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/807/680/951/3814/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-barilla-bolognese-omacka-400g",
+      "name": "Omáčka na cestoviny Bolognese",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/807/680/951/3807/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-barilla-farfalle-motyliky-500g",
+      "name": "Farfalle n. 65 semolinové",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/807/680/951/3760/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-barilla-fusilli-98-500g",
+      "name": "Fusilli n. 98 semolinové",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/807/680/951/3746/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-barilla-penne-rigate-73-500g",
+      "name": "Penne Rigate n. 73 semolinové",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/807/680/951/3739/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-barilla-pesto-genovese-190g",
+      "name": "Pesto alla Genovese",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/807/680/951/3821/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-barilla-spaghetti-no5-500g",
+      "name": "Spaghetti n. 5 semolinové",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/807/680/951/3753/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-bebe-dobre-rano-med-oriesky-50g",
+      "name": "BeBe Dobré ráno orieškové s medom",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/389/370/1020/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-bonavita-sojove-rezance-100g",
+      "name": "Sójové rezance dehydrované",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/124/0013/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-bonduelle-hrasok-jemny-400g",
+      "name": "Hrášok jemný mladý",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/308/368/000/5401/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-bonduelle-zlata-kukurica-340g",
+      "name": "Zlatá kukurica vákuovaná",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/308/368/008/5304/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-bravcove-kare-1kg",
+      "name": "Bravčové karé bez kosti chladené 1 kg",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-bref-brilliant-gel-arctic-3x42g",
+      "name": "Bref Brilliant Gel Arctic Ocean",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/900/010/000/1051/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-bref-power-aktiv-lemon-3x50g",
+      "name": "Bref Power Aktiv Lemon WC blok",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/900/010/000/1037/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-brokolica-500g",
+      "name": "Brokolica čerstvá balená 500 g",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://www.lidl.sk/assets/gcpc7adf2db2674491490a56316a4bd8f6e.png",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)>"
+    },
+    {
+      "productId": "prod-budis-jemne-perlive-15l",
+      "name": "Minerálna voda Budiš jemne perlivá",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/217/0030/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-budis-perlive-15l",
+      "name": "Minerálna voda Budiš perlivá",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/217/0023/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-calgon-3v1-gel-proti-vodnemu-kamenu-750ml",
+      "name": "Gél proti vodnému kameňu Calgon 3v1",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/500/015/800/2005/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-cappy-multivitamin-1l",
+      "name": "Džús Cappy Multivitamín",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/544/900/000/1047/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-caro-nestle-cerealny-napoj-200g",
+      "name": "Kávovinový nápoj Caro Nestlé",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/761/303/563/4598/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-carte-dor-vanilka-1000ml",
+      "name": "Zmrzlina Vanilka Bourbon",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/132/732/4008/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-cesnak-biely-3ks",
+      "name": "Cesnak biely sušený 3 ks",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-cessi-kolienka-bezvajecne-400g",
+      "name": "Kolienka bezvaječné",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/082/0104/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-cessi-nitovky-polievkove-400g",
+      "name": "Niťovky jemné polievkové",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/082/0012/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-cessi-siroke-rezance-400g",
+      "name": "Široké rezance bezvaječné",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/082/0128/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-cessi-tarhona-bezvajecna-400g",
+      "name": "Tarhoňa bezvaječná",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/082/0159/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-chlieb-slnecnicovy-tmavy-500g",
+      "name": "Chlieb slnečnicový tmavý",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/500/930/1157/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-chlieb-toustovy-penam-celozrnny-500g",
+      "name": "Toastový chlieb celozrnný",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/500/930/1454/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-chlieb-zemiakovy-konzumny-500g",
+      "name": "Chlieb zemiakový krájaný",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/500/930/1102/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-cibula-zlta-1kg",
+      "name": "Cibuľa žltá neskorá 1 kg",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-cif-brilliant-bath-750ml",
+      "name": "Cif Brilliant Bath sprej na kúpeľňu",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/210/000/2013/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-cif-original-biely-krem-500ml",
+      "name": "Cif Original biely čistiaci krém",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/210/000/2020/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-citrony-500g",
+      "name": "Citróny čerstvé sieťka 500 g",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-clin-na-okna-citron-500ml",
+      "name": "Clin čistič okien s rozprašovačom",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/900/010/000/1044/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-coca-cola-original-175l",
+      "name": "Coca-Cola Original Taste",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/544/900/000/0996/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-coca-cola-zero-175l",
+      "name": "Coca-Cola Zero Sugar",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/544/900/000/1009/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-colgate-total-clean-mint-75ml",
+      "name": "Zubná pasta Colgate Total Clean Mint",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/895/122/3325/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-cuketa-zelena-1kg",
+      "name": "Cuketa zelená čerstvá 1 kg",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-curaprox-cs5460-zubna-kefka-1ks",
+      "name": "Zubná kefka Curaprox CS 5460 Ultra Soft",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/761/241/242/3007/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-detska-krupica-pohronsky-ruskov-500g",
+      "name": "Detská krupica dehydrovaná",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/010/0022/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-dolce-gusto-espresso-16ks",
+      "name": "Nescafé Dolce Gusto Espresso kapsuly",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/761/303/563/4581/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-domestos-pine-fresh-750ml",
+      "name": "Domestos 24H Pine Fresh WC gél",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/210/000/2006/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-donut-s-cokoladovou-polevou-55g",
+      "name": "Donut s čokoládovou polevou",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-doritos-sweet-chilli-100g",
+      "name": "Tortilla chips Sweet Chilli",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/590/025/907/4036/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-dove-beauty-cream-bar-tuhe-mydlo-100g",
+      "name": "Tuhé mydlo Dove Beauty Cream Bar",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/210/000/5007/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-dove-deeply-nourishing-gel-250ml",
+      "name": "Sprchový gél Dove Deeply Nourishing",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/210/000/4000/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-dr-oetker-pizza-ristorante-mozzarella-335g",
+      "name": "Pizza Ristorante Mozzarella",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/400/172/481/9805/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-dr-oetker-pizza-ristorante-prosciutto-330g",
+      "name": "Pizza Ristorante Prosciutto",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/400/172/482/0009/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-dr-oetker-pizza-ristorante-quattro-formaggi-340g",
+      "name": "Pizza Ristorante Quattro Formaggi",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/400/172/481/9904/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-dr-oetker-pizza-ristorante-salame-320g",
+      "name": "Pizza Ristorante Salame",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/400/172/481/9706/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-dr-oetker-prasok-do-peciva-5ks",
+      "name": "Kypriaci prášok do pečiva",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/507/040/0182/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-dr-oetker-vanilinovy-cukor-5ks",
+      "name": "Vanilínový cukor multipack",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/507/040/0175/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-dr-oetker-zlaty-klas-40g",
+      "name": "Zlatý klas krémový prášok",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/507/040/0137/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-drozhdie-fala-42g",
+      "name": "Droždie Fala čerstvé",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/390/0018/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-dru-tycinky-rasca-90g",
+      "name": "Tyčinky sypané rascou",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/021/0035/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-dru-tycinky-sezamove-90g",
+      "name": "Tyčinky so sezamom",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/021/0028/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-dru-tycinky-slane-tradicne-90g",
+      "name": "Slané tyčinky tradičné",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/021/0011/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-elseve-total-repair-5-sampon-250ml",
+      "name": "Šampón Elseve Total Repair 5",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/360/052/100/1005/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-emco-ovsene-vlocky-jemne-500g",
+      "name": "Ovsené vločky jemné",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/520/260/0173/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-ensa-arasidy-solene-100g",
+      "name": "Arašidy pražené solené",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/062/0018/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-ensa-kesu-prazene-solene-100g",
+      "name": "Kešu orechy pražené solené",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/062/0049/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-ensa-mandle-prazene-solene-100g",
+      "name": "Mandle pražené solené",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/062/0032/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-ensa-pistacie-solene-100g",
+      "name": "Pistácie pražené solené",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/062/0025/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-ensa-tekvicove-semienka-100g",
+      "name": "Tekvicové semienka lúpané",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/062/0063/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-ensa-vlasske-orechy-lupane-200g",
+      "name": "Vlašské orechy lúpané",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/062/0056/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-fanta-orange-15l",
+      "name": "Fanta Orange pomaranč",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/544/900/000/1016/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-fatra-prirodna-zasadita-1l",
+      "name": "Minerálna voda Fatra prírodná",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/217/0061/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-felix-fantastic-kapsicky-4x85g",
+      "name": "Kapsičky pre mačky Felix Fantastic",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/761/303/500/1000/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-ferrero-kinder-bueno-43g",
+      "name": "Kinder Bueno mliečne",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/800/050/001/0013/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-ferrero-kinder-cokolada-100g",
+      "name": "Kinder Chocolate 8 tyčiniek",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/800/050/001/0020/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-ferrero-nutella-350g",
+      "name": "Lieskovooriešková nátierka Nutella",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/800/050/017/9864/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-ferrero-raffaello-150g",
+      "name": "Raffaello kokosové pralinky",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/800/050/000/4036/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-fidorka-horka-orieskova-30g",
+      "name": "Fidorka horká s orieškovou náplňou",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/389/370/1006/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-fino-alobal-hlinikova-folia-20m",
+      "name": "Alobal Fino hliníková fólia 20 m",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/520/131/400/1014/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-fino-mikrotenove-sacky-desiatove-100ks",
+      "name": "Mikroténové vrecká Fino na desiatu",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/520/131/400/1045/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-fino-papier-na-pecenie-8m",
+      "name": "Papier na pečenie Fino 8 m",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/520/131/400/1021/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-fino-potravinova-folia-30m",
+      "name": "Potravinová fólia Fino 30 m",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/520/131/400/1038/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-fino-vrecia-na-odpad-30l-50ks",
+      "name": "Vrecia na odpad Fino HD 30 l",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/520/131/400/1007/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-frosta-rybie-prsty-filet-300g",
+      "name": "Rybie prsty 100 % filet",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/400/836/605/2026/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-fuzetea-cierny-caj-broskyna-15l",
+      "name": "FuzeTea Čierny čaj s broskyňou",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/544/900/000/1054/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-garnier-mineral-deodorant-sprej-150ml",
+      "name": "Antiperspirant Garnier Mineral Action Control",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/360/054/100/1001/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-giana-sardinky-olej-125g",
+      "name": "Sardinky v rastlinnom oleji",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/514/940/0017/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-gillette-mach3-nahradne-hlavice-4ks",
+      "name": "Holiace hlavice Gillette Mach3",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/770/201/800/1004/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-gillette-pena-na-holenie-sensitive-200ml",
+      "name": "Pena na holenie Gillette Sensitive",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/770/201/800/1011/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-haagen-dazs-salted-caramel-460ml",
+      "name": "Zmrzlina Salted Caramel",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/341/558/110/1007/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-hamanek-kuracie-so-zeleninou-190g",
+      "name": "Detský príkrm Hamánek Kuracie mäso so zeleninou",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/131/4011/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-hame-majka-pasteta-75g",
+      "name": "Paštéta Májka zlaté dedičstvo",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/131/1003/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-hame-morca-della-400g",
+      "name": "Morca-Della zmes na špagety",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/500/240/1014/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-hame-pali-pikantna-natierka-75g",
+      "name": "Pali pikantná nátierka",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/131/1010/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-haribo-goldbaren-100g",
+      "name": "Cukríky Haribo Goldbären",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/400/168/630/1011/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-harmony-everyday-vreckovky-box-100ks",
+      "name": "Kozmetické vreckovky Harmony Everyday",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/800/001/0028/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-harmony-soft-flora-toaletny-papier-8ks",
+      "name": "Toaletný papier Harmony Soft Flora",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/800/001/0011/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-haslerky-original-90g",
+      "name": "Cukríky Hašlerky Originál",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/389/370/3024/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-head-shoulders-classic-clean-300ml",
+      "name": "Šampón Head & Shoulders Classic Clean",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/800/109/000/2002/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-heinz-beanz-baked-beans-415g",
+      "name": "Biela fazuľa v paradajkovej omáčke Beanz",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/500/015/702/4671/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-heinz-ketchup-jemny-570g",
+      "name": "Paradajkový kečup jemný",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/570/042/1773/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-heinz-ketchup-ostry-570g",
+      "name": "Paradajkový kečup ostrý",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/570/042/1889/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-hellmanns-majoneza-original-405ml",
+      "name": "Majonéza Originál",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/210/087/8502/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-hellmanns-tatarska-omacka-405ml",
+      "name": "Tatárska omáčka Originál",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/210/087/8526/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-hrozno-biele-bezjadierkove-500g",
+      "name": "Hrozno biele bezjadierkové 500 g",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-hyza-kuracie-prsia-1kg",
+      "name": "Kuracie prsné rezne chladené 1 kg",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-jablka-gala-1kg",
+      "name": "Jablká Gala slovenské voľné",
+      "status": "ACCESSIBLE",
+      "imageUrl": "https://www.lidl.com/assets/gcp4096668e169b469fba11362554a5d51a.png"
+    },
+    {
+      "productId": "prod-jacobs-kronung-mleta-250g",
+      "name": "Jacobs Krönung mletá káva",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/100/000/1009/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-jacobs-velvet-instantna-200g",
+      "name": "Jacobs Velvet instantná káva",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/100/000/1023/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-jahody-cerstve-500g",
+      "name": "Jahody čerstvé vanička 500 g",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-jar-citron-prostriedok-na-riad-450ml",
+      "name": "Jar Lemon prostriedok na riad",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/541/007/656/6465/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-jar-platinum-tablety-umyvacka-60ks",
+      "name": "Jar Platinum All in 1 tablety do umývačky",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/541/007/656/6472/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-jar-sensitive-hermanek-900ml",
+      "name": "Jar Sensitive Harmanček a vitamín E",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/541/007/656/6458/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-jojo-kysle-dazdovky-80g",
+      "name": "Želé cukríky JOJO Kyslé dážďovky",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/389/370/3017/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-kapusta-biela-1kg",
+      "name": "Kapusta hlávková biela 1 kg",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-kinder-surprise-vajicko-20g",
+      "name": "Kinder Surprise čokoládové vajíčko",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/800/050/001/0037/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-kinley-tonic-water-15l",
+      "name": "Kinley Tonic Water",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/544/900/000/1030/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-kiwi-kosik-1kg",
+      "name": "Kiwi zelené košík 1 kg",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-kofola-bez-cukru-15l",
+      "name": "Kofola Bez cukru",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/601/107/0123/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-kofola-original-2l",
+      "name": "Kofola Original sýtená",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/601/107/0017/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-korunny-cukor-krystalovy-1kg",
+      "name": "Korunný cukor kryštálový",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/500/240/0017/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-korunny-cukor-praskovy-1kg",
+      "name": "Korunný cukor práškový",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/500/240/0031/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-korunny-cukor-trstinovy-500g",
+      "name": "Prírodný trstinový cukor",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/500/240/0116/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-kuracie-stvrte-1kg",
+      "name": "Kuracie štvrte chladené 1 kg",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://www.lidl.sk/assets/gcp2649deaeceb140bfb687b020b40bf8ae.png",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)>"
+    },
+    {
+      "productId": "prod-ladovy-salat-1ks",
+      "name": "Ľadový šalát čerstvý 1 ks",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-lagris-cicer-suseny-500g",
+      "name": "Cícer baraní sušený",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/181/0117/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-lagris-fazula-biela-500g",
+      "name": "Fazuľa biela malá",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/181/0025/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-lagris-fazula-cervena-kidney-500g",
+      "name": "Fazuľa červená Kidney",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/181/0056/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-lagris-hrach-zlty-poleny-500g",
+      "name": "Hrach žltý lúpaný polený",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/181/0032/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-lagris-kuskus-stredny-500g",
+      "name": "Kuskus pšeničný",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/181/0087/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-lagris-pohanka-lupana-500g",
+      "name": "Pohánka lúpaná krúpy",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/181/0124/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-lagris-psenicny-bulgur-500g",
+      "name": "Bulgur pšeničný hrubozrnný",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/181/0131/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-lagris-ryza-basmati-1kg",
+      "name": "Ryža Basmati",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/181/0148/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-lagris-sosovica-cervena-500g",
+      "name": "Šošovica červená lúpaná polená",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/181/0100/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-lagris-sosovica-velkozrnna-500g",
+      "name": "Šošovica veľkozrnná",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/181/0018/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-lavazza-crema-e-gusto-mleta-250g",
+      "name": "Lavazza Crema e Gusto mletá káva",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/800/007/000/1015/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-lavazza-qualita-oro-zrnkova-250g",
+      "name": "Lavazza Qualità Oro zrnková káva",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/800/007/000/1008/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-lays-fromage-130g",
+      "name": "Lay's Fromage bylinková smotana",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/590/025/907/4029/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-lays-salted-130g",
+      "name": "Lay's Solené zemiakové lupienky",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/590/025/907/4012/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-lays-stix-ketchup-130g",
+      "name": "Lay's Stix Kečup zemiakové tyčinky",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/590/025/907/4005/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-lenor-spring-awakening-12l",
+      "name": "Aviváž Lenor Spring Awakening",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/800/109/000/1036/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-leros-detsky-bylinny-caj-40g",
+      "name": "Detský bylinný čaj Leros",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/475/100/1004/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-lipton-yellow-label-50g",
+      "name": "Lipton Yellow Label čierny čaj",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/210/000/1009/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-liptov-bryndza-110g",
+      "name": "Bryndza plnotučná slovenská 110 g",
+      "status": "ACCESSIBLE",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/800/000/3020/front_en.4.400.jpg"
+    },
+    {
+      "productId": "prod-listerine-cool-mint-500ml",
+      "name": "Ústna voda Listerine Cool Mint",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/357/466/000/1004/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-listkove-cesto-chladene-275g",
+      "name": "Lístkové cesto chladené rozvaľkané",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/202/200/000/0117/front_de.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-losos-fileta-300g",
+      "name": "Losos obyčajný fileta s kožou chladená 300 g",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-machland-kvasena-kapusta-640g",
+      "name": "Kyslá kapusta kvasená",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/131/2024/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-magnum-almond-3x100ml",
+      "name": "Nanuk Magnum Almond multipack",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/132/732/4015/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-mandarinky-1kg",
+      "name": "Mandarínky čerstvé sieťka 1 kg",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-manya-slnecnicove-semienka-200g",
+      "name": "Slnečnicové semienka lúpané",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/394/0021/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-mars-tycinka-51g",
+      "name": "Tyčinka Mars",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/500/015/946/1139/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-maslovy-croissant-54g",
+      "name": "Maslový croissant jemný",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-mecom-dusena-sunka-100g",
+      "name": "Dusená šunka výberová krájaná 100 g",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-med-kvetovy-medokys-500g",
+      "name": "Kvetový včelí med lúčny",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/394/0113/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-mentos-mint-draze-38g",
+      "name": "Mentos Mint mentolové dražé",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/080/000/1012/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-milka-alpine-milk-100g",
+      "name": "Čokoláda Milka Alpine Milk",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/762/221/098/4807/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-milka-noisette-100g",
+      "name": "Čokoláda Milka Noisette",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/762/221/098/4814/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-milka-oreo-100g",
+      "name": "Čokoláda Milka Oreo",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/762/221/098/4821/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-misa-nanuk-tvarohovy-55ml",
+      "name": "Nanuk Míša tvarohový tradičný",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/389/330/1015/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-mistral-lesne-plody-40g",
+      "name": "Ovocný čaj Mistral Lesné plody",
+      "status": "ACCESSIBLE",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/002/0061/front_sk.3.400.jpg"
+    },
+    {
+      "productId": "prod-miticka-ticha-15l",
+      "name": "Minerálna voda Mitická tichá",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/217/0054/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-miva-arasidove-chrumky-100g",
+      "name": "Tradičné arašidové chrumky",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/184/0010/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-mlete-maso-mix-500g",
+      "name": "Mleté mäso MIX bravčovo-hovädzie 500 g",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://www.lidl.sk/assets/gcpbb5457cfaade48a2b3226774667cfd99.png",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)>"
+    },
+    {
+      "productId": "prod-monini-classico-extra-virgin-500ml",
+      "name": "Extra panenský olivový olej Classico",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/800/557/000/0101/front_it.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-mrkva-prana-1kg",
+      "name": "Mrkva praná balená 1 kg",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-mutti-passata-700g",
+      "name": "Paradajkové pyré Passata",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/800/511/000/0107/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-mutti-polpa-400g",
+      "name": "Krájané paradajky Polpa",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/800/511/017/0404/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-nescafe-classic-instantna-200g",
+      "name": "Nescafé Classic instantná káva",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/761/303/563/4567/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-nescafe-gold-instantna-200g",
+      "name": "Nescafé Gold instantná káva",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/761/303/563/4574/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-nivea-creme-care-sprchovy-gel-250ml",
+      "name": "Sprchový gél Nivea Creme Care",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/400/580/800/1006/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-nivea-creme-modra-plechovka-150ml",
+      "name": "Univerzálny krém Nivea Creme",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/400/580/800/3000/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-nivea-rich-nourishing-telove-mlieko-400ml",
+      "name": "Telové mlieko Nivea Rich Nourishing",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/400/580/800/2003/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-nowaco-listkove-cesto-mrazene-400g",
+      "name": "Lístkové cesto mrazené",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/141/0034/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-nowaco-obalovany-syr-200g",
+      "name": "Obaľovaný syr Eidam",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/141/0027/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-nowaco-rybie-file-treska-400g",
+      "name": "Rybie filé z tresky porcie",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/141/0010/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-old-spice-captain-deostick-50ml",
+      "name": "Tuhý dezodorant Old Spice Captain",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/800/109/000/3009/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-olej-heliol-repkovy-1l",
+      "name": "Repkový olej",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/500/120/0038/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-olej-raciol-slnecnicovy-1l",
+      "name": "Slnečnicový olej",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/500/120/0113/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-oravska-slanina-200g",
+      "name": "Oravská údená slanina 200 g",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-orbit-peppermint-14g",
+      "name": "Žuvačky Orbit Peppermint",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/501/731/67/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-orion-horka-cokolada-68-100g",
+      "name": "Orion Horká čokoláda 68 %",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/389/370/2010/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-ovko-jablko-jahoda-vyziva-190g",
+      "name": "Detská výživa Ovko Jablko a jahoda",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/003/0015/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-palmolive-olive-milk-sprchovy-gel-250ml",
+      "name": "Sprchový gél Palmolive Olive & Milk",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/895/100/2005/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-pampers-active-baby-4-54ks",
+      "name": "Detské plienky Pampers Active Baby 4",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/800/109/000/4006/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-pampers-sensitive-vlhcene-utierky-52ks",
+      "name": "Detské vlhčené utierky Pampers Sensitive",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/800/109/000/4013/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-panzani-penne-rigate-500g",
+      "name": "Penne Rigate semolinové",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/303/835/028/8029/front_fr.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-panzani-spaghetti-500g",
+      "name": "Spaghetti semolinové",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/303/835/028/8005/front_fr.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-paprika-cervena-1kg",
+      "name": "Paprika červená hrubostenná 1 kg",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-paradajky-strapcove-500g",
+      "name": "Paradajky strapcové červené 500 g",
+      "status": "ACCESSIBLE",
+      "imageUrl": "https://www.lidl.com/assets/gcpb7e43c31936c4766b17fdd08d80b2922.png"
+    },
+    {
+      "productId": "prod-pedigree-adult-hovadzie-hydina-26kg",
+      "name": "Granule pre psov Pedigree Adult",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/590/095/100/2001/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-pedigree-dentastix-stredne-psy-110g",
+      "name": "Dentálna pochúťka Pedigree DentaStix",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/590/095/100/2018/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-pedigree-kapsicky-vyber-4x100g",
+      "name": "Kapsičky pre psov Pedigree výber",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/590/095/100/2025/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-penam-toastovy-chlieb-svetly-500g",
+      "name": "Toastový chlieb svetlý",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/500/930/1447/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-penam-vianocka-hrozienka-400g",
+      "name": "Vianočka s hrozienkami",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/500/930/0853/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-pepsi-cola-15l",
+      "name": "Pepsi Cola",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/590/049/700/1007/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-persil-deep-clean-color-gel-17l",
+      "name": "Prací gél Persil Deep Clean Color",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/900/010/000/1013/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-perwoll-renew-black-198l",
+      "name": "Prací gél Perwoll Renew Black",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/900/010/000/1075/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-pohronsky-ruskov-hladka-1kg",
+      "name": "Pšeničná múka hladká T-650",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/010/0015/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-pomarance-1kg",
+      "name": "Pomaranče čerstvé voľné 1 kg",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-popradska-espresso-zrnkova-500g",
+      "name": "Popradská káva Espresso Professional",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/002/0047/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-popradska-extra-special-250g",
+      "name": "Popradská káva Extra špeciál 100 % arabika",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/002/0030/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-popradska-standard-mleta-250g",
+      "name": "Popradská káva Štandard zmes",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/002/0016/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-popradsky-pigi-caj-cierny-30g",
+      "name": "Popradský Pigi čaj čierny",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/002/0054/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-pringles-original-165g",
+      "name": "Pringles Original snack",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/505/399/010/1008/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-pringles-sour-cream-onion-165g",
+      "name": "Pringles Sour Cream & Onion",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/505/399/010/1015/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-propesko-konzerva-hovadzie-1240g",
+      "name": "Konzerva pre psov Propesko s hovädzím",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/142/0019/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-protex-fresh-tekute-mydlo-300ml",
+      "name": "Tekuté mydlo Protex Fresh",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/895/100/3002/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-psenicno-razny-chlieb-1kg",
+      "name": "Chlieb pšenično-ražný konzumný",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/800/000/0104/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-pur-balsam-aloe-vera-450ml",
+      "name": "Pur Balsam Aloe Vera na riad",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/900/010/000/1068/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-purina-one-adult-losos-800g",
+      "name": "Granule pre mačky Purina ONE Adult s lososom",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/761/303/500/1017/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-racio-kukuricne-chlebicky-100g",
+      "name": "Kukuričné chlebíčky",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/094/0129/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-racio-ryzove-chlebicky-sol-100g",
+      "name": "Ryžové chlebíčky so soľou",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/094/0112/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-rajec-bylinka-materina-duska-15l",
+      "name": "Ochutená voda Rajec Materina dúška",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/877/0050/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-rajec-bylinka-pupava-15l",
+      "name": "Ochutená voda Rajec Púpava",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/877/0043/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-rajec-jemne-sytena-15l",
+      "name": "Pramenitá voda Rajec jemne sýtená",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/877/0029/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-rajec-nesytena-voda-15l",
+      "name": "Pramenitá voda Rajec nesýtená",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/877/0012/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-rajo-eidam-platky-100g",
+      "name": "Eidam plátky 45 % t. v s. 100 g",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.org/images/products/858/500/251/1454/front_sk.5.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-rajo-mlieko-15-1l",
+      "name": "Trvanlivé mlieko polotučné 1,5 % 1 l",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.org/images/products/858/500/250/0014/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-rajo-mnam-jogurt-145g",
+      "name": "Mňam Duo smotanový jogurt jahoda 145 g",
+      "status": "ACCESSIBLE",
+      "imageUrl": "https://images.openfoodfacts.org/images/products/858/500/250/0854/front_en.6.400.jpg"
+    },
+    {
+      "productId": "prod-rajo-tvaroh-250g",
+      "name": "Tradičný tvaroh jemný hrudkovitý 250 g",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.org/images/products/858/500/250/0595/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-red-bull-energy-drink-250ml",
+      "name": "Red Bull Energy Drink",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/900/249/010/0070/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-relax-100-jablko-1l",
+      "name": "Džús Relax 100 % jablko",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/222/0025/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-relax-100-pomaranc-1l",
+      "name": "Džús Relax 100 % pomaranč",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/222/0018/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-rexona-cobalt-dry-roll-on-50ml",
+      "name": "Antiperspirant Rexona Men Cobalt Dry",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/210/000/6004/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-rio-mare-tuniak-olivovy-olej-4x80g",
+      "name": "Tuniak v olivovom oleji multipack",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/800/403/004/1005/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-rio-mare-tuniak-stava-4x80g",
+      "name": "Tuniak vo vlastnej šťave multipack",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/800/403/004/2002/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-rohlik-standard-40g",
+      "name": "Rohlík štandard biely",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-ryza-gulatovzranna-manya-1kg",
+      "name": "Ryža guľatozrnná",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/394/0014/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-sampinony-biele-500g",
+      "name": "Šampiňóny biele čerstvé 500 g",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-savo-original-dezinfekcia-12l",
+      "name": "Savo Originál dezinfekčný prípravok",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/131/3014/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-savo-proti-plesni-rozprasovac-500ml",
+      "name": "Savo Proti plesni s rozprašovačom",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/131/3021/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-sedita-horalky-50g",
+      "name": "Oblátka Horalky arašidová",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/800/000/0302/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-sedita-kakaove-rezy-50g",
+      "name": "Oblátka Kakaové rezy",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/800/000/0333/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-sedita-kavenky-50g",
+      "name": "Oblátka Kávenky kávová",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/800/000/0326/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-sedita-lina-arasidova-mliecna-60g",
+      "name": "Oblátka Lina arašidová mliečna",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/800/000/0340/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-sedita-mila-50g",
+      "name": "Oblátka Mila s mliečnou náplňou",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/800/000/0319/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-sedita-vesna-50g",
+      "name": "Oblátka Vesna citrónová",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/800/000/0357/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-sensodyne-extra-fresh-75ml",
+      "name": "Zubná pasta Sensodyne Extra Fresh",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/505/456/300/1002/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-signal-daily-white-zubna-pasta-75ml",
+      "name": "Zubná pasta Signal Daily White",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/871/210/000/3003/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-silan-sensitive-avivaz-11l",
+      "name": "Aviváž Silan Sensitive",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/900/010/000/1020/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-siska-s-marhulovou-naplnou-65g",
+      "name": "Šiška s marhuľovou náplňou",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-slovakia-chips-paprika-130g",
+      "name": "Zemiakové lupienky paprika",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/500/090/2520/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-slovakia-chips-slanina-130g",
+      "name": "Zemiakové lupienky gazdovská slaninka",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/500/090/2513/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-slovakia-chips-smotana-cibula-130g",
+      "name": "Zemiakové lupienky smotana a cibuľa",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/500/090/2537/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-slovakia-chips-solene-130g",
+      "name": "Zemiakové lupienky solené",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/500/090/2506/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-slovakia-pecene-tycinky-zemiakove-160g",
+      "name": "Pečené tyčinky zemiakové",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/500/090/2544/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-snickers-tycinka-50g",
+      "name": "Tyčinka Snickers",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/500/015/946/1122/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-snico-horcica-kremzska-350g",
+      "name": "Horčica kremžská",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/014/0035/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-snico-horcica-plnotucna-350g",
+      "name": "Horčica plnotučná",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/014/0028/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-snico-ocot-kvasny-liehovy-1l",
+      "name": "Ocot kvasný liehový 8 %",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/014/0011/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-solivar-sol-jodovana-1kg",
+      "name": "Jedlá soľ jódovaná",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/100/0014/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-somat-all-in-1-tablety-80ks",
+      "name": "Somat All in 1 tablety do umývačky",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/900/010/000/1006/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-somat-sol-do-umyvacky-15kg",
+      "name": "Soľ do umývačky riadu Somat",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/900/010/000/1082/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-spenat-baby-125g",
+      "name": "Baby špenát čerstvý praný 125 g",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-sprite-limetka-citron-15l",
+      "name": "Sprite citrón a limetka",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/544/900/000/1023/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-storck-merci-finest-selection-250g",
+      "name": "Merci Finest Selection bonboniéra",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/401/440/090/1009/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-storck-toffifee-125g",
+      "name": "Toffifee oriešok v karameli",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/401/440/090/1016/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-struhanka-pekarenska-500g",
+      "name": "Strúhanka pekárenská",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/500/930/1416/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-studentska-pecat-mliecna-170g",
+      "name": "Čokoláda Študentská pečať mliečna",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/389/370/2003/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-sunar-detske-keksiky-175g",
+      "name": "Detské sušienky Sunar",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/208/400/1007/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-tami-maslo-250g",
+      "name": "Tatranské maslo 82 % 250 g",
+      "status": "ACCESSIBLE",
+      "imageUrl": "https://images.openfoodfacts.org/images/products/858/500/090/2797/front_en.3.400.jpg"
+    },
+    {
+      "productId": "prod-tauris-spisske-parky-200g",
+      "name": "Spišské párky ZTŠ 200 g",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-tchibo-barista-espresso-500g",
+      "name": "Tchibo Barista Espresso zrnková káva",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/404/600/000/1019/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-tchibo-exclusive-mleta-250g",
+      "name": "Tchibo Exclusive mletá káva",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/404/600/000/1002/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-teekanne-earl-grey-35g",
+      "name": "Teekanne Earl Grey s bergamotom",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/901/000/000/1003/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-teekanne-ginger-lemon-40g",
+      "name": "Teekanne Zázvor a citrón",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/901/000/000/1034/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-teekanne-green-tea-35g",
+      "name": "Teekanne Zelený čaj čistý",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/901/000/000/1010/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-teekanne-peppermint-matovy-45g",
+      "name": "Teekanne Mätový bylinný čaj",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/901/000/000/1027/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-teekanne-zeleny-opuntia-35g",
+      "name": "Teekanne Zelený čaj s opunciou",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/901/000/000/1041/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-tekovsky-syr-udeny-1kg",
+      "name": "Tekovský salámový syr údený 1 kg",
+      "status": "ACCESSIBLE",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/500/090/2568/front_en.3.400.jpg"
+    },
+    {
+      "productId": "prod-tento-complex-kuchynske-utierky-1ks",
+      "name": "Kuchynské utierky Tento Complex",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/001/0017/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-tento-ellegance-toaletny-papier-8ks",
+      "name": "Toaletný papier Tento Ellegance Blue Decor",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/001/0024/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-tento-vreckovky-10x10ks",
+      "name": "Papierové vreckovky Tento balíčky",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/001/0031/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-tortilla-wraps-panzani-370g",
+      "name": "Tortilla pšeničné placky",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/303/835/900/5283/front_fr.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-treska-slovenska-140g",
+      "name": "Treska v majonéze Exklusiv 140 g",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-twix-tycinka-50g",
+      "name": "Tyčinka Twix",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/500/015/946/1146/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-uhorka-hadovka-1ks",
+      "name": "Uhorka šalátová hadovka 1 ks",
+      "status": "ACCESSIBLE",
+      "imageUrl": "https://www.lidl.com/assets/gcp99a466de9e1e4dcdbeeacdff6b323861.png"
+    },
+    {
+      "productId": "prod-vanish-oxi-action-tekuty-500ml",
+      "name": "Vanish Oxi Action odstraňovač škvŕn",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/500/015/800/1008/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-vileda-colors-handricky-mikrovlakno-4ks",
+      "name": "Handričky z mikrovlákna Vileda Colors",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/402/310/300/1012/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-vileda-glitzi-hubka-na-riad-3ks",
+      "name": "Hubky na riad Vileda Glitzi",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/402/310/300/1005/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-vincentka-lieciva-voda-07l",
+      "name": "Vincentka liečivá minerálna voda",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/217/0075/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-vinea-biela-hroznova-15l",
+      "name": "Vinea biela hroznová sýtená",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/601/107/0208/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-vinea-cervena-hroznova-15l",
+      "name": "Vinea červená hroznová",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/601/107/0215/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-vinica-hrasok-mrazeny-400g",
+      "name": "Hrášok mladý mrazený",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/072/0022/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-vinica-jahody-mrazene-400g",
+      "name": "Jahody hlbokozmrazené",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/072/0053/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-vinica-knedlicky-jahoda-500g",
+      "name": "Knedličky plnené jahodami",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/072/0060/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-vinica-knedlicky-slivka-500g",
+      "name": "Knedličky plnené slivkovým lekvárom",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/072/0077/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-vinica-kukurica-mrazena-400g",
+      "name": "Kukurica sladká mrazená",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/072/0039/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-vinica-spenat-pretlak-450g",
+      "name": "Špenátový pretlak mrazený",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/072/0046/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-vinica-zeleninova-zmes-svieckova-350g",
+      "name": "Zeleninová zmes Pod sviečkovú",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/072/0015/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-wasa-delicate-crisp-275g",
+      "name": "Knäckebrot Delicate Crisp Rosemary",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/730/040/012/6290/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-wasa-original-celozrnny-275g",
+      "name": "Knäckebrot Original celozrnný",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/730/040/011/7205/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-whiskas-granule-kuracie-14kg",
+      "name": "Granule pre mačky Whiskas 1+ s kuracím",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/590/095/100/1028/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-whiskas-hydinovy-vyber-4x85g",
+      "name": "Kapsičky pre mačky Whiskas hydinový výber",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/590/095/100/1004/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-zemiaky-neskore-2kg",
+      "name": "Zemiaky konzumné neskoré prané 2 kg",
+      "status": "ACCESSIBLE",
+      "imageUrl": "https://www.lidl.com/assets/gcpd10e2972e6974f37be7d3a702732bd5e.png"
+    },
+    {
+      "productId": "prod-zemla-kaiserka-natural-60g",
+      "name": "Žemľa Kaiserka natural",
+      "status": "MISSING_IMAGE",
+      "imageUrl": null
+    },
+    {
+      "productId": "prod-zewa-pure-vlhceny-toaletny-papier-42ks",
+      "name": "Vlhčený toaletný papier Zewa Pure",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/732/254/000/1006/front_en.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-znojmia-sterilizovane-uhorky-660g",
+      "name": "Uhorky sterilizované 5-8 cm",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/859/400/131/2017/front_cs.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-zverlit-jemny-podstielka-5kg",
+      "name": "Podstielka pre mačky Zverlit jemný",
+      "status": "BROKEN_URL",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/800/002/0010/front_sk.3.400.jpg",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "productId": "prod-zvolensky-cokolada-145g",
+      "name": "Smotanový jogurt čokoládový 145 g",
+      "status": "ACCESSIBLE",
+      "imageUrl": "https://images.openfoodfacts.net/images/products/858/600/014/0431/front_sk.3.400.jpg"
+    }
+  ]
+}

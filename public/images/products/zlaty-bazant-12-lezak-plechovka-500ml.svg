@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-zlaty-bazant-12-lezak-plechovka-500ml" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFFBEB" />
+    </linearGradient>
+    <pattern id="pat-zlaty-bazant-12-lezak-plechovka-500ml" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#B45309" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-zlaty-bazant-12-lezak-plechovka-500ml)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-zlaty-bazant-12-lezak-plechovka-500ml)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="128" height="26" rx="6" fill="#123524" />
+    <text x="64" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">ZLATÝ BAŽANT</text>
+
+    <rect x="138" y="0" width="70" height="26" rx="6" fill="#FDE68A" stroke="#B45309" stroke-width="1" />
+    <text x="173" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#78350F" text-anchor="middle">500 ml</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(135, 65)">
+        <ellipse cx="65" cy="165" rx="45" ry="14" fill="#000" opacity="0.08"/>
+        <!-- Beer can cylinder -->
+        <rect x="30" y="30" width="70" height="130" rx="10" fill="#15803D" stroke="#047857" stroke-width="2.5"/>
+        <ellipse cx="65" cy="30" rx="35" ry="8" fill="#D1D5DB" stroke="#9CA3AF" stroke-width="1.5"/>
+        <ellipse cx="65" cy="160" rx="35" ry="8" fill="#D1D5DB" stroke="#9CA3AF" stroke-width="1.5"/>
+        <!-- Golden ribbon and pheasant logo -->
+        <rect x="30" y="70" width="70" height="50" fill="#FACC15"/>
+        <text x="65" y="90" font-family="system-ui, sans-serif" font-weight="900" font-size="10" fill="#14532D" text-anchor="middle">ZLATÝ BAŽANT</text>
+        <circle cx="65" cy="106" r="10" fill="#B45309"/>
+        <text x="65" y="110" font-family="system-ui, sans-serif" font-weight="900" font-size="9" fill="#FFF" text-anchor="middle">12%</text>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Svetlý ležiak 12 % plechovka</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#B45309" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

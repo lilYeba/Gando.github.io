@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-zemiaky-konzumne-neskore-prane-balene-2kg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FAF5FF" />
+    </linearGradient>
+    <pattern id="pat-zemiaky-konzumne-neskore-prane-balene-2kg" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#9333EA" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-zemiaky-konzumne-neskore-prane-balene-2kg)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-zemiaky-konzumne-neskore-prane-balene-2kg)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="101" height="26" rx="6" fill="#123524" />
+    <text x="50.5" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">SLOVENSKÉ</text>
+
+    <rect x="111" y="0" width="70" height="26" rx="6" fill="#F3E8FF" stroke="#9333EA" stroke-width="1" />
+    <text x="146" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#581C87" text-anchor="middle">2 kg</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(110, 70)">
+        <ellipse cx="90" cy="155" rx="80" ry="16" fill="#000" opacity="0.08"/>
+        <!-- Net mesh sack -->
+        <path d="M35,60 C40,40 140,40 145,60 L155,145 C140,160 40,160 25,145 Z" fill="#D8B4FE" stroke="#9333EA" stroke-width="2" opacity="0.5"/>
+        <!-- Potatoes inside -->
+        <ellipse cx="65" cy="100" rx="22" ry="16" fill="#D97706" stroke="#92400E" stroke-width="1.5"/>
+        <ellipse cx="115" cy="105" rx="24" ry="17" fill="#B45309" stroke="#78350F" stroke-width="1.5"/>
+        <ellipse cx="90" cy="130" rx="26" ry="18" fill="#D97706" stroke="#92400E" stroke-width="1.5"/>
+        <!-- Label tag -->
+        <rect x="55" y="60" width="70" height="24" rx="4" fill="#15803D"/>
+        <text x="90" y="75" font-family="system-ui, sans-serif" font-weight="900" font-size="8" fill="#FFFFFF" text-anchor="middle">ZEMIAKY 2kg</text>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Zemiaky konzumné neskoré balené</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#9333EA" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

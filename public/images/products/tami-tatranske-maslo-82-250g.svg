@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-tami-tatranske-maslo-82-250g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFFBEB" />
+    </linearGradient>
+    <pattern id="pat-tami-tatranske-maslo-82-250g" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#D97706" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-tami-tatranske-maslo-82-250g)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-tami-tatranske-maslo-82-250g)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="80" height="26" rx="6" fill="#123524" />
+    <text x="40" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">TAMI</text>
+
+    <rect x="90" y="0" width="70" height="26" rx="6" fill="#FDE68A" stroke="#D97706" stroke-width="1" />
+    <text x="125" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#78350F" text-anchor="middle">250 g</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(110, 80)">
+        <ellipse cx="90" cy="150" rx="90" ry="18" fill="#000" opacity="0.08"/>
+        <path d="M20,60 L140,40 L170,75 L45,95 Z" fill="#FDE047" stroke="#CA8A04" stroke-width="2"/>
+        <path d="M45,95 L170,75 L170,125 L45,145 Z" fill="#FACC15" stroke="#CA8A04" stroke-width="2"/>
+        <path d="M20,60 L45,95 L45,145 L20,110 Z" fill="#EAB308" stroke="#CA8A04" stroke-width="2"/>
+        <path d="M30,85 L155,65 L155,115 L30,135 Z" fill="#FEF08A" opacity="0.7"/>
+        <text x="92" y="105" font-family="system-ui, sans-serif" font-weight="900" font-size="14" fill="#854D0E" text-anchor="middle" transform="rotate(-7, 92, 105)">TAMI 82%</text>
+        <text x="92" y="122" font-family="system-ui, sans-serif" font-weight="700" font-size="10" fill="#A16207" text-anchor="middle" transform="rotate(-7, 92, 122)">MASLO 250g</text>
+        <path d="M60,45 Q75,30 90,40 Q105,50 85,55 Z" fill="#FEF9C3" stroke="#EAB308" stroke-width="2"/>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Tatranské maslo 82 %</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#D97706" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

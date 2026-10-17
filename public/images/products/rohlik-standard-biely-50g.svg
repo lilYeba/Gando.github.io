@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-rohlík-standard-biely-50g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <pattern id="pat-rohlík-standard-biely-50g" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#D97706" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-rohlík-standard-biely-50g)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-rohlík-standard-biely-50g)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="83" height="26" rx="6" fill="#123524" />
+    <text x="41.5" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">PEKÁREŇ</text>
+
+    <rect x="93" y="0" width="70" height="26" rx="6" fill="#FDE68A" stroke="#D97706" stroke-width="1" />
+    <text x="128" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#78350F" text-anchor="middle">50 g</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(100, 85)">
+        <ellipse cx="100" cy="135" rx="85" ry="15" fill="#000" opacity="0.08"/>
+        <!-- Crescent curved roll -->
+        <path d="M20,110 C35,60 165,60 180,110 C150,100 50,100 20,110 Z" fill="#FBBF24" stroke="#B45309" stroke-width="2.5"/>
+        <!-- Diagonal cuts on crust -->
+        <path d="M55,78 Q65,85 75,98" stroke="#92400E" stroke-width="2.5" fill="none"/>
+        <path d="M90,72 Q100,82 110,95" stroke="#92400E" stroke-width="2.5" fill="none"/>
+        <path d="M125,78 Q135,85 145,98" stroke="#92400E" stroke-width="2.5" fill="none"/>
+        <circle cx="100" cy="70" r="1.5" fill="#FFF"/>
+        <circle cx="120" cy="75" r="1.5" fill="#FFF"/>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Rožok štandard biely</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#D97706" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

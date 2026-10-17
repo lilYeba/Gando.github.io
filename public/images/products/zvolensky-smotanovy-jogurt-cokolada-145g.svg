@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-zvolensky-smotanovy-jogurt-cokolada-145g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFFBEB" />
+    </linearGradient>
+    <pattern id="pat-zvolensky-smotanovy-jogurt-cokolada-145g" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#78350F" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-zvolensky-smotanovy-jogurt-cokolada-145g)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-zvolensky-smotanovy-jogurt-cokolada-145g)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="101" height="26" rx="6" fill="#123524" />
+    <text x="50.5" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">ZVOLENSKÝ</text>
+
+    <rect x="111" y="0" width="70" height="26" rx="6" fill="#FDE68A" stroke="#78350F" stroke-width="1" />
+    <text x="146" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#78350F" text-anchor="middle">145 g</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(130, 75)">
+        <ellipse cx="70" cy="145" rx="55" ry="14" fill="#000" opacity="0.08"/>
+        <path d="M25,40 L115,40 L102,135 L38,135 Z" fill="#FFFFFF" stroke="#78350F" stroke-width="2.5"/>
+        <ellipse cx="70" cy="40" rx="47" ry="12" fill="#92400E" stroke="#78350F" stroke-width="2"/>
+        <rect x="33" y="65" width="74" height="42" fill="#451A03"/>
+        <text x="70" y="82" font-family="system-ui, sans-serif" font-weight="900" font-size="10" fill="#FEF3C7" text-anchor="middle">ZVOLENSKÝ</text>
+        <text x="70" y="95" font-family="system-ui, sans-serif" font-weight="800" font-size="8" fill="#FDE68A" text-anchor="middle">ČOKOLÁDA</text>
+        <path d="M38,107 Q70,118 102,107 L98,130 L42,130 Z" fill="#5E2A0A"/>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Smotanový jogurt čokoládový</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#78350F" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

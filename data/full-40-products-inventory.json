@@ -1,0 +1,1388 @@
+[
+  {
+    "id": "prod-balticovo-vajcia-m-10ks",
+    "slug": "vajcia-podstielkovy-chov-m-10ks",
+    "name": "Čerstvé vajcia z podstielkového chovu M",
+    "brand": "Balticovo",
+    "category": "mliecne-vyrobky-a-vajcia",
+    "size": "10 ks",
+    "canonicalImg": "https://www.lidl.com/assets/gcp2d3e860286ce44689798dc72ab208fc6.png",
+    "eans": [
+      "EAN13:4750456004942",
+      "TESCO_TPN:2005111270042",
+      "LIDL_ERP:11055110",
+      "BILLA_SKU:84-262611"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Balticovo Vajcia podstielk. chov veľkosť M 10 ks",
+        "brand": "Balticovo",
+        "img": "https://digitalcontent.api.tesco.com/v2/media/dotcom-hu/df634597-eb8e-47ca-b73b-da5fdde66f57/20261008092552651_balticovo-vajcia_2005111270042_1.png"
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Čerstvé vajcia z podstielkového chovu M 10 ks",
+        "brand": "Zlaté vajce",
+        "img": "https://www.lidl.com/assets/gcp2d3e860286ce44689798dc72ab208fc6.png"
+      },
+      {
+        "retailer": "ret-billa-sk",
+        "title": "BILLA Vajcia z podstielkového chovu M 10 ks",
+        "brand": "BILLA",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-banany-1kg",
+    "slug": "banany-cerstve-volne-1kg",
+    "name": "Banány čerstvé",
+    "brand": null,
+    "category": "ovocie-a-zelenina",
+    "size": "1 kg",
+    "canonicalImg": "https://www.lidl.sk/assets/gcp14706d1532a940b399f26810944403db.png",
+    "eans": [
+      "EAN13:80000",
+      "LIDL_ERP:11150766",
+      "BILLA_SKU:84-100210",
+      "TESCO_TPN:2002000010012"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Banány (cena za 1 kg)",
+        "brand": null,
+        "img": "https://www.lidl.sk/assets/gcp14706d1532a940b399f26810944403db.png"
+      },
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Banány voľné 1 kg",
+        "brand": "Bon Via",
+        "img": null
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Banány voľné 1 kg",
+        "brand": null,
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-banovecky-polostiepok-190g",
+    "slug": "banovecky-polostiepok-neudeny-190g",
+    "name": "Bánovecký pološtiepok neúdený",
+    "brand": "Bánovecký",
+    "category": "mliecne-vyrobky-a-vajcia",
+    "size": "190 g",
+    "canonicalImg": "https://images.openfoodfacts.org/images/products/858/600/154/3866/front_en.4.400.jpg",
+    "eans": [
+      "EAN13:8586000891128",
+      "BILLA_SKU:84-219893",
+      "LIDL_ERP:11265599",
+      "TESCO_TPN:2002014489120"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Bánovecký pološtiepok neúdený 190g",
+        "brand": "Bánovecký",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Pilos Slovenský oštiepok neúdený 190 g",
+        "brand": "Pilos",
+        "img": null
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Bánovecký pološtiepok neúdený 190 g",
+        "brand": "Bánovecký",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-bravcove-kare-1kg",
+    "slug": "bravcove-kare-bez-kosti-chladene-1kg",
+    "name": "Bravčové karé bez kosti chladené",
+    "brand": "Mäsiarov výber",
+    "category": "maso-a-ryby",
+    "size": "1 kg",
+    "canonicalImg": null,
+    "eans": [
+      "EAN13:8588004123014",
+      "BILLA_SKU:84-301250",
+      "LIDL_ERP:11055201",
+      "TESCO_TPN:2004019441019"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Bravčové karé bez kosti v celku 1 kg",
+        "brand": "Mäsiarov výber",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Mäsiarstvo Bravčové karé bez kosti 1 kg",
+        "brand": "Mäsiarstvo",
+        "img": null
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Tesco Bravčové karé bez kosti 1 kg",
+        "brand": "Tesco",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-brokolica-500g",
+    "slug": "brokolica-cerstva-balena-500g",
+    "name": "Brokolica čerstvá balená",
+    "brand": null,
+    "category": "ovocie-a-zelenina",
+    "size": "500 g",
+    "canonicalImg": "https://www.lidl.sk/assets/gcpc7adf2db2674491490a56316a4bd8f6e.png",
+    "eans": [
+      "EAN13:82904",
+      "LIDL_ERP:11151157",
+      "BILLA_SKU:84-105420",
+      "TESCO_TPN:2002001239871"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Brokolica 500 g balenie",
+        "brand": null,
+        "img": "https://www.lidl.sk/assets/gcpc7adf2db2674491490a56316a4bd8f6e.png"
+      },
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Bon Via Brokolica 500 g",
+        "brand": "Bon Via",
+        "img": null
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Tesco Brokolica 500 g",
+        "brand": "Tesco",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-emco-vlocky-500g",
+    "slug": "emco-ovsene-vlocky-jemne-500g",
+    "name": "Ovsené vločky jemné",
+    "brand": "Emco",
+    "category": "trvanlive-potraviny",
+    "size": "500 g",
+    "canonicalImg": "https://www.lidl.com/assets/gcp40819bb41c1042ef96a7d0d2d4fd99fe.png",
+    "eans": [
+      "EAN13:8594004490104",
+      "BILLA_SKU:84-403110",
+      "LIDL_ERP:11099995",
+      "TESCO_TPN:2004021093141"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Emco Ovsené vločky jemné 500 g",
+        "brand": "Emco",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Crownfield Ovsené vločky jemné 500 g",
+        "brand": "Crownfield",
+        "img": "https://www.lidl.com/assets/gcp40819bb41c1042ef96a7d0d2d4fd99fe.png"
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Emco Ovsené vločky jemné 500 g",
+        "brand": "Emco",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-giana-ryza-1kg",
+    "slug": "giana-gulatozrnna-ryza-1kg",
+    "name": "Guľatozrnná ryža lúpaná",
+    "brand": "Giana",
+    "category": "trvanlive-potraviny",
+    "size": "1 kg",
+    "canonicalImg": "https://www.lidl.com/assets/gcp3431e1db7fd64578ad5124ef771dbd30.png",
+    "eans": [
+      "EAN13:8595241507071",
+      "TESCO_TPN:2002017142931",
+      "BILLA_SKU:84-214093",
+      "LIDL_ERP:11099120"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Giana guľatozrn. ryža 1kg",
+        "brand": "Giana",
+        "img": "https://digitalcontent.api.tesco.com/v2/media/dotcom-hu/0eb5a83a-837c-486c-b2f6-a8caf003797b/20261008092547403_giana-ryza_2002017142931_1.png"
+      },
+      {
+        "retailer": "ret-billa-sk",
+        "title": "GIANA Ryža guľatozrnná 1kg",
+        "brand": "Giana",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Golden Sun Guľatozrnná ryža 1 kg",
+        "brand": "Golden Sun",
+        "img": "https://www.lidl.com/assets/gcp3431e1db7fd64578ad5124ef771dbd30.png"
+      }
+    ]
+  },
+  {
+    "id": "prod-hladka-muka-1kg",
+    "slug": "psenicna-muka-hladka-t650-1kg",
+    "name": "Pšeničná múka hladká T 650",
+    "brand": "Babičkina voľba",
+    "category": "trvanlive-potraviny",
+    "size": "1 kg",
+    "canonicalImg": "https://www.lidl.com/assets/gcp046f03633fd2434ca2f0f2bcd4dc5d86.png",
+    "eans": [
+      "EAN13:5051007162296",
+      "TESCO_TPN:2002120725141",
+      "BILLA_SKU:84-261049",
+      "LIDL_ERP:11011205"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Tesco múka hladká, 1 kg",
+        "brand": "Tesco",
+        "img": "https://digitalcontent.api.tesco.com/v2/media/dotcom-hu/ff444a9b-6a3b-4823-a423-47072e5021e1/20261008092547405_tesco-muka_2002120725141_1.png"
+      },
+      {
+        "retailer": "ret-billa-sk",
+        "title": "VitaFlora Pšeničná múka hladká špeciál 1kg",
+        "brand": "VitaFlora",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Belbake Pšeničná múka hladká T 650 1 kg",
+        "brand": "Belbake",
+        "img": "https://www.lidl.com/assets/gcp046f03633fd2434ca2f0f2bcd4dc5d86.png"
+      }
+    ]
+  },
+  {
+    "id": "prod-hyza-kuracie-prsia-1kg",
+    "slug": "hyza-kuracie-prsne-rezne-chladene-1kg",
+    "name": "Kuracie prsné rezne chladené",
+    "brand": "Hyza",
+    "category": "maso-a-ryby",
+    "size": "1 kg",
+    "canonicalImg": "https://www.lidl.com/assets/gcp0da5ef0c89034c1b82d2738ce1dd58ea.png",
+    "eans": [
+      "EAN13:8585002501011",
+      "BILLA_SKU:84-301140",
+      "LIDL_ERP:11044910",
+      "TESCO_TPN:2004019312015"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Mäsiarov výber Kuracie prsné rezne 1 kg",
+        "brand": "Mäsiarov výber",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Čerstvá porcia Kuracie prsné rezne XXL 1 kg",
+        "brand": "Čerstvá porcia",
+        "img": "https://www.lidl.com/assets/gcp0da5ef0c89034c1b82d2738ce1dd58ea.png"
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Hyza Kuracie prsné rezne chladené 1 kg",
+        "brand": "Hyza",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-jablka-gala-1kg",
+    "slug": "jablka-gala-slovenske-1kg",
+    "name": "Jablká Gala slovenské voľné",
+    "brand": "Dobrý ježko",
+    "category": "ovocie-a-zelenina",
+    "size": "1 kg",
+    "canonicalImg": "https://www.lidl.com/assets/gcp4096668e169b469fba11362554a5d51a.png",
+    "eans": [
+      "EAN13:8588002221114",
+      "BILLA_SKU:84-501250",
+      "LIDL_ERP:11096630",
+      "TESCO_TPN:2004020437085"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Jablká Gala slovenské voľné 1 kg",
+        "brand": "Dobrý ježko",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Slovenské jablká Gala 1 kg voľné",
+        "brand": "Slovenská farma",
+        "img": "https://www.lidl.com/assets/gcp4096668e169b469fba11362554a5d51a.png"
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Jablká Gala voľné 1 kg",
+        "brand": "Tesco",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-jar-sensitive-900ml",
+    "slug": "jar-sensitive-cistiaci-prostriedok-na-riad-900ml",
+    "name": "Prostriedok na umývanie riadu Sensitive",
+    "brand": "Jar",
+    "category": "drogeria-a-domacnost",
+    "size": "900 ml",
+    "canonicalImg": "https://www.lidl.com/assets/gcpf1f7776406674a238ffc98b8c749ca86.png",
+    "eans": [
+      "EAN13:8001090123456",
+      "BILLA_SKU:84-702200",
+      "LIDL_ERP:11099997",
+      "TESCO_TPN:2004021215163"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Jar Sensitive prostriedok na riad 900 ml",
+        "brand": "Jar",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "W5 Prostriedok na riad Sensitive 1 l",
+        "brand": "W5",
+        "img": "https://www.lidl.com/assets/gcpf1f7776406674a238ffc98b8c749ca86.png"
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Jar Sensitive Na riad 900 ml",
+        "brand": "Jar",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-kofola-15l",
+    "slug": "kofola-original-nulka-1-5l-pet",
+    "name": "Kofola Original / Bez cukru",
+    "brand": "Kofola",
+    "category": "napoje-a-kava",
+    "size": "1.5 l",
+    "canonicalImg": "https://www.lidl.com/assets/gcpa252420a296f40079d463c0b2a567043.png",
+    "eans": [
+      "EAN13:8586011070116",
+      "BILLA_SKU:84-263603",
+      "LIDL_ERP:11070150",
+      "TESCO_TPN:2002003344551"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Kofola Original / Nulka 1,5l PET",
+        "brand": "Kofola",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Kofola Original 1,5 l",
+        "brand": "Kofola",
+        "img": "https://www.lidl.com/assets/gcpa252420a296f40079d463c0b2a567043.png"
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Kofola Original 1,5 l PET",
+        "brand": "Kofola",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-kornbageta-la-lorraine-115g",
+    "slug": "kornbageta-stredna-la-lorraine-115g",
+    "name": "Kornbageta stredná cereálna",
+    "brand": "La Lorraine",
+    "category": "pecivo",
+    "size": "115 g",
+    "canonicalImg": "https://www.lidl.sk/assets/gcpd0c8b39cface4913a8863926252cb051.png",
+    "eans": [
+      "BILLA_SKU:53-170829",
+      "LIDL_ERP:11088115"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "KORNBAGETA STREDNÁ 125G(115G) LA LORRAINE",
+        "brand": "La Lorraine",
+        "img": "https://images.cdn.europe-west1.gcp.commercetools.com/bfd52ff5-9443-4b5e-85a4-cf3626446b7b/53-170829-0878247899-oK0WgzXk.png"
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Cereálna bageta stredná 115 g",
+        "brand": "Lidl Pekáreň",
+        "img": "https://www.lidl.sk/assets/gcpd0c8b39cface4913a8863926252cb051.png"
+      }
+    ]
+  },
+  {
+    "id": "prod-korunny-cukor-1kg",
+    "slug": "korunny-cukor-krupica-1kg",
+    "name": "Cukor krupica biely",
+    "brand": "Korunný cukor",
+    "category": "trvanlive-potraviny",
+    "size": "1 kg",
+    "canonicalImg": "https://www.lidl.com/assets/gcpa8bc486b79d244b08b2d1919d2650766.png",
+    "eans": [
+      "EAN13:8586000210011",
+      "BILLA_SKU:84-401120",
+      "LIDL_ERP:11093310",
+      "TESCO_TPN:2004020104052"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Korunný cukor Krupicový 1 kg",
+        "brand": "Korunný cukor",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Belbake Cukor biely krupica 1 kg",
+        "brand": "Belbake",
+        "img": "https://www.lidl.com/assets/gcpa8bc486b79d244b08b2d1919d2650766.png"
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Korunný Cukor krupicový 1 kg",
+        "brand": "Korunný cukor",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-kuracie-stvrte-1kg",
+    "slug": "kuracie-stvrte-chladene-1kg",
+    "name": "Kuracie štvrte chladené",
+    "brand": "Mäsiarova čerstvá porcia",
+    "category": "maso-hydina-a-ryby",
+    "size": "1 kg",
+    "canonicalImg": "https://www.lidl.sk/assets/gcp2649deaeceb140bfb687b020b40bf8ae.png",
+    "eans": [
+      "LIDL_ERP:11944690",
+      "BILLA_SKU:71-171494",
+      "TESCO_TPN:2002018812345"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "MÄSIAROVA ČERSTVÁ PORCIA Kuracie štvrte",
+        "brand": "MÄSIAROVA ČERSTVÁ PORCIA",
+        "img": "https://www.lidl.sk/assets/gcp2649deaeceb140bfb687b020b40bf8ae.png"
+      },
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Kuracie stehná horné/štvrte chladené 1kg",
+        "brand": "Mäsiarov výber",
+        "img": null
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Tesco Kuracie štvrte chladené 1 kg",
+        "brand": "Tesco",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-kvaskovy-chlieb-405g",
+    "slug": "richtar-kvaskovy-chlieb-zemiakovy-405g",
+    "name": "Kváskový chlieb zemiakový remeselný",
+    "brand": "La Lorraine",
+    "category": "pecivo",
+    "size": "405 g",
+    "canonicalImg": null,
+    "eans": [
+      "BILLA_SKU:53-180568",
+      "LIDL_ERP:11088405",
+      "TESCO_TPN:2002120998811"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Richtár kváskový chlieb zemiakový 405g",
+        "brand": "La Lorraine",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Kváskový chlieb zemiakový z pece 405 g",
+        "brand": "Lidl Pekáreň",
+        "img": null
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Kváskový Delikates chlieb prémium 405 g",
+        "brand": "Tesco Bakery",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-liptov-bryndza-110g",
+    "slug": "liptov-bryndza-plnotucna-110g",
+    "name": "Bryndza plnotučná slovenská",
+    "brand": "Liptov",
+    "category": "mliecne-vyrobky-a-vajcia",
+    "size": "110 g",
+    "canonicalImg": "https://images.openfoodfacts.net/images/products/858/800/000/3020/front_en.4.400.jpg",
+    "eans": [
+      "EAN13:8586000101166",
+      "BILLA_SKU:84-210401",
+      "LIDL_ERP:11099231",
+      "TESCO_TPN:2004018201124"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "LIPTOV Bryndza plnotučná 110 g",
+        "brand": "Liptov",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Liptov Tradičná bryndza 110 g",
+        "brand": "Liptov",
+        "img": null
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Liptov Bryndza 110 g",
+        "brand": "Liptov",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-mecom-dusena-sunka-100g",
+    "slug": "mecom-dusena-sunka-vyberova-100g",
+    "name": "Dusená šunka výberová krájaná",
+    "brand": "Mecom",
+    "category": "maso-a-ryby",
+    "size": "100 g",
+    "canonicalImg": null,
+    "eans": [
+      "EAN13:8586008301124",
+      "BILLA_SKU:84-302190",
+      "LIDL_ERP:11066741",
+      "TESCO_TPN:2004019551120"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Mecom Dusená šunka výberová 100 g",
+        "brand": "Mecom",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Pikok Dusená šunka výberová 100 g",
+        "brand": "Pikok",
+        "img": null
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Mecom Dusená šunka krájaná 100 g",
+        "brand": "Mecom",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-mlete-maso-mix-500g",
+    "slug": "mlete-maso-mix-bravcovo-hovadzie-500g",
+    "name": "Mleté mäso MIX bravčovo-hovädzie",
+    "brand": "Mäsiarova čerstvá porcia",
+    "category": "maso-hydina-a-ryby",
+    "size": "500 g",
+    "canonicalImg": "https://www.lidl.sk/assets/gcpbb5457cfaade48a2b3226774667cfd99.png",
+    "eans": [
+      "EAN13:2089111417124",
+      "LIDL_ERP:11141712",
+      "BILLA_SKU:71-172910",
+      "TESCO_TPN:2002019001122"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Mleté mäso MIX 500 g balenie",
+        "brand": "Mäsiarova čerstvá porcia",
+        "img": "https://www.lidl.sk/assets/gcpbb5457cfaade48a2b3226774667cfd99.png"
+      },
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Mäsiarov výber Mleté mäso bravčovo-hovädzie 500g",
+        "brand": "Mäsiarov výber",
+        "img": null
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Tesco Mleté mäso bravčovo-hovädzie 500 g",
+        "brand": "Tesco",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-mutti-kecup-300g",
+    "slug": "mutti-kecup-classico-300g",
+    "name": "Taliansky paradajkový kečup Classico",
+    "brand": "Mutti",
+    "category": "trvanlive-potraviny",
+    "size": "300 g",
+    "canonicalImg": "https://images.openfoodfacts.org/images/products/800/511/017/0348/front_en.3.400.jpg",
+    "eans": [
+      "EAN13:8005110550300",
+      "BILLA_SKU:84-262212",
+      "TESCO_TPN:2005105399111"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Mutti Kečup Classico 300g",
+        "brand": "Mutti",
+        "img": null
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Mutti Kečup Classico 300 g (cena zatiaľ neoverená)",
+        "brand": "Mutti",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-panzani-cestoviny-500g",
+    "slug": "panzani-torti-tricolore-vretena-500g",
+    "name": "Cestoviny Torti Tricolore vretená",
+    "brand": "Panzani",
+    "category": "trvanlive-potraviny",
+    "size": "500 g",
+    "canonicalImg": "https://www.lidl.com/assets/gcp3ddfd4c69a1b489a9a2877c2abe55a16.png",
+    "eans": [
+      "EAN13:3038350023605",
+      "BILLA_SKU:84-174699",
+      "TESCO_TPN:2002011223344",
+      "LIDL_ERP:11066500"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Panzani Torti Tricolore vretená 500g",
+        "brand": "Panzani",
+        "img": null
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Panzani Torti Tricolore cestoviny 500 g",
+        "brand": "Panzani",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Combino Fusilli Tricolore semolinové cestoviny 500 g",
+        "brand": "Combino",
+        "img": "https://www.lidl.com/assets/gcp3ddfd4c69a1b489a9a2877c2abe55a16.png"
+      }
+    ]
+  },
+  {
+    "id": "prod-panzani-spagety-500g",
+    "slug": "panzani-spagety-semolinove-500g",
+    "name": "Špagety semolinové bezvaječné",
+    "brand": "Panzani",
+    "category": "trvanlive-potraviny",
+    "size": "500 g",
+    "canonicalImg": "https://www.lidl.com/assets/gcp81df4b36283544e8a63f9524abfd5e04.png",
+    "eans": [
+      "EAN13:3038350007204",
+      "BILLA_SKU:84-402210",
+      "LIDL_ERP:11094410",
+      "TESCO_TPN:2004020215063"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Panzani Špagety 500 g",
+        "brand": "Panzani",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Combino Špagety semolinové 500 g",
+        "brand": "Combino",
+        "img": "https://www.lidl.com/assets/gcp81df4b36283544e8a63f9524abfd5e04.png"
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Panzani Špagety 500 g",
+        "brand": "Panzani",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-paradajky-strapcove-500g",
+    "slug": "paradajky-strapcove-cervene-500g",
+    "name": "Paradajky strapcové červené",
+    "brand": "Babindol",
+    "category": "ovocie-a-zelenina",
+    "size": "500 g",
+    "canonicalImg": "https://www.lidl.com/assets/gcpb7e43c31936c4766b17fdd08d80b2922.png",
+    "eans": [
+      "EAN13:8588003332225",
+      "BILLA_SKU:84-501400",
+      "LIDL_ERP:11097740",
+      "TESCO_TPN:2004020548096"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Babindol Paradajky strapcové 500 g",
+        "brand": "Babindol",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Paradajky strapcové červené 500 g balenie",
+        "brand": "Lidl",
+        "img": "https://www.lidl.com/assets/gcpb7e43c31936c4766b17fdd08d80b2922.png"
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Tesco Paradajky na strapci 500 g",
+        "brand": "Tesco",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-popradska-kava-extra-250g",
+    "slug": "popradska-kava-extra-special-mleta-250g",
+    "name": "Popradská káva Extra špeciál mletá",
+    "brand": "Popradská",
+    "category": "napoje-a-kava",
+    "size": "250 g",
+    "canonicalImg": "https://images.openfoodfacts.org/images/products/858/600/941/1853/front_sk.7.400.jpg",
+    "eans": [
+      "EAN13:8586009410092",
+      "TESCO_TPN:2002006247982",
+      "BILLA_SKU:84-191709",
+      "LIDL_ERP:11044312"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "POPRADSKA KAVA EXTRA SPEC. 250g",
+        "brand": "Popradská",
+        "img": "https://digitalcontent.api.tesco.com/v2/media/dotcom-hu/6b87459e-774b-410c-92fe-b8fa8f973b4e/20261008091632431_popradska-kava_2002006247982_1.png"
+      },
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Popradská Káva Extra špeciál mletá 250g",
+        "brand": "Popradská",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Popradská káva Extra špeciál 250 g",
+        "brand": "Popradská",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-rajec-nesytena-1-5l",
+    "slug": "rajec-pramenita-voda-nesytena-1-5l",
+    "name": "Pramenitá voda nesýtená",
+    "brand": "Rajec",
+    "category": "napoje",
+    "size": "1.5 l",
+    "canonicalImg": "https://images.openfoodfacts.net/images/products/858/601/133/0296/front_sk.7.400.jpg",
+    "eans": [
+      "EAN13:8586008801017",
+      "BILLA_SKU:84-601110",
+      "LIDL_ERP:11099910",
+      "TESCO_TPN:2004020760118"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Rajec Pramenitá voda nesýtená 1,5 l",
+        "brand": "Rajec",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Saguaro Pramenitá voda nesýtená 1,5 l",
+        "brand": "Saguaro",
+        "img": null
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Rajec Nesýtená pramenitá voda 1,5 l",
+        "brand": "Rajec",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-rajo-eidam-platky-100g",
+    "slug": "rajo-slovensky-eidam-platky-45-100g",
+    "name": "Eidam plátky 45 % t. v s.",
+    "brand": "Rajo",
+    "category": "mliecne-vyrobky-a-vajcia",
+    "size": "100 g",
+    "canonicalImg": "https://www.lidl.sk/assets/gcpe243930f41d3474f9a8a842a4c0e9583.png",
+    "eans": [
+      "EAN13:8585002511454",
+      "BILLA_SKU:84-206120",
+      "LIDL_ERP:11088420",
+      "TESCO_TPN:2004019771122"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Rajo Eidam plátky 45% 100 g",
+        "brand": "Rajo",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Pilos Eidam plátky 45 % 100 g",
+        "brand": "Pilos",
+        "img": "https://www.lidl.sk/assets/gcpe243930f41d3474f9a8a842a4c0e9583.png"
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Rajo Eidam plátky 100 g",
+        "brand": "Rajo",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-rajo-mlieko-15-1l",
+    "slug": "rajo-trvanlive-mlieko-1-5-1l",
+    "name": "Trvanlivé mlieko polotučné 1,5 %",
+    "brand": "Rajo",
+    "category": "mliecne-vyrobky-a-vajcia",
+    "size": "1 l",
+    "canonicalImg": "https://www.lidl.com/assets/gcpad2ac86a817f4c65a095ead01cf41d4d.png",
+    "eans": [
+      "EAN13:8585002500014",
+      "LIDL_ERP:11020301",
+      "BILLA_SKU:84-226220",
+      "TESCO_TPN:2002011002341"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Pilos Trvanlivé mlieko 1,5 % 1 l",
+        "brand": "Pilos",
+        "img": "https://www.lidl.com/assets/gcpad2ac86a817f4c65a095ead01cf41d4d.png"
+      },
+      {
+        "retailer": "ret-billa-sk",
+        "title": "RAJO Trvanlivé mlieko 1,5% UHT 1l",
+        "brand": "Rajo",
+        "img": null
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Rajo Trvanlivé mlieko polotučné 1,5% 1 l",
+        "brand": "Rajo",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Pilos Trvanlivé mlieko plnotučné 3,5 % 1 l",
+        "brand": "Pilos",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-rajo-mnam-jogurt-145g",
+    "slug": "rajo-mnam-smotanovy-jogurt-jahoda-145g",
+    "name": "Mňam Duo smotanový jogurt jahoda",
+    "brand": "Rajo",
+    "category": "mliecne-vyrobky-a-vajcia",
+    "size": "145 g",
+    "canonicalImg": "https://images.openfoodfacts.org/images/products/858/500/250/0854/front_en.6.400.jpg",
+    "eans": [
+      "EAN13:8585002500854",
+      "TESCO_TPN:2002016566899",
+      "BILLA_SKU:84-239054",
+      "LIDL_ERP:11077812"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Rajo Mňam smotanový jogurt jahoda 145 g",
+        "brand": "Rajo",
+        "img": "https://digitalcontent.api.tesco.com/v2/media/dotcom-hu/cf66ce82-e1c1-4c94-a4e3-055c4d3c4806/20261008092552643_rajo-mnam-duo-smotanovy-jogurt_2002016566899_1.png"
+      },
+      {
+        "retailer": "ret-billa-sk",
+        "title": "RAJO Jogurt smotanový jahoda 145g",
+        "brand": "Rajo",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Rajo Mňam Duo smotanový jogurt jahoda 145 g",
+        "brand": "Rajo",
+        "img": null
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Tesco Smotanový jogurt jahodový 400 g",
+        "brand": "Tesco",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-rajo-tvaroh-250g",
+    "slug": "rajo-tradicny-tvaroh-jemny-hrudkovity-250g",
+    "name": "Tradičný tvaroh jemný hrudkovitý",
+    "brand": "Rajo",
+    "category": "mliecne-vyrobky-a-vajcia",
+    "size": "250 g",
+    "canonicalImg": "https://www.lidl.com/assets/gcpc9eab63723094012b74b187757ce7cea.png",
+    "eans": [
+      "BILLA_SKU:84-206300",
+      "LIDL_ERP:11088990",
+      "TESCO_TPN:2004019882030"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Rajo Tradičný tvaroh jemný hrudkovitý 250 g",
+        "brand": "Rajo",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Pilos Tvaroh jemný hrudkovitý 250 g",
+        "brand": "Pilos",
+        "img": "https://www.lidl.com/assets/gcpc9eab63723094012b74b187757ce7cea.png"
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Rajo Tradičný tvaroh hrudkovitý 250 g",
+        "brand": "Rajo",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-repkovy-olej-1l",
+    "slug": "repkovy-olej-rafinovany-1l",
+    "name": "Repkový olej jedlý rafinovaný",
+    "brand": "Vénusz",
+    "category": "trvanlive-potraviny",
+    "size": "1 l",
+    "canonicalImg": "https://www.lidl.com/assets/gcpa65864079d3041069e4812ff4a1bed32.png",
+    "eans": [
+      "EAN13:5998817111015",
+      "BILLA_SKU:84-200342",
+      "LIDL_ERP:11033901",
+      "TESCO_TPN:2002015500119"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Vénusz Repkový olej 1l",
+        "brand": "Vénusz",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Vita D'or Repkový olej 1 l",
+        "brand": "Vita D'or",
+        "img": "https://www.lidl.com/assets/gcpa65864079d3041069e4812ff4a1bed32.png"
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Vénusz Repkový olej 1 l",
+        "brand": "Vénusz",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-rohlík-standard-50g",
+    "slug": "rohlík-standard-biely-50g",
+    "name": "Rožok štandard biely",
+    "brand": null,
+    "category": "chlieb-a-pecivo",
+    "size": "50 g",
+    "canonicalImg": null,
+    "eans": [
+      "EAN13:8588000000050",
+      "BILLA_SKU:84-100050",
+      "LIDL_ERP:11000050",
+      "TESCO_TPN:2001000000051"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "BILLA Rožok štandard 50 g",
+        "brand": "BILLA",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Pekáreň Rožok štandard 50 g",
+        "brand": "Pekáreň",
+        "img": null
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Tesco Rožok štandard 50 g",
+        "brand": "Tesco",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-tami-maslo-250g",
+    "slug": "tami-tatranske-maslo-82-250g",
+    "name": "Tatranské maslo 82 %",
+    "brand": "Tami",
+    "category": "mliecne-vyrobky-a-vajcia",
+    "size": "250 g",
+    "canonicalImg": "https://www.lidl.com/assets/gcp220bf8322a2b410a881d4c3bdf310edc.png",
+    "eans": [
+      "EAN13:8585000902797",
+      "BILLA_SKU:84-205807",
+      "LIDL_ERP:11084521",
+      "TESCO_TPN:2002020284040"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "TAMI Tatranské maslo 82% 250g",
+        "brand": "Tami",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Pilos Tradičné maslo 82 % 250 g",
+        "brand": "Pilos",
+        "img": "https://www.lidl.com/assets/gcp220bf8322a2b410a881d4c3bdf310edc.png"
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Tami Tatranské maslo 82% 250 g",
+        "brand": "Tami",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-tauris-spisske-parky-200g",
+    "slug": "tauris-spisske-parky-80-200g",
+    "name": "Spišské párky chránené označenie",
+    "brand": "Tauris",
+    "category": "maso-a-ryby",
+    "size": "200 g",
+    "canonicalImg": null,
+    "eans": [
+      "EAN13:8586005112013",
+      "BILLA_SKU:84-302340",
+      "LIDL_ERP:11077810",
+      "TESCO_TPN:2004019662021"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Tauris Spišské párky ZTŠ 200 g",
+        "brand": "Tauris",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Pikok Spišské párky ZTŠ 200 g",
+        "brand": "Pikok",
+        "img": null
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Tauris Spišské párky 200 g",
+        "brand": "Tauris",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-tekovsky-syr-udeny-1kg",
+    "slug": "tekovsky-salamovy-syr-udeny-1kg",
+    "name": "Tekovský salámový syr údený",
+    "brand": "Levmilk",
+    "category": "mliecne-vyrobky-a-vajcia",
+    "size": "1 kg",
+    "canonicalImg": "https://images.openfoodfacts.net/images/products/858/500/090/2568/front_en.3.400.jpg",
+    "eans": [
+      "BILLA_SKU:53-171194",
+      "TESCO_TPN:2002016677889"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "TEKOV.SALÁMOVÝ SYR ÚDENÝ BLOK CA.1KG",
+        "brand": "Levmilk",
+        "img": "https://images.cdn.europe-west1.gcp.commercetools.com/bfd52ff5-9443-4b5e-85a4-cf3626446b7b/53-171194-0161154488-OtF002sQ.png"
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Tekovský salámový syr údený 1 kg (pultový predaj)",
+        "brand": "Levmilk",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-tento-ellegance-8ks",
+    "slug": "tento-ellegance-toaletny-papier-3vrstvovy-8ks",
+    "name": "Toaletný papier 3-vrstvový biely",
+    "brand": "Tento",
+    "category": "drogeria-a-domacnost",
+    "size": "8 ks",
+    "canonicalImg": "https://www.lidl.com/assets/gcp78751596e8104f9da1bcbd60b09f54fe.png",
+    "eans": [
+      "EAN13:8584014800201",
+      "BILLA_SKU:84-701100",
+      "LIDL_ERP:11099996",
+      "TESCO_TPN:2004021104152"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Tento Ellegance Toaletný papier 3-vrstvový 8 ks",
+        "brand": "Tento",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Floralys Toaletný papier 3-vrstvový 8 ks",
+        "brand": "Floralys",
+        "img": "https://www.lidl.com/assets/gcp78751596e8104f9da1bcbd60b09f54fe.png"
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Tento Ellegance Toaletný papier 8 ks",
+        "brand": "Tento",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-uhorka-hadovka-1ks",
+    "slug": "uhorka-salatova-hadovka-1ks",
+    "name": "Uhorka šalátová hadovka",
+    "brand": null,
+    "category": "ovocie-a-zelenina",
+    "size": "1 ks",
+    "canonicalImg": "https://www.lidl.com/assets/gcp99a466de9e1e4dcdbeeacdff6b323861.png",
+    "eans": [
+      "EAN13:8588004443336",
+      "BILLA_SKU:84-501550",
+      "LIDL_ERP:11098850",
+      "TESCO_TPN:2004020659107"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Uhorka šalátová hadovka 1 ks",
+        "brand": "BILLA",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Čerstvá uhorka šalátová 1 ks",
+        "brand": "Lidl",
+        "img": "https://www.lidl.com/assets/gcp99a466de9e1e4dcdbeeacdff6b323861.png"
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Tesco Uhorka hadovka 1 ks",
+        "brand": "Tesco",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-vinea-biela-1-5l",
+    "slug": "vinea-biela-hroznovy-napoj-1-5l",
+    "name": "Hroznový sýtený nápoj biely",
+    "brand": "Vinea",
+    "category": "napoje",
+    "size": "1.5 l",
+    "canonicalImg": null,
+    "eans": [
+      "EAN13:8586008802021",
+      "BILLA_SKU:84-601220",
+      "LIDL_ERP:11099950",
+      "TESCO_TPN:2004020871129"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Vinea biela sýtený hroznový nápoj 1,5 l",
+        "brand": "Vinea",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Vinea biela 1,5 l PET",
+        "brand": "Vinea",
+        "img": null
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Vinea Biela hroznový nápoj 1,5 l",
+        "brand": "Vinea",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-zemiaky-neskore-2kg",
+    "slug": "zemiaky-konzumne-neskore-prane-balene-2kg",
+    "name": "Zemiaky konzumné neskoré balené",
+    "brand": "Slovenská úroda",
+    "category": "ovocie-a-zelenina",
+    "size": "2 kg",
+    "canonicalImg": "https://www.lidl.com/assets/gcpd10e2972e6974f37be7d3a702732bd5e.png",
+    "eans": [
+      "EAN13:8588001112223",
+      "BILLA_SKU:84-501100",
+      "LIDL_ERP:11095520",
+      "TESCO_TPN:2004020326074"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Zemiaky konzumné neskoré prané 2 kg",
+        "brand": "Slovenská úroda",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Zemiaky konzumné neskoré prané 2 kg balenie",
+        "brand": "Lidl",
+        "img": "https://www.lidl.com/assets/gcpd10e2972e6974f37be7d3a702732bd5e.png"
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Tesco Zemiaky prané 2 kg balenie",
+        "brand": "Tesco",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-zlaty-bazant-12-500ml",
+    "slug": "zlaty-bazant-12-lezak-plechovka-500ml",
+    "name": "Svetlý ležiak 12 % plechovka",
+    "brand": "Zlatý Bažant",
+    "category": "napoje",
+    "size": "0.5 l",
+    "canonicalImg": "https://images.openfoodfacts.net/images/products/858/600/098/7517/front_de.3.400.jpg",
+    "eans": [
+      "EAN13:8586001760010",
+      "BILLA_SKU:84-602330",
+      "LIDL_ERP:11099990",
+      "TESCO_TPN:2004020982130"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Zlatý Bažant 12% svetlý ležiak 0,5 l plech",
+        "brand": "Zlatý Bažant",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Zlatý Bažant 12 % svetlý ležiak 0,5 l plech",
+        "brand": "Zlatý Bažant",
+        "img": null
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Zlatý Bažant 12% Ležiak 0,5 l plech",
+        "brand": "Zlatý Bažant",
+        "img": null
+      }
+    ]
+  },
+  {
+    "id": "prod-zvolensky-cokolada-145g",
+    "slug": "zvolensky-smotanovy-jogurt-cokolada-145g",
+    "name": "Smotanový jogurt čokoládový",
+    "brand": "Zvolenský",
+    "category": "mliecne-vyrobky-a-vajcia",
+    "size": "145 g",
+    "canonicalImg": "https://images.openfoodfacts.net/images/products/858/600/014/0431/front_sk.3.400.jpg",
+    "eans": [
+      "EAN13:8586001241151",
+      "BILLA_SKU:84-207010",
+      "LIDL_ERP:11091210",
+      "TESCO_TPN:2004019993041"
+    ],
+    "listings": [
+      {
+        "retailer": "ret-billa-sk",
+        "title": "Zvolenský Smotanový jogurt čokoláda 145 g",
+        "brand": "Zvolenský",
+        "img": null
+      },
+      {
+        "retailer": "ret-lidl-sk",
+        "title": "Zvolenský Smotanový jogurt čokoládový 145 g",
+        "brand": "Zvolenský",
+        "img": null
+      },
+      {
+        "retailer": "ret-tesco-sk",
+        "title": "Zvolenský Smotanový jogurt čokoláda 145 g",
+        "brand": "Zvolenský",
+        "img": null
+      }
+    ]
+  }
+]

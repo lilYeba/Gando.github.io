@@ -1,0 +1,379 @@
+[
+  {
+    "slug": "tami-tatranske-maslo-82-250g",
+    "name": "Tatranské maslo 82 %",
+    "brand": "Tami",
+    "barcode": "8585000902797",
+    "photoUrl": "https://images.openfoodfacts.org/images/products/858/500/090/2797/front_en.3.400.jpg",
+    "thumbnailUrl": "https://images.openfoodfacts.org/images/products/858/500/090/2797/front_en.3.200.jpg",
+    "matchedBy": "EXACT_BARCODE",
+    "offProductName": "BABIČKA Maslo delaktózované"
+  },
+  {
+    "slug": "rajo-trvanlive-mlieko-1-5-1l",
+    "name": "Trvanlivé mlieko polotučné 1,5 %",
+    "brand": "Rajo",
+    "barcode": "8585002510037",
+    "photoUrl": "https://images.openfoodfacts.org/images/products/858/500/251/0037/front_en.3.400.jpg",
+    "thumbnailUrl": "https://images.openfoodfacts.org/images/products/858/500/251/0037/front_en.3.200.jpg",
+    "matchedBy": "EXACT_BARCODE",
+    "offProductName": "Mlieko plnotučné 3,5%"
+  },
+  {
+    "slug": "banovecky-polostiepok-neudeny-190g",
+    "name": "Bánovecký pološtiepok neúdený",
+    "brand": "Bánovecký",
+    "barcode": "8586001543866",
+    "photoUrl": "https://images.openfoodfacts.org/images/products/858/600/154/3866/front_en.4.400.jpg",
+    "thumbnailUrl": "https://images.openfoodfacts.org/images/products/858/600/154/3866/front_en.4.200.jpg",
+    "matchedBy": "EXACT_BARCODE",
+    "offProductName": "Kysla Smotana Pochutkova 16%"
+  },
+  {
+    "slug": "giana-gulatozrnna-ryza-1kg",
+    "name": "Guľatozrnná ryža lúpaná",
+    "brand": "Giana",
+    "barcode": "8595241507071",
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  },
+  {
+    "slug": "mlete-maso-mix-bravcovo-hovadzie-500g",
+    "name": "Mleté mäso MIX bravčovo-hovädzie",
+    "brand": "Mäsiarova čerstvá porcia",
+    "barcode": "2089111417124",
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  },
+  {
+    "slug": "kuracie-stvrte-chladene-1kg",
+    "name": "Kuracie štvrte chladené",
+    "brand": "Mäsiarova čerstvá porcia",
+    "barcode": null,
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  },
+  {
+    "slug": "banany-cerstve-volne-1kg",
+    "name": "Banány čerstvé",
+    "brand": null,
+    "barcode": "80000",
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  },
+  {
+    "slug": "brokolica-cerstva-balena-500g",
+    "name": "Brokolica čerstvá balená",
+    "brand": null,
+    "barcode": "82904",
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  },
+  {
+    "slug": "vajcia-podstielkovy-chov-m-10ks",
+    "name": "Čerstvé vajcia z podstielkového chovu M",
+    "brand": "Balticovo",
+    "barcode": "4750456004942",
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  },
+  {
+    "slug": "rajo-mnam-smotanovy-jogurt-jahoda-145g",
+    "name": "Mňam Duo smotanový jogurt jahoda",
+    "brand": "Rajo",
+    "barcode": "8585002500854",
+    "photoUrl": "https://images.openfoodfacts.org/images/products/858/500/250/0854/front_en.6.400.jpg",
+    "thumbnailUrl": "https://images.openfoodfacts.org/images/products/858/500/250/0854/front_en.6.200.jpg",
+    "matchedBy": "EXACT_BARCODE",
+    "offProductName": "Smotanový jogurt Jahoda"
+  },
+  {
+    "slug": "popradska-kava-extra-special-mleta-250g",
+    "name": "Popradská káva Extra špeciál mletá",
+    "brand": "Popradská",
+    "barcode": "8586009411853",
+    "photoUrl": "https://images.openfoodfacts.org/images/products/858/600/941/1853/front_sk.7.400.jpg",
+    "thumbnailUrl": "https://images.openfoodfacts.org/images/products/858/600/941/1853/front_sk.7.200.jpg",
+    "matchedBy": "EXACT_BARCODE",
+    "offProductName": "Zlatý Výber"
+  },
+  {
+    "slug": "psenicna-muka-hladka-t650-1kg",
+    "name": "Pšeničná múka hladká T 650",
+    "brand": "Babičkina voľba",
+    "barcode": "8594060910093",
+    "photoUrl": "https://images.openfoodfacts.org/images/products/859/406/091/0093/front_cs.9.400.jpg",
+    "thumbnailUrl": "https://images.openfoodfacts.org/images/products/859/406/091/0093/front_cs.9.200.jpg",
+    "matchedBy": "EXACT_BARCODE",
+    "offProductName": "Hladká mouka pšeničná chlebová"
+  },
+  {
+    "slug": "repkovy-olej-rafinovany-1l",
+    "name": "Repkový olej jedlý rafinovaný",
+    "brand": "Vénusz",
+    "barcode": "5998817111015",
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  },
+  {
+    "slug": "panzani-torti-tricolore-vretena-500g",
+    "name": "Cestoviny Torti Tricolore vretená",
+    "brand": "Panzani",
+    "barcode": "3038350250803",
+    "photoUrl": "https://images.openfoodfacts.org/images/products/303/835/025/0803/front_fr.118.400.jpg",
+    "thumbnailUrl": "https://images.openfoodfacts.org/images/products/303/835/025/0803/front_fr.118.200.jpg",
+    "matchedBy": "EXACT_BARCODE",
+    "offProductName": "Serpentini"
+  },
+  {
+    "slug": "richtar-kvaskovy-chlieb-zemiakovy-405g",
+    "name": "Kváskový chlieb zemiakový remeselný",
+    "brand": "La Lorraine",
+    "barcode": null,
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  },
+  {
+    "slug": "kornbageta-stredna-la-lorraine-115g",
+    "name": "Kornbageta stredná cereálna",
+    "brand": "La Lorraine",
+    "barcode": null,
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  },
+  {
+    "slug": "tekovsky-salamovy-syr-udeny-1kg",
+    "name": "Tekovský salámový syr údený",
+    "brand": "Levmilk",
+    "barcode": "8585000902568",
+    "photoUrl": "https://images.openfoodfacts.net/images/products/858/500/090/2568/front_en.3.400.jpg",
+    "thumbnailUrl": "https://images.openfoodfacts.net/images/products/858/500/090/2568/front_en.3.200.jpg",
+    "matchedBy": "EXACT_BARCODE",
+    "offProductName": "Syr Delkato"
+  },
+  {
+    "slug": "mutti-kecup-classico-300g",
+    "name": "Taliansky paradajkový kečup Classico",
+    "brand": "Mutti",
+    "barcode": "8005110170348",
+    "photoUrl": "https://images.openfoodfacts.org/images/products/800/511/017/0348/front_en.3.400.jpg",
+    "thumbnailUrl": "https://images.openfoodfacts.org/images/products/800/511/017/0348/front_en.3.200.jpg",
+    "matchedBy": "EXACT_BARCODE",
+    "offProductName": "Polpa"
+  },
+  {
+    "slug": "kofola-original-nulka-1-5l-pet",
+    "name": "Kofola Original / Bez cukru",
+    "brand": "Kofola",
+    "barcode": "8586019830415",
+    "photoUrl": "https://images.openfoodfacts.net/images/products/858/601/983/0415/front_en.26.400.jpg",
+    "thumbnailUrl": "https://images.openfoodfacts.net/images/products/858/601/983/0415/front_en.26.200.jpg",
+    "matchedBy": "EXACT_BARCODE",
+    "offProductName": "Kofola Original"
+  },
+  {
+    "slug": "liptov-bryndza-plnotucna-110g",
+    "name": "Bryndza plnotučná slovenská",
+    "brand": "Liptov",
+    "barcode": "8588000003020",
+    "photoUrl": "https://images.openfoodfacts.net/images/products/858/800/000/3020/front_en.4.400.jpg",
+    "thumbnailUrl": "https://images.openfoodfacts.net/images/products/858/800/000/3020/front_en.4.200.jpg",
+    "matchedBy": "EXACT_BARCODE",
+    "offProductName": "Bryndza"
+  },
+  {
+    "slug": "hyza-kuracie-prsne-rezne-chladene-1kg",
+    "name": "Kuracie prsné rezne chladené",
+    "brand": "Hyza",
+    "barcode": "8585002501011",
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  },
+  {
+    "slug": "bravcove-kare-bez-kosti-chladene-1kg",
+    "name": "Bravčové karé bez kosti chladené",
+    "brand": "Mäsiarov výber",
+    "barcode": "8588004123014",
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  },
+  {
+    "slug": "mecom-dusena-sunka-vyberova-100g",
+    "name": "Dusená šunka výberová krájaná",
+    "brand": "Mecom",
+    "barcode": "8586008301124",
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  },
+  {
+    "slug": "tauris-spisske-parky-80-200g",
+    "name": "Spišské párky chránené označenie",
+    "brand": "Tauris",
+    "barcode": "8586005112013",
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  },
+  {
+    "slug": "rohlík-standard-biely-50g",
+    "name": "Rožok štandard biely",
+    "brand": null,
+    "barcode": "8588000000050",
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  },
+  {
+    "slug": "rajo-slovensky-eidam-platky-45-100g",
+    "name": "Eidam plátky 45 % t. v s.",
+    "brand": "Rajo",
+    "barcode": "8585002524614",
+    "photoUrl": "https://images.openfoodfacts.net/images/products/858/500/252/4614/front_sk.5.400.jpg",
+    "thumbnailUrl": "https://images.openfoodfacts.net/images/products/858/500/252/4614/front_sk.5.200.jpg",
+    "matchedBy": "EXACT_BARCODE",
+    "offProductName": "Rajo Grecky Jogurt"
+  },
+  {
+    "slug": "rajo-tradicny-tvaroh-jemny-hrudkovity-250g",
+    "name": "Tradičný tvaroh jemný hrudkovitý",
+    "brand": "Rajo",
+    "barcode": "8588002964794",
+    "photoUrl": "https://images.openfoodfacts.org/images/products/858/800/296/4794/front_en.3.400.jpg",
+    "thumbnailUrl": "https://images.openfoodfacts.org/images/products/858/800/296/4794/front_en.3.200.jpg",
+    "matchedBy": "EXACT_BARCODE",
+    "offProductName": "Tvaroch hrudkovitý"
+  },
+  {
+    "slug": "zvolensky-smotanovy-jogurt-cokolada-145g",
+    "name": "Smotanový jogurt čokoládový",
+    "brand": "Zvolenský",
+    "barcode": "8586000140431",
+    "photoUrl": "https://images.openfoodfacts.net/images/products/858/600/014/0431/front_sk.3.400.jpg",
+    "thumbnailUrl": "https://images.openfoodfacts.net/images/products/858/600/014/0431/front_sk.3.200.jpg",
+    "matchedBy": "EXACT_BARCODE",
+    "offProductName": "Zvolenský jog-marhuľa"
+  },
+  {
+    "slug": "korunny-cukor-krupica-1kg",
+    "name": "Cukor krupica biely",
+    "brand": "Korunný cukor",
+    "barcode": "8586000210011",
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  },
+  {
+    "slug": "panzani-spagety-semolinove-500g",
+    "name": "Špagety semolinové bezvaječné",
+    "brand": "Panzani",
+    "barcode": "3038351484900",
+    "photoUrl": "https://images.openfoodfacts.net/images/products/303/835/148/4900/front_fr.20.400.jpg",
+    "thumbnailUrl": "https://images.openfoodfacts.net/images/products/303/835/148/4900/front_fr.20.200.jpg",
+    "matchedBy": "EXACT_BARCODE",
+    "offProductName": "PANZANI"
+  },
+  {
+    "slug": "zemiaky-konzumne-neskore-prane-balene-2kg",
+    "name": "Zemiaky konzumné neskoré balené",
+    "brand": "Slovenská úroda",
+    "barcode": "8588001112223",
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  },
+  {
+    "slug": "jablka-gala-slovenske-1kg",
+    "name": "Jablká Gala slovenské voľné",
+    "brand": "Dobrý ježko",
+    "barcode": "8588002221114",
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  },
+  {
+    "slug": "paradajky-strapcove-cervene-500g",
+    "name": "Paradajky strapcové červené",
+    "brand": "Babindol",
+    "barcode": "8588003332225",
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  },
+  {
+    "slug": "uhorka-salatova-hadovka-1ks",
+    "name": "Uhorka šalátová hadovka",
+    "brand": null,
+    "barcode": "8588004443336",
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  },
+  {
+    "slug": "rajec-pramenita-voda-nesytena-1-5l",
+    "name": "Pramenitá voda nesýtená",
+    "brand": "Rajec",
+    "barcode": "8586011330296",
+    "photoUrl": "https://images.openfoodfacts.net/images/products/858/601/133/0296/front_sk.7.400.jpg",
+    "thumbnailUrl": "https://images.openfoodfacts.net/images/products/858/601/133/0296/front_sk.7.200.jpg",
+    "matchedBy": "EXACT_BARCODE",
+    "offProductName": "Mineralka"
+  },
+  {
+    "slug": "vinea-biela-hroznovy-napoj-1-5l",
+    "name": "Hroznový sýtený nápoj biely",
+    "brand": "Vinea",
+    "barcode": "8594001091012",
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  },
+  {
+    "slug": "zlaty-bazant-12-lezak-plechovka-500ml",
+    "name": "Svetlý ležiak 12 % plechovka",
+    "brand": "Zlatý Bažant",
+    "barcode": "8586000987517",
+    "photoUrl": "https://images.openfoodfacts.net/images/products/858/600/098/7517/front_de.3.400.jpg",
+    "thumbnailUrl": "https://images.openfoodfacts.net/images/products/858/600/098/7517/front_de.3.200.jpg",
+    "matchedBy": "EXACT_BARCODE",
+    "offProductName": "Lager"
+  },
+  {
+    "slug": "emco-ovsene-vlocky-jemne-500g",
+    "name": "Ovsené vločky jemné",
+    "brand": "Emco",
+    "barcode": "8595229931812",
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  },
+  {
+    "slug": "tento-ellegance-toaletny-papier-3vrstvovy-8ks",
+    "name": "Toaletný papier 3-vrstvový biely",
+    "brand": "Tento",
+    "barcode": "8584014800201",
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  },
+  {
+    "slug": "jar-sensitive-cistiaci-prostriedok-na-riad-900ml",
+    "name": "Prostriedok na umývanie riadu Sensitive",
+    "brand": "Jar",
+    "barcode": "8001090123456",
+    "photoUrl": null,
+    "thumbnailUrl": null,
+    "matchedBy": "NONE"
+  }
+]

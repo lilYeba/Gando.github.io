@@ -1,0 +1,92 @@
+{
+  "prod-balticovo-vajcia-m-10ks": {
+    "localPath": "/images/products/prod-balticovo-vajcia-m-10ks.png",
+    "originalUrl": "https://digitalcontent.api.tesco.com/v2/media/dotcom-hu/df634597-eb8e-47ca-b73b-da5fdde66f57/20261008092552651_balticovo-vajcia_2005111270042_1.png",
+    "sizeBytes": 617744
+  },
+  "prod-banovecky-polostiepok-190g": {
+    "localPath": "/images/products/prod-banovecky-polostiepok-190g.jpg",
+    "originalUrl": "https://images.openfoodfacts.org/images/products/858/600/154/3866/front_en.4.400.jpg",
+    "sizeBytes": 22633
+  },
+  "prod-giana-ryza-1kg": {
+    "localPath": "/images/products/prod-giana-ryza-1kg.png",
+    "originalUrl": "https://digitalcontent.api.tesco.com/v2/media/dotcom-hu/0eb5a83a-837c-486c-b2f6-a8caf003797b/20261008092547403_giana-ryza_2002017142931_1.png",
+    "sizeBytes": 680254
+  },
+  "prod-jablka-gala-1kg": {
+    "localPath": "/images/products/prod-jablka-gala-1kg.png",
+    "originalUrl": "https://www.lidl.com/assets/gcp4096668e169b469fba11362554a5d51a.png",
+    "sizeBytes": 106365
+  },
+  "prod-kornbageta-la-lorraine-115g": {
+    "localPath": "/images/products/prod-kornbageta-la-lorraine-115g.png",
+    "originalUrl": "https://images.cdn.europe-west1.gcp.commercetools.com/bfd52ff5-9443-4b5e-85a4-cf3626446b7b/53-170829-0878247899-oK0WgzXk.png",
+    "sizeBytes": 1444748
+  },
+  "prod-liptov-bryndza-110g": {
+    "localPath": "/images/products/prod-liptov-bryndza-110g.jpg",
+    "originalUrl": "https://images.openfoodfacts.net/images/products/858/800/000/3020/front_en.4.400.jpg",
+    "sizeBytes": 19398
+  },
+  "prod-mutti-kecup-300g": {
+    "localPath": "/images/products/prod-mutti-kecup-300g.jpg",
+    "originalUrl": "https://images.openfoodfacts.org/images/products/800/511/017/0348/front_en.3.400.jpg",
+    "sizeBytes": 33531
+  },
+  "prod-panzani-cestoviny-500g": {
+    "localPath": "/images/products/prod-panzani-cestoviny-500g.jpg",
+    "originalUrl": "https://images.openfoodfacts.org/images/products/303/835/002/3605/front_fr.164.400.jpg",
+    "sizeBytes": 40192
+  },
+  "prod-paradajky-strapcove-500g": {
+    "localPath": "/images/products/prod-paradajky-strapcove-500g.png",
+    "originalUrl": "https://www.lidl.com/assets/gcpb7e43c31936c4766b17fdd08d80b2922.png",
+    "sizeBytes": 94080
+  },
+  "prod-popradska-kava-extra-250g": {
+    "localPath": "/images/products/prod-popradska-kava-extra-250g.jpg",
+    "originalUrl": "https://images.openfoodfacts.org/images/products/858/600/941/1853/front_sk.7.400.jpg",
+    "sizeBytes": 31037
+  },
+  "prod-rajec-nesytena-1-5l": {
+    "localPath": "/images/products/prod-rajec-nesytena-1-5l.jpg",
+    "originalUrl": "https://images.openfoodfacts.net/images/products/858/601/133/0296/front_sk.7.400.jpg",
+    "sizeBytes": 12509
+  },
+  "prod-rajo-mnam-jogurt-145g": {
+    "localPath": "/images/products/prod-rajo-mnam-jogurt-145g.jpg",
+    "originalUrl": "https://images.openfoodfacts.org/images/products/858/500/250/0854/front_en.6.400.jpg",
+    "sizeBytes": 19924
+  },
+  "prod-tami-maslo-250g": {
+    "localPath": "/images/products/prod-tami-maslo-250g.jpg",
+    "originalUrl": "https://images.openfoodfacts.org/images/products/858/500/090/2797/front_en.3.400.jpg",
+    "sizeBytes": 36434
+  },
+  "prod-tekovsky-syr-udeny-1kg": {
+    "localPath": "/images/products/prod-tekovsky-syr-udeny-1kg.jpg",
+    "originalUrl": "https://images.openfoodfacts.net/images/products/858/500/090/2568/front_en.3.400.jpg",
+    "sizeBytes": 17829
+  },
+  "prod-uhorka-hadovka-1ks": {
+    "localPath": "/images/products/prod-uhorka-hadovka-1ks.png",
+    "originalUrl": "https://www.lidl.com/assets/gcp99a466de9e1e4dcdbeeacdff6b323861.png",
+    "sizeBytes": 60664
+  },
+  "prod-zemiaky-neskore-2kg": {
+    "localPath": "/images/products/prod-zemiaky-neskore-2kg.png",
+    "originalUrl": "https://www.lidl.com/assets/gcpd10e2972e6974f37be7d3a702732bd5e.png",
+    "sizeBytes": 86841
+  },
+  "prod-zlaty-bazant-12-500ml": {
+    "localPath": "/images/products/prod-zlaty-bazant-12-500ml.jpg",
+    "originalUrl": "https://images.openfoodfacts.net/images/products/858/600/098/7517/front_de.3.400.jpg",
+    "sizeBytes": 21947
+  },
+  "prod-zvolensky-cokolada-145g": {
+    "localPath": "/images/products/prod-zvolensky-cokolada-145g.jpg",
+    "originalUrl": "https://images.openfoodfacts.net/images/products/858/600/014/0431/front_sk.3.400.jpg",
+    "sizeBytes": 17620
+  }
+}

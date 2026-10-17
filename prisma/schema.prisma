@@ -1,0 +1,395 @@
+// ==============================================================================
+// PRICE TRACKER SK — PRISMA SCHEMA (PostgreSQL Production Target)
+// ==============================================================================
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Retailer {
+  id                  String                   @id
+  slug                String                   @unique
+  name                String
+  countryCode         String                   @default("SK") @map("country_code")
+  websiteUrl          String                   @map("website_url")
+  offersUrl           String                   @map("offers_url")
+  loyaltyProgramName  String?                  @map("loyalty_program_name")
+  logoBrandColor      String                   @map("logo_brand_color")
+  adapterType         String                   @map("adapter_type")
+  isActive            Boolean                  @default(true) @map("is_active")
+  createdAt           DateTime                 @default(now()) @map("created_at")
+  updatedAt           DateTime                 @updatedAt @map("updated_at")
+
+  listings            RetailerProductListing[]
+  dataSources         DataSource[]
+  importJobs          ImportJob[]
+  promotions          Promotion[]
+
+  @@map("retailers")
+}
+
+model Product {
+  id                  String                   @id
+  slug                String                   @unique
+  canonicalName       String                   @map("canonical_name")
+  brand               String?
+  categorySlug        String                   @map("category_slug")
+  categoryName        String                   @map("category_name")
+  subcategoryName     String?                  @map("subcategory_name")
+  packageQuantity     Decimal                  @db.Decimal(10, 3) @map("package_quantity")
+  packageUnit         String                   @map("package_unit") // g, kg, ml, l, ks
+  normalizedQuantity  Decimal                  @db.Decimal(10, 4) @map("normalized_quantity")
+  normalizedUnit      String                   @map("normalized_unit") // kg, l, ks
+  variantDescriptor   String?                  @map("variant_descriptor")
+  imageUrl            String?                  @map("image_url")
+  description         String?
+  isEssentialStaple   Boolean                  @default(false) @map("is_essential_staple")
+  createdAt           DateTime                 @default(now()) @map("created_at")
+  updatedAt           DateTime                 @updatedAt @map("updated_at")
+
+  identifiers         ProductIdentifier[]
+  variants            ProductVariant[]
+  listings            RetailerProductListing[]
+  shoppingListItems   ShoppingListItem[]
+  favorites           Favorite[]
+  priceAlerts         PriceAlert[]
+
+  @@index([categorySlug])
+  @@index([brand])
+  @@index([canonicalName])
+  @@map("products")
+}
+
+model ProductIdentifier {
+  id                  String   @id
+  productId           String   @map("product_id")
+  identifierType      String   @map("identifier_type") // EAN13, EAN8, GTIN, LIDL_ERP, TESCO_TPN, BILLA_SKU
+  identifierValue     String   @map("identifier_value")
+  isPrimary           Boolean  @default(false) @map("is_primary")
+  verifiedAt          DateTime @default(now()) @map("verified_at")
+
+  product             Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@unique([identifierType, identifierValue])
+  @@index([productId])
+  @@map("product_identifiers")
+}
+
+model ProductVariant {
+  id                  String   @id
+  productId           String   @map("product_id")
+  relatedProductId    String?  @map("related_product_id")
+  variantName         String   @map("variant_name") // e.g., "1,5% tuku", "3,5% tuku", "400 g", "500 g"
+  packageQuantity     Decimal  @db.Decimal(10, 3) @map("package_quantity")
+  packageUnit         String   @map("package_unit")
+  relationshipType    String   @map("relationship_type") // FLAVOR, FAT_CONTENT, PACKAGE_SIZE, EQUIVALENT_BRAND
+  createdAt           DateTime @default(now()) @map("created_at")
+
+  product             Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@index([productId])
+  @@map("product_variants")
+}
+
+model RetailerProductListing {
+  id                  String             @id
+  retailerId          String             @map("retailer_id")
+  productId           String             @map("product_id")
+  externalId          String             @map("external_id")
+  externalSku         String?            @map("external_sku")
+  externalBarcode     String?            @map("external_barcode")
+  retailerTitle       String             @map("retailer_title")
+  retailerBrand       String?            @map("retailer_brand")
+  packageLabel        String             @map("package_label")
+  packageQuantity     Decimal            @db.Decimal(10, 3) @map("package_quantity")
+  packageUnit         String             @map("package_unit")
+  sourceUrl           String             @map("source_url")
+  imageUrl            String?            @map("image_url")
+  matchType           String             @map("match_type") // EXACT_MATCH, EQUIVALENT_PRODUCT, SIMILAR_PRODUCT
+  matchConfidence     Decimal            @db.Decimal(4, 3) @map("match_confidence")
+  matchStatus         String             @default("VERIFIED") @map("match_status") // VERIFIED, PENDING_REVIEW, REJECTED
+  availabilityStatus  String             @default("UNKNOWN") @map("availability_status") // VERIFIED_IN_STOCK, LEAFLET_OFFER, UNKNOWN, UNAVAILABLE
+  lastVerifiedAt      DateTime           @map("last_verified_at")
+  createdAt           DateTime           @default(now()) @map("created_at")
+  updatedAt           DateTime           @updatedAt @map("updated_at")
+
+  retailer            Retailer           @relation(fields: [retailerId], references: [id], onDelete: Cascade)
+  product             Product            @relation(fields: [productId], references: [id], onDelete: Cascade)
+  observations        PriceObservation[]
+  promotions          Promotion[]
+
+  @@unique([retailerId, externalId])
+  @@index([productId])
+  @@index([retailerId])
+  @@map("retailer_product_listings")
+}
+
+model DataSource {
+  id                  String             @id
+  retailerId          String             @map("retailer_id")
+  name                String
+  sourceType          String             @map("source_type") // LIVE_SSR_ADAPTER, LIVE_GRAPHQL_ADAPTER, VERIFIED_LEAFLET_CSV, MANUAL_ADMIN_ENTRY
+  endpointUrl         String             @map("endpoint_url")
+  robotsTxtCompliant  Boolean            @default(true) @map("robots_txt_compliant")
+  updateFrequency     String             @map("update_frequency")
+  reliabilityStatus   String             @map("reliability_status")
+  notes               String?
+  lastSuccessAt       DateTime?          @map("last_success_at")
+  createdAt           DateTime           @default(now()) @map("created_at")
+
+  retailer            Retailer           @relation(fields: [retailerId], references: [id], onDelete: Cascade)
+  observations        PriceObservation[]
+  importJobs          ImportJob[]
+
+  @@map("data_sources")
+}
+
+model PriceObservation {
+  id                        String                 @id
+  listingId                 String                 @map("listing_id")
+  dataSourceId              String                 @map("data_source_id")
+  importJobId               String?                @map("import_job_id")
+  currency                  String                 @default("EUR")
+  regularPriceCents         Int?                   @map("regular_price_cents")
+  promoPriceCents           Int?                   @map("promo_price_cents")
+  loyaltyPriceCents         Int?                   @map("loyalty_price_cents")
+  effectivePriceCents       Int?                   @map("effective_price_cents")
+  unitPriceCents            Int?                   @map("unit_price_cents")
+  loyaltyUnitPriceCents     Int?                   @map("loyalty_unit_price_cents")
+  baseUnit                  String                 @map("base_unit") // kg, l, ks, 100g
+  lowest30DayPriceCents     Int?                   @map("lowest_30d_price_cents")
+  isPromotional             Boolean                @default(false) @map("is_promotional")
+  requiresLoyaltyCard       Boolean                @default(false) @map("requires_loyalty_card")
+  loyaltyProgramName        String?                @map("loyalty_program_name")
+  discountPercentage        Decimal?               @db.Decimal(5, 2) @map("discount_percentage")
+  observedAt                DateTime               @map("observed_at")
+  observationDay            String                 @map("observation_day") // YYYY-MM-DD in Europe/Bratislava
+  validFrom                 DateTime?              @map("valid_from")
+  validTo                   DateTime?              @map("valid_to")
+  sourceUrl                 String                 @map("source_url")
+  deduplicationHash         String                 @unique @map("deduplication_hash")
+  createdAt                 DateTime               @default(now()) @map("created_at")
+
+  listing                   RetailerProductListing @relation(fields: [listingId], references: [id], onDelete: Cascade)
+  dataSource                DataSource             @relation(fields: [dataSourceId], references: [id])
+  importJob                 ImportJob?             @relation(fields: [importJobId], references: [id])
+
+  @@index([listingId, observedAt])
+  @@index([observationDay])
+  @@map("price_observations")
+}
+
+model Promotion {
+  id                        String                 @id
+  retailerId                String                 @map("retailer_id")
+  listingId                 String                 @map("listing_id")
+  title                     String
+  promotionType             String                 @map("promotion_type") // REGULAR_PROMO, LOYALTY_CARD_PROMO, MULTIBUY
+  regularPriceCents         Int?                   @map("regular_price_cents")
+  promoPriceCents           Int                    @map("promo_price_cents")
+  discountPercentage        Decimal?               @db.Decimal(5, 2) @map("discount_percentage")
+  requiresLoyaltyCard       Boolean                @default(false) @map("requires_loyalty_card")
+  loyaltyProgramName        String?                @map("loyalty_program_name")
+  validFrom                 DateTime               @map("valid_from")
+  validTo                   DateTime               @map("valid_to")
+  isExpired                 Boolean                @default(false) @map("is_expired")
+  leafletName               String?                @map("leaflet_name")
+  sourceUrl                 String                 @map("source_url")
+  verifiedAt                DateTime               @map("verified_at")
+
+  retailer                  Retailer               @relation(fields: [retailerId], references: [id], onDelete: Cascade)
+  listing                   RetailerProductListing @relation(fields: [listingId], references: [id], onDelete: Cascade)
+  conditions                PromotionCondition[]
+
+  @@index([retailerId, validTo])
+  @@index([listingId])
+  @@map("promotions")
+}
+
+model PromotionCondition {
+  id                        String    @id
+  promotionId               String    @map("promotion_id")
+  conditionType             String    @map("condition_type") // LOYALTY_CARD, MIN_QUANTITY, MAX_QUANTITY, STORE_FORMAT
+  conditionLabel            String    @map("condition_label") // e.g., "S kartou Lidl Plus", "Od 6 kusov", "Platí v Hypermarketoch"
+  minQuantity               Int?      @map("min_quantity")
+  maxQuantity               Int?      @map("max_quantity")
+  loyaltyCardName           String?   @map("loyalty_card_name")
+
+  promotion                 Promotion @relation(fields: [promotionId], references: [id], onDelete: Cascade)
+
+  @@index([promotionId])
+  @@map("promotion_conditions")
+}
+
+model ImportJob {
+  id                        String             @id
+  retailerId                String             @map("retailer_id")
+  dataSourceId              String             @map("data_source_id")
+  status                    String             // RUNNING, COMPLETED, PARTIAL, FAILED
+  itemsDiscovered           Int                @default(0) @map("items_discovered")
+  itemsImported             Int                @default(0) @map("items_imported")
+  itemsDeduplicated         Int                @default(0) @map("items_deduplicated")
+  errorCount                Int                @default(0) @map("error_count")
+  startedAt                 DateTime           @default(now()) @map("started_at")
+  completedAt               DateTime?          @map("completed_at")
+  summaryNotes              String?            @map("summary_notes")
+
+  retailer                  Retailer           @relation(fields: [retailerId], references: [id], onDelete: Cascade)
+  dataSource                DataSource         @relation(fields: [dataSourceId], references: [id])
+  observations              PriceObservation[]
+  errors                    ImportError[]
+
+  @@index([retailerId, startedAt])
+  @@map("import_jobs")
+}
+
+model ImportError {
+  id                        String    @id
+  importJobId               String    @map("import_job_id")
+  externalIdentifier        String?   @map("external_identifier")
+  errorCode                 String    @map("error_code")
+  errorMessage              String    @map("error_message")
+  rawPayloadSnippet         String?   @map("raw_payload_snippet")
+  createdAt                 DateTime  @default(now()) @map("created_at")
+
+  importJob                 ImportJob @relation(fields: [importJobId], references: [id], onDelete: Cascade)
+
+  @@index([importJobId])
+  @@map("import_errors")
+}
+
+model User {
+  id                        String            @id
+  email                     String            @unique
+  displayName               String            @map("display_name")
+  role                      String            @default("USER")
+  createdAt                 DateTime          @default(now()) @map("created_at")
+  updatedAt                 DateTime          @updatedAt @map("updated_at")
+
+  preferences               UserPreference?
+  shoppingLists             ShoppingList[]
+  favorites                 Favorite[]
+  priceAlerts               PriceAlert[]
+  notifications             Notification[]
+
+  @@map("users")
+}
+
+model UserPreference {
+  id                        String   @id
+  userId                    String   @unique @map("user_id")
+  language                  String   @default("sk")
+  currency                  String   @default("EUR")
+  theme                     String   @default("light") // light, dark, system
+  reducedMotion             Boolean  @default(false) @map("reduced_motion")
+  includeLidlPlus           Boolean  @default(true) @map("include_lidl_plus")
+  includeTescoClubcard      Boolean  @default(true) @map("include_tesco_clubcard")
+  includeBillaBonus         Boolean  @default(true) @map("include_billa_bonus")
+  defaultMaxStores          Int      @default(2) @map("default_max_stores")
+  defaultTripCostCents      Int      @default(150) @map("default_trip_cost_cents")
+  inAppNotificationsEnabled Boolean  @default(true) @map("in_app_notifications_enabled")
+  emailNotificationsEnabled Boolean  @default(false) @map("email_notifications_enabled")
+  analyticsPrivacyOptOut    Boolean  @default(true) @map("analytics_privacy_opt_out")
+  updatedAt                 DateTime @updatedAt @map("updated_at")
+
+  user                      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("user_preferences")
+}
+
+model ShoppingList {
+  id                        String             @id
+  userId                    String?            @map("user_id")
+  guestSessionId            String?            @map("guest_session_id")
+  name                      String
+  description               String?
+  shareToken                String?            @unique @map("share_token")
+  includeLoyaltyPrices      Boolean            @default(true) @map("include_loyalty_prices")
+  isArchived                Boolean            @default(false) @map("is_archived")
+  createdAt                 DateTime           @default(now()) @map("created_at")
+  updatedAt                 DateTime           @updatedAt @map("updated_at")
+
+  user                      User?              @relation(fields: [userId], references: [id], onDelete: SetNull)
+  items                     ShoppingListItem[]
+
+  @@index([userId])
+  @@index([guestSessionId])
+  @@map("shopping_lists")
+}
+
+model ShoppingListItem {
+  id                        String       @id
+  shoppingListId            String       @map("shopping_list_id")
+  productId                 String?      @map("product_id")
+  customTitle               String?      @map("custom_title")
+  quantity                  Int          @default(1)
+  isPurchased               Boolean      @default(false) @map("is_purchased")
+  preferredRetailerId       String?      @map("preferred_retailer_id")
+  notes                     String?
+  createdAt                 DateTime     @default(now()) @map("created_at")
+  updatedAt                 DateTime     @updatedAt @map("updated_at")
+
+  shoppingList              ShoppingList @relation(fields: [shoppingListId], references: [id], onDelete: Cascade)
+  product                   Product?     @relation(fields: [productId], references: [id], onDelete: SetNull)
+
+  @@index([shoppingListId])
+  @@map("shopping_list_items")
+}
+
+model Favorite {
+  id                        String   @id
+  userId                    String   @map("user_id")
+  productId                 String   @map("product_id")
+  createdAt                 DateTime @default(now()) @map("created_at")
+
+  user                      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  product                   Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, productId])
+  @@map("favorites")
+}
+
+model PriceAlert {
+  id                        String   @id
+  userId                    String   @map("user_id")
+  productId                 String   @map("product_id")
+  targetPriceCents          Int      @map("target_price_cents")
+  notifyOnAnyPromotion      Boolean  @default(true) @map("notify_on_any_promotion")
+  includeLoyaltyPrices      Boolean  @default(true) @map("include_loyalty_prices")
+  retailerFilter            String?  @map("retailer_filter") // null = all retailers, or lidl/tesco/billa
+  isActive                  Boolean  @default(true) @map("is_active")
+  lastTriggeredAt           DateTime? @map("last_triggered_at")
+  lastTriggeredObservationId String?  @map("last_triggered_observation_id")
+  createdAt                 DateTime @default(now()) @map("created_at")
+
+  user                      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  product                   Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@index([userId, isActive])
+  @@index([productId])
+  @@map("price_alerts")
+}
+
+model Notification {
+  id                        String   @id
+  userId                    String   @map("user_id")
+  alertId                   String?  @map("alert_id")
+  productId                 String?  @map("product_id")
+  retailerId                String?  @map("retailer_id")
+  title                     String
+  message                   String
+  observedPriceCents        Int?     @map("observed_price_cents")
+  deduplicationKey          String   @unique @map("deduplication_key")
+  isRead                    Boolean  @default(false) @map("is_read")
+  createdAt                 DateTime @default(now()) @map("created_at")
+
+  user                      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, isRead])
+  @@map("notifications")
+}

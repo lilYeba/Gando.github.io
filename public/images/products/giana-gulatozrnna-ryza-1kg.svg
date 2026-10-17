@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-giana-gulatozrnna-ryza-1kg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+    <pattern id="pat-giana-gulatozrnna-ryza-1kg" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#475569" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-giana-gulatozrnna-ryza-1kg)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-giana-gulatozrnna-ryza-1kg)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="80" height="26" rx="6" fill="#123524" />
+    <text x="40" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">GIANA</text>
+
+    <rect x="90" y="0" width="70" height="26" rx="6" fill="#E2E8F0" stroke="#475569" stroke-width="1" />
+    <text x="125" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#1E293B" text-anchor="middle">1 kg</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(130, 60)">
+        <ellipse cx="70" cy="175" rx="60" ry="15" fill="#000" opacity="0.08"/>
+        <path d="M25,35 C40,25 100,25 115,35 L125,165 C110,175 30,175 15,165 Z" fill="#F1F5F9" stroke="#64748B" stroke-width="2.5"/>
+        <rect x="25" y="65" width="90" height="55" rx="4" fill="#0284C7"/>
+        <text x="70" y="88" font-family="system-ui, sans-serif" font-weight="900" font-size="15" fill="#FFFFFF" text-anchor="middle">Giana</text>
+        <text x="70" y="105" font-family="system-ui, sans-serif" font-weight="700" font-size="9" fill="#E0F2FE" text-anchor="middle">RYŽA GUĽATOZRNNÁ</text>
+        <text x="70" y="145" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#0F172A" text-anchor="middle">1 kg</text>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Guľatozrnná ryža</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#475569" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>

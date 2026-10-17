@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-liptov-bryndza-plnotucna-110g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F0FDF4" />
+    </linearGradient>
+    <pattern id="pat-liptov-bryndza-plnotucna-110g" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#16A34A" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="400" height="300" rx="16" fill="url(#bg-liptov-bryndza-plnotucna-110g)" />
+  <rect width="400" height="300" rx="16" fill="url(#pat-liptov-bryndza-plnotucna-110g)" />
+
+  <!-- Category & Package Badges Top -->
+  <g transform="translate(24, 28)">
+    <rect x="0" y="0" width="80" height="26" rx="6" fill="#123524" />
+    <text x="40" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="12" fill="#FFFFFF" text-anchor="middle">LIPTOV</text>
+
+    <rect x="90" y="0" width="70" height="26" rx="6" fill="#DCFCE7" stroke="#16A34A" stroke-width="1" />
+    <text x="125" y="17" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#14532D" text-anchor="middle">110 g</text>
+  </g>
+
+  <!-- Product Illustration Art -->
+  
+      <g transform="translate(115, 75)">
+        <ellipse cx="85" cy="145" rx="80" ry="16" fill="#000" opacity="0.08"/>
+        <!-- Traditional Wooden Barrel / Tub packaging -->
+        <path d="M25,55 L145,55 L140,135 L30,135 Z" fill="#FEFCE8" stroke="#15803D" stroke-width="2.5"/>
+        <!-- Wood bands -->
+        <rect x="27" y="65" width="116" height="10" fill="#CA8A04" opacity="0.4"/>
+        <rect x="29" y="115" width="112" height="10" fill="#CA8A04" opacity="0.4"/>
+        <!-- Green mountain peak emblem -->
+        <path d="M60,95 L85,75 L110,95 Z" fill="#16A34A"/>
+        <path d="M72,95 L85,85 L98,95 Z" fill="#FFFFFF"/>
+        <text x="85" y="107" font-family="system-ui, sans-serif" font-weight="900" font-size="11" fill="#14532D" text-anchor="middle">LIPTOV</text>
+        <text x="85" y="120" font-family="system-ui, sans-serif" font-weight="700" font-size="8" fill="#15803D" text-anchor="middle">100% BRYNDZA</text>
+      </g>
+    
+
+  <!-- Bottom Brand Footnote -->
+  <g transform="translate(20, 275)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#141815" opacity="0.85">Bryndza plnotučná slovenská</text>
+    <text x="360" y="0" font-family="system-ui, sans-serif" font-weight="600" font-size="10" fill="#16A34A" text-anchor="end">Price Tracker SK</text>
+  </g>
+</svg>
