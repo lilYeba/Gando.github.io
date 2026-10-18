@@ -36,7 +36,7 @@ const MORE_NAV_ITEMS = [
   { href: '/nastavenia', label: 'Nastavenia a profil', icon: Settings, desc: 'Predvoľby aplikácie a vernostných kariet' },
 ];
 
-const QUALITY_CATEGORIES = [
+const CATALOG_CATEGORIES = [
   { href: '/katalog', label: 'Všetky produkty v katalógu (311)' },
   { href: '/katalog?category=mliecne-vyrobky-a-vajcia', label: 'Mliečne výrobky a vajcia' },
   { href: '/katalog?category=pecivo-a-pekarenske-vyrobky', label: 'Pečivo a pekárenské výrobky' },
@@ -62,14 +62,16 @@ export function HeaderShell() {
 
   const [searchQuery, setSearchQuery] = useState('');
   const [loyaltyMenuOpen, setLoyaltyMenuOpen] = useState(false);
-  const [qualitiesMenuOpen, setQualitiesMenuOpen] = useState(false);
+  const [catalogMenuOpen, setCatalogMenuOpen] = useState(false);
   const [moreMenuOpen, setMoreMenuOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const searchInputRef = useRef<HTMLInputElement>(null);
   const loyaltyRef = useRef<HTMLDivElement>(null);
-  const qualitiesRef = useRef<HTMLDivElement>(null);
+  const catalogRef = useRef<HTMLDivElement>(null);
   const moreRef = useRef<HTMLDivElement>(null);
+
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
   // Cmd/Ctrl + K keyboard focus shortcut
   useEffect(() => {
@@ -80,7 +82,7 @@ export function HeaderShell() {
       }
       if (e.key === 'Escape') {
         setLoyaltyMenuOpen(false);
-        setQualitiesMenuOpen(false);
+        setCatalogMenuOpen(false);
         setMoreMenuOpen(false);
         setMobileMenuOpen(false);
       }
@@ -96,8 +98,8 @@ export function HeaderShell() {
       if (loyaltyRef.current && !loyaltyRef.current.contains(target)) {
         setLoyaltyMenuOpen(false);
       }
-      if (qualitiesRef.current && !qualitiesRef.current.contains(target)) {
-        setQualitiesMenuOpen(false);
+      if (catalogRef.current && !catalogRef.current.contains(target)) {
+        setCatalogMenuOpen(false);
       }
       if (moreRef.current && !moreRef.current.contains(target)) {
         setMoreMenuOpen(false);
@@ -125,57 +127,77 @@ export function HeaderShell() {
   ].filter(Boolean).length;
 
   return (
-    <header className="sticky top-0 z-40 shadow-xs">
-      {/* 1. Top Cyan Promo Banner (#0089C4) */}
-      <div className="bg-[#0089C4] text-white">
+    <header className="sticky top-0 z-40 shadow-sm">
+      {/* 1. Top Dark-Green Promo Strip (#0D2B1D) */}
+      <div className="bg-[#0D2B1D] text-white border-b border-white/10">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 py-1.5 flex items-center justify-center gap-3 text-xs sm:text-[13px]">
-          {/* Yellow BILLA Bonus Badge Icon */}
-          <div className="w-7 h-7 rounded-[6px] bg-[#FFD500] flex flex-col items-center justify-center shrink-0 shadow-2xs select-none leading-none">
-            <span className="text-[7px] font-black tracking-tighter text-white drop-shadow-[0_1px_1px_rgba(0,0,0,0.25)]">
-              BILLA
-            </span>
-            <span className="text-[8px] font-serif italic font-bold text-[#0089C4] -mt-0.5">
-              Bonus
-            </span>
+          {/* Official User Logo Mini Badge */}
+          <div className="w-7 h-7 rounded-[6px] overflow-hidden bg-[#0B0D10] border border-[#4ADE80]/40 flex items-center justify-center shrink-0 shadow-2xs">
+            <img
+              src={`${basePath}/images/brand/logo.png`}
+              alt="Price Checker"
+              className="w-full h-full object-cover object-center"
+            />
           </div>
 
-          <p className="truncate sm:whitespace-normal text-center leading-snug">
-            <strong className="font-bold">BILLA Slovensko</strong>
+          <p className="truncate sm:whitespace-normal text-center leading-snug text-emerald-50">
+            <strong className="font-bold text-white">Price Checker Slovensko</strong>
             {' – '}
-            <span>Objavte výhody BILLA Bonus v našej aplikácii</span>
+            <span>Objavte výhody Lidl Plus, Clubcard a BILLA Bonus v našej aplikácii</span>
           </p>
 
           <Link
             href="/akcie"
-            className="shrink-0 bg-[#FFD500] hover:bg-[#FFCC00] text-[#1C1917] font-bold text-xs px-3.5 py-1.5 rounded-[3px] transition-colors shadow-2xs"
+            className="shrink-0 bg-[#4ADE80] hover:bg-[#22C55E] text-[#092216] font-extrabold text-xs px-3.5 py-1.5 rounded-[4px] transition-colors shadow-2xs"
           >
             Zistiť viac
           </Link>
         </div>
       </div>
 
-      {/* 2. Main Yellow Header (#FFD500) */}
-      <div className="bg-[#FFD500] text-[#1C1917]">
+      {/* 2. Main Vibrant Green Header (#16A34A -> #15803D) */}
+      <div className="bg-[#15803D] text-white">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-8 py-3.5">
           <div className="flex items-center justify-between lg:justify-start gap-6 lg:gap-10">
-            {/* Left Column: BILLA White Block Wordmark + "V KVALITE SA VYZNÁME" */}
+            {/* Left Column: Official Price Checker Logo + Block Wordmark spanning both rows */}
             <Link
               href="/"
-              aria-label="Domov"
-              className="shrink-0 flex flex-col items-center select-none group focus:outline-none"
+              aria-label="Price Checker Domov"
+              className="shrink-0 flex items-center gap-3.5 select-none group focus:outline-none"
             >
-              <span
-                className="text-white font-black uppercase leading-[0.86] tracking-[-0.03em] text-[38px] sm:text-[48px] transition-transform duration-150 group-hover:scale-[1.02]"
-                style={{
-                  fontFamily:
-                    '"Arial Black", "Inter", "Helvetica Neue", Impact, sans-serif',
-                }}
-              >
-                BILLA
-              </span>
-              <span className="text-white font-extrabold uppercase tracking-[0.06em] text-[9.5px] sm:text-[10.5px] mt-1 leading-none">
-                V KVALITE SA VYZNÁME
-              </span>
+              <div className="h-14 w-14 sm:h-16 sm:w-16 rounded-2xl overflow-hidden bg-[#0B0D10] border-2 border-[#4ADE80]/60 shadow-md shrink-0 flex items-center justify-center transition-transform duration-150 group-hover:scale-105">
+                <img
+                  src={`${basePath}/images/brand/logo.png`}
+                  alt="Price Checker Logo"
+                  className="w-full h-full object-cover object-center"
+                />
+              </div>
+
+              <div className="flex flex-col justify-center">
+                <div className="flex items-baseline gap-1.5 leading-none">
+                  <span
+                    className="text-white font-black uppercase tracking-tight text-2xl sm:text-[30px]"
+                    style={{
+                      fontFamily:
+                        '"Arial Black", "Inter", "Helvetica Neue", Impact, sans-serif',
+                    }}
+                  >
+                    PRICE
+                  </span>
+                  <span
+                    className="text-[#86EFAC] font-black uppercase tracking-tight text-2xl sm:text-[30px]"
+                    style={{
+                      fontFamily:
+                        '"Arial Black", "Inter", "Helvetica Neue", Impact, sans-serif',
+                    }}
+                  >
+                    CHECKER
+                  </span>
+                </div>
+                <span className="text-emerald-100 font-extrabold uppercase tracking-[0.08em] text-[9.5px] sm:text-[10.5px] mt-1.5 leading-none">
+                  V CENÁCH SA VYZNÁME • SK
+                </span>
+              </div>
             </Link>
 
             {/* Right Column: Top Row (Search + Predajne + Prihlásiť + Košík) & Bottom Row (Navigation) */}
@@ -187,25 +209,23 @@ export function HeaderShell() {
                   onSubmit={handleSearchSubmit}
                   className="hidden md:flex flex-1 max-w-[600px]"
                 >
-                  <div className="relative flex items-center w-full bg-white rounded-[4px] h-10 shadow-2xs focus-within:ring-2 focus-within:ring-[#0089C4]">
+                  <div className="relative flex items-center w-full bg-white rounded-[5px] h-10 shadow-xs focus-within:ring-2 focus-within:ring-[#4ADE80]">
                     <input
                       ref={searchInputRef}
                       type="search"
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
-                      placeholder="Vyhľadajte obsah"
-                      aria-label="Vyhľadajte obsah"
-                      className="w-full h-full bg-transparent px-4 text-[13px] text-[#1C1917] placeholder:text-[#3A3A3A] focus:outline-none"
+                      placeholder="Vyhľadajte produkt, značku alebo EAN..."
+                      aria-label="Vyhľadajte produkt, značku alebo EAN"
+                      className="w-full h-full bg-transparent px-4 text-[13px] text-[#1C1917] placeholder:text-stone-500 focus:outline-none"
                     />
-                    {searchQuery && (
-                      <button
-                        type="submit"
-                        aria-label="Hľadať"
-                        className="mr-2.5 p-1 text-[#1C1917]/70 hover:text-[#1C1917]"
-                      >
-                        <Search className="h-4 w-4" />
-                      </button>
-                    )}
+                    <button
+                      type="submit"
+                      aria-label="Hľadať"
+                      className="mr-3 p-1 text-stone-500 hover:text-[#15803D] transition-colors"
+                    >
+                      <Search className="h-4 w-4" />
+                    </button>
                   </div>
                 </form>
 
@@ -214,9 +234,8 @@ export function HeaderShell() {
                   {/* Predajne */}
                   <Link
                     href="/porovnanie"
-                    className="inline-flex items-center gap-2 text-[#1C1917] hover:opacity-75 transition-opacity text-[13px] font-medium"
+                    className="inline-flex items-center gap-2 text-white hover:text-[#86EFAC] transition-colors text-[13px] font-semibold"
                   >
-                    {/* Storefront Icon matching screenshot */}
                     <svg
                       className="w-5 h-5 shrink-0 fill-current"
                       viewBox="0 0 24 24"
@@ -227,10 +246,10 @@ export function HeaderShell() {
                     <span className="hidden sm:inline">Predajne</span>
                   </Link>
 
-                  {/* Prihlásiť */}
+                  {/* Prihlásiť / Nastavenia */}
                   <Link
                     href="/nastavenia"
-                    className="inline-flex items-center gap-2 text-[#1C1917] hover:opacity-75 transition-opacity text-[13px] font-medium"
+                    className="inline-flex items-center gap-2 text-white hover:text-[#86EFAC] transition-colors text-[13px] font-semibold"
                   >
                     <User className="w-5 h-5 shrink-0 fill-current stroke-[2.2]" />
                     <span className="hidden sm:inline">Prihlásiť</span>
@@ -245,11 +264,11 @@ export function HeaderShell() {
                     <Link
                       href="/optimalizator"
                       aria-label="Nákupný košík a optimalizátor"
-                      className="relative inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-[4px] bg-[#1C1917]/10 hover:bg-[#1C1917]/15 text-[#1C1917] text-xs font-bold transition-colors"
+                      className="relative inline-flex items-center gap-1.5 px-3 py-1.5 rounded-[5px] bg-[#0D2B1D] hover:bg-[#091F15] text-white text-xs font-bold transition-colors border border-[#4ADE80]/30 shadow-2xs"
                     >
-                      <ShoppingBasket className="w-4 h-4 shrink-0" />
+                      <ShoppingBasket className="w-4 h-4 text-[#4ADE80] shrink-0" />
                       <span className="hidden xl:inline">Košík</span>
-                      <span className="px-1.5 py-0.2 rounded-full bg-[#1C1917] text-[#FFD500] font-mono-tabular text-[11px] font-bold">
+                      <span className="px-1.5 py-0.2 rounded-full bg-[#4ADE80] text-[#092216] font-mono-tabular text-[11px] font-extrabold">
                         {activeListCount}
                       </span>
                     </Link>
@@ -260,7 +279,7 @@ export function HeaderShell() {
                     type="button"
                     onClick={() => setMobileMenuOpen((v) => !v)}
                     aria-label={mobileMenuOpen ? 'Zavrieť menu' : 'Otvoriť menu'}
-                    className="lg:hidden p-2 rounded-[4px] bg-white/80 text-[#1C1917]"
+                    className="lg:hidden p-2 rounded-[5px] bg-[#0D2B1D] text-white border border-white/15"
                   >
                     {mobileMenuOpen ? (
                       <X className="h-5 w-5" />
@@ -271,39 +290,39 @@ export function HeaderShell() {
                 </div>
               </div>
 
-              {/* Bottom Row: Horizontal Navigation Links */}
+              {/* Bottom Row: Horizontal Navigation Links aligned with Search Bar */}
               <nav
                 aria-label="Hlavná navigácia"
-                className="hidden lg:flex items-center gap-6 xl:gap-7 text-[13.5px] font-bold text-[#1C1917]"
+                className="hidden lg:flex items-center gap-6 xl:gap-7 text-[13.5px] font-bold text-white"
               >
                 {/* 1. Letáky a akcie */}
                 <Link
                   href="/akcie"
-                  className={`hover:opacity-75 transition-opacity py-0.5 ${
+                  className={`hover:text-[#86EFAC] transition-colors py-0.5 ${
                     pathname.startsWith('/akcie')
-                      ? 'underline decoration-2 underline-offset-4'
+                      ? 'text-[#86EFAC] underline decoration-2 underline-offset-4'
                       : ''
                   }`}
                 >
                   Letáky a akcie
                 </Link>
 
-                {/* 2. BILLA Bonus a výhody ⌄ (Interactive Loyalty Cards Dropdown) */}
+                {/* 2. Vernostné karty a výhody ⌄ */}
                 <div ref={loyaltyRef} className="relative">
                   <button
                     type="button"
                     onClick={() => {
                       setLoyaltyMenuOpen((v) => !v);
-                      setQualitiesMenuOpen(false);
+                      setCatalogMenuOpen(false);
                       setMoreMenuOpen(false);
                     }}
                     aria-expanded={loyaltyMenuOpen}
-                    className="inline-flex items-center gap-1.5 hover:opacity-75 transition-opacity py-0.5 cursor-pointer"
+                    className="inline-flex items-center gap-1.5 hover:text-[#86EFAC] transition-colors py-0.5 cursor-pointer"
                   >
-                    <span>BILLA Bonus a výhody</span>
+                    <span>Vernostné karty a výhody</span>
                     <ChevronDown
                       className={`w-4 h-4 stroke-[2.5] transition-transform duration-150 ${
-                        loyaltyMenuOpen ? 'rotate-180' : ''
+                        loyaltyMenuOpen ? 'rotate-180 text-[#86EFAC]' : ''
                       }`}
                     />
                   </button>
@@ -321,7 +340,7 @@ export function HeaderShell() {
                           <p className="text-xs font-bold text-[#1C1917]">
                             Vernostné karty a členské výhody
                           </p>
-                          <span className="px-2 py-0.5 rounded-full bg-[#FFD500] text-[#1C1917] text-[10px] font-bold">
+                          <span className="px-2 py-0.5 rounded-full bg-[#15803D] text-white text-[10px] font-bold">
                             Aktívne: {activeLoyaltyCount}/3
                           </span>
                         </div>
@@ -332,12 +351,6 @@ export function HeaderShell() {
                         <div className="space-y-2">
                           {(
                             [
-                              {
-                                key: 'includeBillaBonus',
-                                label: 'BILLA Bonus',
-                                store: 'BILLA Slovakia',
-                                color: '#0089C4',
-                              },
                               {
                                 key: 'includeLidlPlus',
                                 label: 'Lidl Plus',
@@ -350,6 +363,12 @@ export function HeaderShell() {
                                 store: 'Tesco Slovakia',
                                 color: '#0F4C81',
                               },
+                              {
+                                key: 'includeBillaBonus',
+                                label: 'BILLA Bonus',
+                                store: 'BILLA Slovakia',
+                                color: '#B45309',
+                              },
                             ] as const
                           ).map((card) => {
                             const checked = loyaltyPrefs[card.key];
@@ -360,7 +379,7 @@ export function HeaderShell() {
                                 onClick={() => toggleLoyaltyCard(card.key)}
                                 className={`w-full flex items-center justify-between px-3 py-2 rounded-lg border text-left transition-colors cursor-pointer ${
                                   checked
-                                    ? 'border-[#0089C4]/50 bg-[#0089C4]/5'
+                                    ? 'border-[#15803D]/50 bg-[#EAF6EF]'
                                     : 'border-stone-200 bg-stone-50'
                                 }`}
                               >
@@ -381,7 +400,7 @@ export function HeaderShell() {
                                 <span
                                   className={`h-5 w-5 rounded flex items-center justify-center ${
                                     checked
-                                      ? 'bg-[#0089C4] text-white'
+                                      ? 'bg-[#15803D] text-white'
                                       : 'border border-stone-300 bg-white'
                                   }`}
                                 >
@@ -396,32 +415,32 @@ export function HeaderShell() {
                   </AnimatePresence>
                 </div>
 
-                {/* 3. Naše kvality ⌄ (Product Categories & Catalog Dropdown) */}
-                <div ref={qualitiesRef} className="relative">
+                {/* 3. Katalóg potravín ⌄ */}
+                <div ref={catalogRef} className="relative">
                   <button
                     type="button"
                     onClick={() => {
-                      setQualitiesMenuOpen((v) => !v);
+                      setCatalogMenuOpen((v) => !v);
                       setLoyaltyMenuOpen(false);
                       setMoreMenuOpen(false);
                     }}
-                    aria-expanded={qualitiesMenuOpen}
-                    className={`inline-flex items-center gap-1.5 hover:opacity-75 transition-opacity py-0.5 cursor-pointer ${
+                    aria-expanded={catalogMenuOpen}
+                    className={`inline-flex items-center gap-1.5 hover:text-[#86EFAC] transition-colors py-0.5 cursor-pointer ${
                       pathname.startsWith('/katalog')
-                        ? 'underline decoration-2 underline-offset-4'
+                        ? 'text-[#86EFAC] underline decoration-2 underline-offset-4'
                         : ''
                     }`}
                   >
-                    <span>Naše kvality</span>
+                    <span>Katalóg potravín</span>
                     <ChevronDown
                       className={`w-4 h-4 stroke-[2.5] transition-transform duration-150 ${
-                        qualitiesMenuOpen ? 'rotate-180' : ''
+                        catalogMenuOpen ? 'rotate-180 text-[#86EFAC]' : ''
                       }`}
                     />
                   </button>
 
                   <AnimatePresence>
-                    {qualitiesMenuOpen && (
+                    {catalogMenuOpen && (
                       <motion.div
                         initial={{ opacity: 0, y: 6, scale: 0.98 }}
                         animate={{ opacity: 1, y: 0, scale: 1 }}
@@ -429,14 +448,14 @@ export function HeaderShell() {
                         transition={{ duration: 0.15 }}
                         className="absolute left-0 mt-2.5 w-72 rounded-xl border border-stone-200 bg-white p-2 shadow-xl z-50 text-[#1C1917] font-normal"
                       >
-                        {QUALITY_CATEGORIES.map((cat, idx) => (
+                        {CATALOG_CATEGORIES.map((cat, idx) => (
                           <Link
                             key={cat.href}
                             href={cat.href}
-                            onClick={() => setQualitiesMenuOpen(false)}
-                            className={`block px-3 py-2 rounded-lg text-xs transition-colors hover:bg-[#FFD500]/25 ${
+                            onClick={() => setCatalogMenuOpen(false)}
+                            className={`block px-3 py-2 rounded-lg text-xs transition-colors hover:bg-[#EAF6EF] ${
                               idx === 0
-                                ? 'font-bold text-[#0089C4] border-b border-stone-100 mb-1'
+                                ? 'font-bold text-[#15803D] border-b border-stone-100 mb-1'
                                 : 'font-medium text-[#1C1917]'
                             }`}
                           >
@@ -448,28 +467,28 @@ export function HeaderShell() {
                   </AnimatePresence>
                 </div>
 
-                {/* 4. Naše značky */}
+                {/* 4. Porovnanie reťazcov */}
                 <Link
                   href="/porovnanie"
-                  className={`hover:opacity-75 transition-opacity py-0.5 ${
+                  className={`hover:text-[#86EFAC] transition-colors py-0.5 ${
                     pathname.startsWith('/porovnanie')
-                      ? 'underline decoration-2 underline-offset-4'
+                      ? 'text-[#86EFAC] underline decoration-2 underline-offset-4'
                       : ''
                   }`}
                 >
-                  Naše značky
+                  Porovnanie reťazcov
                 </Link>
 
-                {/* 5. BILLA recepty */}
+                {/* 5. Nákupný zoznam */}
                 <Link
                   href="/zoznam"
-                  className={`hover:opacity-75 transition-opacity py-0.5 ${
+                  className={`hover:text-[#86EFAC] transition-colors py-0.5 ${
                     pathname.startsWith('/zoznam')
-                      ? 'underline decoration-2 underline-offset-4'
+                      ? 'text-[#86EFAC] underline decoration-2 underline-offset-4'
                       : ''
                   }`}
                 >
-                  BILLA recepty
+                  Nákupný zoznam
                 </Link>
 
                 {/* 6. Zobraziť viac ⌄ */}
@@ -479,15 +498,15 @@ export function HeaderShell() {
                     onClick={() => {
                       setMoreMenuOpen((v) => !v);
                       setLoyaltyMenuOpen(false);
-                      setQualitiesMenuOpen(false);
+                      setCatalogMenuOpen(false);
                     }}
                     aria-expanded={moreMenuOpen}
-                    className="inline-flex items-center gap-1.5 hover:opacity-75 transition-opacity py-0.5 cursor-pointer"
+                    className="inline-flex items-center gap-1.5 hover:text-[#86EFAC] transition-colors py-0.5 cursor-pointer"
                   >
                     <span>Zobraziť viac</span>
                     <ChevronDown
                       className={`w-4 h-4 stroke-[2.5] transition-transform duration-150 ${
-                        moreMenuOpen ? 'rotate-180' : ''
+                        moreMenuOpen ? 'rotate-180 text-[#86EFAC]' : ''
                       }`}
                     />
                   </button>
@@ -508,9 +527,9 @@ export function HeaderShell() {
                               key={item.href}
                               href={item.href}
                               onClick={() => setMoreMenuOpen(false)}
-                              className="flex items-start gap-3 px-3 py-2.5 rounded-lg hover:bg-[#FFD500]/25 transition-colors"
+                              className="flex items-start gap-3 px-3 py-2.5 rounded-lg hover:bg-[#EAF6EF] transition-colors"
                             >
-                              <Icon className="w-4 h-4 text-[#0089C4] mt-0.5 shrink-0" />
+                              <Icon className="w-4 h-4 text-[#15803D] mt-0.5 shrink-0" />
                               <div>
                                 <span className="text-xs font-bold text-[#1C1917] block">
                                   {item.label}
@@ -546,7 +565,7 @@ export function HeaderShell() {
             animate={{ height: 'auto', opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.22 }}
-            className="lg:hidden overflow-hidden border-t border-black/10 bg-[#FFD500] text-[#1C1917]"
+            className="lg:hidden overflow-hidden border-t border-white/15 bg-[#123524] text-white"
           >
             <div className="px-4 py-4 space-y-3">
               <form onSubmit={handleSearchSubmit} className="flex gap-2">
@@ -554,12 +573,12 @@ export function HeaderShell() {
                   type="search"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder="Vyhľadajte obsah"
-                  className="flex-1 rounded-[4px] bg-white px-3.5 py-2 text-sm text-[#1C1917] placeholder:text-[#3A3A3A] focus:outline-none"
+                  placeholder="Vyhľadajte produkt, značku alebo EAN..."
+                  className="flex-1 rounded-[5px] bg-white px-3.5 py-2 text-sm text-[#1C1917] placeholder:text-stone-500 focus:outline-none"
                 />
                 <button
                   type="submit"
-                  className="px-4 py-2 rounded-[4px] bg-[#0089C4] text-white text-xs font-bold"
+                  className="px-4 py-2 rounded-[5px] bg-[#4ADE80] text-[#092216] text-xs font-extrabold"
                 >
                   Hľadať
                 </button>
@@ -579,11 +598,15 @@ export function HeaderShell() {
                       onClick={() => setMobileMenuOpen(false)}
                       className={`flex items-center gap-2.5 px-3.5 py-2.5 rounded-lg text-xs font-bold ${
                         isActive
-                          ? 'bg-white text-[#1C1917] shadow-2xs'
-                          : 'text-[#1C1917] hover:bg-white/60'
+                          ? 'bg-[#4ADE80] text-[#092216] shadow-2xs'
+                          : 'text-white hover:bg-white/10'
                       }`}
                     >
-                      <Icon className="h-4 w-4 text-[#0089C4]" />
+                      <Icon
+                        className={`h-4 w-4 ${
+                          isActive ? 'text-[#092216]' : 'text-[#4ADE80]'
+                        }`}
+                      />
                       <span>{item.label}</span>
                     </Link>
                   );
