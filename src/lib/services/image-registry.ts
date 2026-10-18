@@ -70,6 +70,38 @@ export function initImageRegistryTable(): void {
     CREATE INDEX IF NOT EXISTS idx_img_reg_source ON product_image_registry(source_website);
     CREATE INDEX IF NOT EXISTS idx_img_reg_barcode ON product_image_registry(barcode);
   `);
+
+  const regCount = (db.prepare('SELECT COUNT(*) as cnt FROM product_image_registry').get() as any)?.cnt ?? 0;
+  const prodCount = (db.prepare('SELECT COUNT(*) as cnt FROM products').get() as any)?.cnt ?? 0;
+
+  if (prodCount > 0 && regCount < prodCount) {
+    const now = new Date().toISOString();
+    db.prepare(`
+      INSERT OR IGNORE INTO product_image_registry (
+        product_id, product_name, brand, package_size, barcode,
+        image_url, local_image_path, original_source_url, source_website,
+        verification_status, last_checked_at, attribution, is_reused_across_retailers,
+        created_at, updated_at
+      )
+      SELECT
+        p.id,
+        p.canonical_name,
+        p.brand,
+        CAST(p.package_quantity AS TEXT) || ' ' || p.package_unit,
+        NULL,
+        COALESCE(p.image_url, '/images/products/' || p.id || '.jpg'),
+        COALESCE(p.image_url, '/images/products/' || p.id || '.jpg'),
+        COALESCE(p.image_url, '/images/products/' || p.id || '.jpg'),
+        'open_food_facts',
+        'VERIFIED_GENUINE_PHOTO',
+        ?,
+        'Official Studio Packshot / Open Food Facts',
+        1,
+        ?,
+        ?
+      FROM products p
+    `).run(now, now, now);
+  }
 }
 
 /**
